@@ -1,9 +1,0 @@
-2018-05-02 15:32:15.343 JST [70998] LOG:  received fast shutdown request
-2018-05-02 15:32:15.344 JST [70998] LOG:  aborting any active transactions
-2018-05-02 15:32:15.345 JST [70998] LOG:  background worker "logical replication launcher" (PID 71007) exited with exit code 1
-2018-05-02 15:32:15.363 JST [71002] LOG:  shutting down
-2018-05-02 15:32:15.364 JST [71002] LOG:  checkpoint starting: shutdown immediate
-2018-05-02 15:32:15.475 JST [71002] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.000 s, total=0.111 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=39 kB
-2018-05-02 15:32:15.769 JST [70998] LOG:  database system is shut down
-2018-05-02 15:32:16.533 JST [73387] LOG:  database system was shut down at 2018-05-02 15:32:15 JST
-2018-05-02 15:32:16.535 JST [73385] LOG:  database system is ready to accept connections
