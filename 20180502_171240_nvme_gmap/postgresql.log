@@ -1,0 +1,532 @@
+2018-05-02 17:12:40.716 JST [124337] LOG:  received fast shutdown request
+2018-05-02 17:12:40.717 JST [124337] LOG:  aborting any active transactions
+2018-05-02 17:12:40.717 JST [124346] FATAL:  terminating connection due to administrator command
+2018-05-02 17:12:40.718 JST [124337] LOG:  background worker "logical replication launcher" (PID 124347) exited with exit code 1
+2018-05-02 17:12:40.721 JST [124337] LOG:  background worker "walker" (PID 124346) exited with exit code 1
+2018-05-02 17:12:40.721 JST [124341] LOG:  shutting down
+2018-05-02 17:12:40.722 JST [124341] LOG:  checkpoint starting: shutdown immediate
+2018-05-02 17:12:40.832 JST [124341] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.000 s, total=0.111 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=3 kB
+2018-05-02 17:12:41.174 JST [124337] LOG:  database system is shut down
+2018-05-02 17:12:41.935 JST [124392] LOG:  database system was shut down at 2018-05-02 17:12:40 JST
+2018-05-02 17:12:41.937 JST [124390] LOG:  database system is ready to accept connections
+2018-05-02 17:12:41.938 JST [124398] LOG:  restored 25079 13285 1663
+2018-05-02 17:12:41.942 JST [124398] LOG:  restored 25080 13285 1663
+2018-05-02 17:12:41.945 JST [124398] LOG:  restored 25082 13285 1663
+2018-05-02 17:12:41.948 JST [124398] LOG:  restored 25081 13285 1663
+2018-05-02 17:12:46.989 JST [124505] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-02 17:12:46.990 JST [124505] LOG:  1197,1203,1203,1216,1189,1212,1189,1201,1196,1204,1213,1193,1190,1207,1203,1188,1241,1230,1207,1197,1193,1192,1191,1210,1209,1193,1194,1197,1203,1227,1204,1231,1219,1206,1196,1228,1191,1206,1215,1197,1210,1200,1236,1238,1194,1207,1217,1222,1222,1209,1210,1196,1205,1219,1256,1203,1245,1238,1204,1216,1236,1214,1235,1226,1216,1193,1207,1216,1200,1229,1202,1206,1198,1220,1189,1249,1204,1196,1242,1246,1243,1298,1307,1203,1194,1197,1265,1270,1219,1261,1239,1200,1232,1255,1210,1191,1236,1229,1242,1218,1295,1253,1207,1193,1244,1192,1281,1257,1213,1219,1260,1218,1198,1249,1209,1259,1260,1222,1212,1247,1221,1203,1244,1219,1268,1197,1262,1236,1220,1199,1290,1200,1268,1215,1217,1236,1269,1283,1239,1223,1220,1242,1314,1298,1243,1214,1200,1259,1233,1298,1257,1282,1260,1318,1269,1202,1237,1256,1235,1233,1202,1249,1241,1236,1257,1264,1200,1211,1243,1237,1234,1250,1241,1253,1245,1248,1204,1254,1215,1253,1248,1268,1216,1290,1211,1233,1246,1243,1215,1220,1190,1224,1199,1239,1238,1309,1212,1290,1213,1271,1243,1197,1271,1226,1243,1266,1201,1209,1216,1209,1274,1191,1259,1197,1249,1245,1203,1219,1313,1286,1213,1237,1281,1266,1269,1263,1244,1247,1269,1225,1242,1237,1238,1188,1228,1205,1205,1301,1309,1230,1217,1235,1236,1246,1220,1257,1235,1214,1226,1248,1221,1245,1271,1291,1194,1207,1298,1305,1295,1314,1214,1271,1233,1238,1215,1253,1258,1244,1224,1212,1209,1215,1250,1269,1288,1259,1224,1318,1210,1257,1210,1294,1216,1265,1268,1297,1228,1226,1192,1218,1221,1231,1226,1221,1212,1226,1229,1245,1229,1243,1205,1261,1197,1265,1255,1243,1253,1219,1254,1255,1209,1235,1228,1192,1241,1188,1314,1267,1245,1201,1234,1262,1267,1248,1248,1256,1252,1202,1252,1258,1242,1229,1224,1260,1244,1242,1231,1214,1294,1251,1244,1261,1262,1226,1202,1222,1239,1248,1234,1191,1194,1247,1244,1235,1272,1199,1236,1196,1191,1214,1289,1262,1192,1190,1222,1268,1214,1229,1198,1211,1201,1239,1193,1203,1295,1198,1201,1224,1216,1254,1230,1213,1206,1219,1223,1214,1203,1234,1217,1240,1228,1202,1207,1214,1201,1191,1239,1221,1188,1190,1187,1226,1205,1191,1201,1200,1205,1192,1203,1213,1256,1222,1188,1201,1195,1196,1221
+2018-05-02 17:12:46.990 JST [124505] LOG:  ---------- CHOOSE 417 ranges-----------------
+2018-05-02 17:12:46.990 JST [124505] LOG:  starting vacuum "pgbench_accounts"
+2018-05-02 17:12:47.065 JST [124505] LOG:  --- RANGE STATS [5016375 - 5020469] : rel "pgbench_accounts" vacuumed 5016375 - 5020469 page for 4094 pages out of 13231135 pages, removed 608, cannot removed 0
+2018-05-02 17:12:47.139 JST [124505] LOG:  --- RANGE STATS [5102370 - 5106464] : rel "pgbench_accounts" vacuumed 5102370 - 5106464 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 0
+2018-05-02 17:12:47.208 JST [124505] LOG:  --- RANGE STATS [5131035 - 5135129] : rel "pgbench_accounts" vacuumed 5131035 - 5135129 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 3
+2018-05-02 17:12:47.284 JST [124505] LOG:  --- RANGE STATS [5180175 - 5184269] : rel "pgbench_accounts" vacuumed 5180175 - 5184269 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 5
+2018-05-02 17:12:47.356 JST [124505] LOG:  --- RANGE STATS [5196555 - 5200649] : rel "pgbench_accounts" vacuumed 5196555 - 5200649 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 0
+2018-05-02 17:12:47.426 JST [124505] LOG:  --- RANGE STATS [5217030 - 5221124] : rel "pgbench_accounts" vacuumed 5217030 - 5221124 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 4
+2018-05-02 17:12:47.576 JST [124505] LOG:  --- RANGE STATS [5221125 - 5225219] : rel "pgbench_accounts" vacuumed 5221125 - 5225219 page for 4094 pages out of 13231135 pages, removed 2841, cannot removed 6
+2018-05-02 17:12:47.644 JST [124505] LOG:  --- RANGE STATS [5233410 - 5237504] : rel "pgbench_accounts" vacuumed 5233410 - 5237504 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 11
+2018-05-02 17:12:47.718 JST [124505] LOG:  --- RANGE STATS [5282550 - 5286644] : rel "pgbench_accounts" vacuumed 5282550 - 5286644 page for 4094 pages out of 13231135 pages, removed 573, cannot removed 11
+2018-05-02 17:12:47.786 JST [124505] LOG:  --- RANGE STATS [5290740 - 5294834] : rel "pgbench_accounts" vacuumed 5290740 - 5294834 page for 4094 pages out of 13231135 pages, removed 558, cannot removed 7
+2018-05-02 17:12:47.854 JST [124505] LOG:  --- RANGE STATS [5307120 - 5311214] : rel "pgbench_accounts" vacuumed 5307120 - 5311214 page for 4094 pages out of 13231135 pages, removed 642, cannot removed 7
+2018-05-02 17:12:48.022 JST [124505] LOG:  --- RANGE STATS [5311215 - 5315309] : rel "pgbench_accounts" vacuumed 5311215 - 5315309 page for 4094 pages out of 13231135 pages, removed 2868, cannot removed 12
+2018-05-02 17:12:48.088 JST [124505] LOG:  --- RANGE STATS [5315310 - 5319404] : rel "pgbench_accounts" vacuumed 5315310 - 5319404 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 8
+2018-05-02 17:12:48.161 JST [124505] LOG:  --- RANGE STATS [5360355 - 5364449] : rel "pgbench_accounts" vacuumed 5360355 - 5364449 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 13
+2018-05-02 17:12:48.230 JST [124505] LOG:  --- RANGE STATS [5401305 - 5405399] : rel "pgbench_accounts" vacuumed 5401305 - 5405399 page for 4094 pages out of 13231135 pages, removed 671, cannot removed 9
+2018-05-02 17:12:48.301 JST [124505] LOG:  --- RANGE STATS [5405400 - 5409494] : rel "pgbench_accounts" vacuumed 5405400 - 5409494 page for 4094 pages out of 13231135 pages, removed 613, cannot removed 9
+2018-05-02 17:12:48.376 JST [124505] LOG:  --- RANGE STATS [5421780 - 5425874] : rel "pgbench_accounts" vacuumed 5421780 - 5425874 page for 4094 pages out of 13231135 pages, removed 587, cannot removed 16
+2018-05-02 17:12:48.447 JST [124505] LOG:  --- RANGE STATS [5429970 - 5434064] : rel "pgbench_accounts" vacuumed 5429970 - 5434064 page for 4094 pages out of 13231135 pages, removed 569, cannot removed 14
+2018-05-02 17:12:48.518 JST [124505] LOG:  --- RANGE STATS [5434065 - 5438159] : rel "pgbench_accounts" vacuumed 5434065 - 5438159 page for 4094 pages out of 13231135 pages, removed 587, cannot removed 20
+2018-05-02 17:12:48.594 JST [124505] LOG:  --- RANGE STATS [5446350 - 5450444] : rel "pgbench_accounts" vacuumed 5446350 - 5450444 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 17
+2018-05-02 17:12:48.669 JST [124505] LOG:  --- RANGE STATS [5454540 - 5458634] : rel "pgbench_accounts" vacuumed 5454540 - 5458634 page for 4094 pages out of 13231135 pages, removed 588, cannot removed 15
+2018-05-02 17:12:48.739 JST [124505] LOG:  --- RANGE STATS [5475015 - 5479109] : rel "pgbench_accounts" vacuumed 5475015 - 5479109 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 24
+2018-05-02 17:12:48.890 JST [124505] LOG:  --- RANGE STATS [5483205 - 5487299] : rel "pgbench_accounts" vacuumed 5483205 - 5487299 page for 4094 pages out of 13231135 pages, removed 2910, cannot removed 20
+2018-05-02 17:12:48.960 JST [124505] LOG:  --- RANGE STATS [5491395 - 5495489] : rel "pgbench_accounts" vacuumed 5491395 - 5495489 page for 4094 pages out of 13231135 pages, removed 572, cannot removed 22
+2018-05-02 17:12:49.038 JST [124505] LOG:  --- RANGE STATS [5503680 - 5507774] : rel "pgbench_accounts" vacuumed 5503680 - 5507774 page for 4094 pages out of 13231135 pages, removed 637, cannot removed 15
+2018-05-02 17:12:49.113 JST [124505] LOG:  --- RANGE STATS [5507775 - 5511869] : rel "pgbench_accounts" vacuumed 5507775 - 5511869 page for 4094 pages out of 13231135 pages, removed 663, cannot removed 23
+2018-05-02 17:12:49.182 JST [124505] LOG:  --- RANGE STATS [5524155 - 5528249] : rel "pgbench_accounts" vacuumed 5524155 - 5528249 page for 4094 pages out of 13231135 pages, removed 650, cannot removed 24
+2018-05-02 17:12:49.260 JST [124505] LOG:  --- RANGE STATS [5532345 - 5536439] : rel "pgbench_accounts" vacuumed 5532345 - 5536439 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 16
+2018-05-02 17:12:49.336 JST [124505] LOG:  --- RANGE STATS [5569200 - 5573294] : rel "pgbench_accounts" vacuumed 5569200 - 5573294 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 30
+2018-05-02 17:12:49.405 JST [124505] LOG:  --- RANGE STATS [5581485 - 5585579] : rel "pgbench_accounts" vacuumed 5581485 - 5585579 page for 4094 pages out of 13231135 pages, removed 631, cannot removed 15
+2018-05-02 17:12:49.482 JST [124505] LOG:  --- RANGE STATS [5593770 - 5597864] : rel "pgbench_accounts" vacuumed 5593770 - 5597864 page for 4094 pages out of 13231135 pages, removed 626, cannot removed 18
+2018-05-02 17:12:49.556 JST [124505] LOG:  --- RANGE STATS [5606055 - 5610149] : rel "pgbench_accounts" vacuumed 5606055 - 5610149 page for 4094 pages out of 13231135 pages, removed 590, cannot removed 28
+2018-05-02 17:12:49.625 JST [124505] LOG:  --- RANGE STATS [5622435 - 5626529] : rel "pgbench_accounts" vacuumed 5622435 - 5626529 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 31
+2018-05-02 17:12:49.691 JST [124505] LOG:  --- RANGE STATS [5630625 - 5634719] : rel "pgbench_accounts" vacuumed 5630625 - 5634719 page for 4094 pages out of 13231135 pages, removed 566, cannot removed 26
+2018-05-02 17:12:49.760 JST [124505] LOG:  --- RANGE STATS [5634720 - 5638814] : rel "pgbench_accounts" vacuumed 5634720 - 5638814 page for 4094 pages out of 13231135 pages, removed 601, cannot removed 18
+2018-05-02 17:12:49.840 JST [124505] LOG:  --- RANGE STATS [5642910 - 5647004] : rel "pgbench_accounts" vacuumed 5642910 - 5647004 page for 4094 pages out of 13231135 pages, removed 655, cannot removed 32
+2018-05-02 17:12:49.911 JST [124505] LOG:  --- RANGE STATS [5647005 - 5651099] : rel "pgbench_accounts" vacuumed 5647005 - 5651099 page for 4094 pages out of 13231135 pages, removed 665, cannot removed 21
+2018-05-02 17:12:49.980 JST [124505] LOG:  --- RANGE STATS [5651100 - 5655194] : rel "pgbench_accounts" vacuumed 5651100 - 5655194 page for 4094 pages out of 13231135 pages, removed 650, cannot removed 33
+2018-05-02 17:12:50.055 JST [124505] LOG:  --- RANGE STATS [5655195 - 5659289] : rel "pgbench_accounts" vacuumed 5655195 - 5659289 page for 4094 pages out of 13231135 pages, removed 626, cannot removed 40
+2018-05-02 17:12:50.122 JST [124505] LOG:  --- RANGE STATS [5663385 - 5667479] : rel "pgbench_accounts" vacuumed 5663385 - 5667479 page for 4094 pages out of 13231135 pages, removed 598, cannot removed 37
+2018-05-02 17:12:50.189 JST [124505] LOG:  --- RANGE STATS [5667480 - 5671574] : rel "pgbench_accounts" vacuumed 5667480 - 5671574 page for 4094 pages out of 13231135 pages, removed 654, cannot removed 39
+2018-05-02 17:12:50.265 JST [124505] LOG:  --- RANGE STATS [5679765 - 5683859] : rel "pgbench_accounts" vacuumed 5679765 - 5683859 page for 4094 pages out of 13231135 pages, removed 635, cannot removed 28
+2018-05-02 17:12:50.336 JST [124505] LOG:  --- RANGE STATS [5692050 - 5696144] : rel "pgbench_accounts" vacuumed 5692050 - 5696144 page for 4094 pages out of 13231135 pages, removed 625, cannot removed 26
+2018-05-02 17:12:50.403 JST [124505] LOG:  --- RANGE STATS [5696145 - 5700239] : rel "pgbench_accounts" vacuumed 5696145 - 5700239 page for 4094 pages out of 13231135 pages, removed 614, cannot removed 48
+2018-05-02 17:12:50.478 JST [124505] LOG:  --- RANGE STATS [5700240 - 5704334] : rel "pgbench_accounts" vacuumed 5700240 - 5704334 page for 4094 pages out of 13231135 pages, removed 575, cannot removed 18
+2018-05-02 17:12:50.551 JST [124505] LOG:  --- RANGE STATS [5708430 - 5712524] : rel "pgbench_accounts" vacuumed 5708430 - 5712524 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 39
+2018-05-02 17:12:50.620 JST [124505] LOG:  --- RANGE STATS [5712525 - 5716619] : rel "pgbench_accounts" vacuumed 5712525 - 5716619 page for 4094 pages out of 13231135 pages, removed 603, cannot removed 40
+2018-05-02 17:12:50.687 JST [124505] LOG:  --- RANGE STATS [5720715 - 5724809] : rel "pgbench_accounts" vacuumed 5720715 - 5724809 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 32
+2018-05-02 17:12:50.761 JST [124505] LOG:  --- RANGE STATS [5724810 - 5728904] : rel "pgbench_accounts" vacuumed 5724810 - 5728904 page for 4094 pages out of 13231135 pages, removed 659, cannot removed 25
+2018-05-02 17:12:50.826 JST [124505] LOG:  --- RANGE STATS [5728905 - 5732999] : rel "pgbench_accounts" vacuumed 5728905 - 5732999 page for 4094 pages out of 13231135 pages, removed 595, cannot removed 47
+2018-05-02 17:12:50.901 JST [124505] LOG:  --- RANGE STATS [5741190 - 5745284] : rel "pgbench_accounts" vacuumed 5741190 - 5745284 page for 4094 pages out of 13231135 pages, removed 613, cannot removed 35
+2018-05-02 17:12:50.970 JST [124505] LOG:  --- RANGE STATS [5745285 - 5749379] : rel "pgbench_accounts" vacuumed 5745285 - 5749379 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 52
+2018-05-02 17:12:51.042 JST [124505] LOG:  --- RANGE STATS [5749380 - 5753474] : rel "pgbench_accounts" vacuumed 5749380 - 5753474 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 36
+2018-05-02 17:12:51.110 JST [124505] LOG:  --- RANGE STATS [5761665 - 5765759] : rel "pgbench_accounts" vacuumed 5761665 - 5765759 page for 4094 pages out of 13231135 pages, removed 619, cannot removed 39
+2018-05-02 17:12:51.178 JST [124505] LOG:  --- RANGE STATS [5765760 - 5769854] : rel "pgbench_accounts" vacuumed 5765760 - 5769854 page for 4094 pages out of 13231135 pages, removed 619, cannot removed 28
+2018-05-02 17:12:51.246 JST [124505] LOG:  --- RANGE STATS [5769855 - 5773949] : rel "pgbench_accounts" vacuumed 5769855 - 5773949 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 34
+2018-05-02 17:12:51.322 JST [124505] LOG:  --- RANGE STATS [5773950 - 5778044] : rel "pgbench_accounts" vacuumed 5773950 - 5778044 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 38
+2018-05-02 17:12:51.390 JST [124505] LOG:  --- RANGE STATS [5786235 - 5790329] : rel "pgbench_accounts" vacuumed 5786235 - 5790329 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 41
+2018-05-02 17:12:51.456 JST [124505] LOG:  --- RANGE STATS [5794425 - 5798519] : rel "pgbench_accounts" vacuumed 5794425 - 5798519 page for 4094 pages out of 13231135 pages, removed 598, cannot removed 58
+2018-05-02 17:12:51.530 JST [124505] LOG:  --- RANGE STATS [5802615 - 5806709] : rel "pgbench_accounts" vacuumed 5802615 - 5806709 page for 4094 pages out of 13231135 pages, removed 625, cannot removed 35
+2018-05-02 17:12:51.598 JST [124505] LOG:  --- RANGE STATS [5806710 - 5810804] : rel "pgbench_accounts" vacuumed 5806710 - 5810804 page for 4094 pages out of 13231135 pages, removed 614, cannot removed 43
+2018-05-02 17:12:51.669 JST [124505] LOG:  --- RANGE STATS [5810805 - 5814899] : rel "pgbench_accounts" vacuumed 5810805 - 5814899 page for 4094 pages out of 13231135 pages, removed 630, cannot removed 46
+2018-05-02 17:12:51.744 JST [124505] LOG:  --- RANGE STATS [5814900 - 5818994] : rel "pgbench_accounts" vacuumed 5814900 - 5818994 page for 4094 pages out of 13231135 pages, removed 621, cannot removed 38
+2018-05-02 17:12:51.811 JST [124505] LOG:  --- RANGE STATS [5823090 - 5827184] : rel "pgbench_accounts" vacuumed 5823090 - 5827184 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 53
+2018-05-02 17:12:51.878 JST [124505] LOG:  --- RANGE STATS [5831280 - 5835374] : rel "pgbench_accounts" vacuumed 5831280 - 5835374 page for 4094 pages out of 13231135 pages, removed 621, cannot removed 45
+2018-05-02 17:12:51.945 JST [124505] LOG:  --- RANGE STATS [5835375 - 5839469] : rel "pgbench_accounts" vacuumed 5835375 - 5839469 page for 4094 pages out of 13231135 pages, removed 587, cannot removed 49
+2018-05-02 17:12:52.002 JST [124525] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:12:52.021 JST [124505] LOG:  --- RANGE STATS [5839470 - 5843564] : rel "pgbench_accounts" vacuumed 5839470 - 5843564 page for 4094 pages out of 13231135 pages, removed 646, cannot removed 69
+2018-05-02 17:12:52.073 JST [124525] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.05 s, system: 0.00 s, elapsed: 0.06 s
+2018-05-02 17:12:52.104 JST [124505] LOG:  --- RANGE STATS [5843565 - 5847659] : rel "pgbench_accounts" vacuumed 5843565 - 5847659 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 49
+2018-05-02 17:12:52.173 JST [124505] LOG:  --- RANGE STATS [5847660 - 5851754] : rel "pgbench_accounts" vacuumed 5847660 - 5851754 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 60
+2018-05-02 17:12:52.239 JST [124505] LOG:  --- RANGE STATS [5851755 - 5855849] : rel "pgbench_accounts" vacuumed 5851755 - 5855849 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 45
+2018-05-02 17:12:52.312 JST [124505] LOG:  --- RANGE STATS [5855850 - 5859944] : rel "pgbench_accounts" vacuumed 5855850 - 5859944 page for 4094 pages out of 13231135 pages, removed 647, cannot removed 58
+2018-05-02 17:12:52.378 JST [124505] LOG:  --- RANGE STATS [5859945 - 5864039] : rel "pgbench_accounts" vacuumed 5859945 - 5864039 page for 4094 pages out of 13231135 pages, removed 634, cannot removed 47
+2018-05-02 17:12:52.446 JST [124505] LOG:  --- RANGE STATS [5864040 - 5868134] : rel "pgbench_accounts" vacuumed 5864040 - 5868134 page for 4094 pages out of 13231135 pages, removed 665, cannot removed 58
+2018-05-02 17:12:52.519 JST [124505] LOG:  --- RANGE STATS [5872230 - 5876324] : rel "pgbench_accounts" vacuumed 5872230 - 5876324 page for 4094 pages out of 13231135 pages, removed 626, cannot removed 49
+2018-05-02 17:12:52.594 JST [124505] LOG:  --- RANGE STATS [5884515 - 5888609] : rel "pgbench_accounts" vacuumed 5884515 - 5888609 page for 4094 pages out of 13231135 pages, removed 637, cannot removed 59
+2018-05-02 17:12:52.661 JST [124505] LOG:  --- RANGE STATS [5892705 - 5896799] : rel "pgbench_accounts" vacuumed 5892705 - 5896799 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 51
+2018-05-02 17:12:52.734 JST [124505] LOG:  --- RANGE STATS [5900895 - 5904989] : rel "pgbench_accounts" vacuumed 5900895 - 5904989 page for 4094 pages out of 13231135 pages, removed 652, cannot removed 52
+2018-05-02 17:12:52.799 JST [124505] LOG:  --- RANGE STATS [5909085 - 5913179] : rel "pgbench_accounts" vacuumed 5909085 - 5913179 page for 4094 pages out of 13231135 pages, removed 600, cannot removed 60
+2018-05-02 17:12:52.866 JST [124505] LOG:  --- RANGE STATS [5913180 - 5917274] : rel "pgbench_accounts" vacuumed 5913180 - 5917274 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 55
+2018-05-02 17:12:52.935 JST [124505] LOG:  --- RANGE STATS [5917275 - 5921369] : rel "pgbench_accounts" vacuumed 5917275 - 5921369 page for 4094 pages out of 13231135 pages, removed 660, cannot removed 44
+2018-05-02 17:12:53.008 JST [124505] LOG:  --- RANGE STATS [5929560 - 5933654] : rel "pgbench_accounts" vacuumed 5929560 - 5933654 page for 4094 pages out of 13231135 pages, removed 576, cannot removed 67
+2018-05-02 17:12:53.075 JST [124505] LOG:  --- RANGE STATS [5933655 - 5937749] : rel "pgbench_accounts" vacuumed 5933655 - 5937749 page for 4094 pages out of 13231135 pages, removed 650, cannot removed 57
+2018-05-02 17:12:53.144 JST [124505] LOG:  --- RANGE STATS [5937750 - 5941844] : rel "pgbench_accounts" vacuumed 5937750 - 5941844 page for 4094 pages out of 13231135 pages, removed 645, cannot removed 61
+2018-05-02 17:12:53.213 JST [124505] LOG:  --- RANGE STATS [5941845 - 5945939] : rel "pgbench_accounts" vacuumed 5941845 - 5945939 page for 4094 pages out of 13231135 pages, removed 652, cannot removed 58
+2018-05-02 17:12:53.361 JST [124505] LOG:  --- RANGE STATS [5950035 - 5954129] : rel "pgbench_accounts" vacuumed 5950035 - 5954129 page for 4094 pages out of 13231135 pages, removed 2907, cannot removed 70
+2018-05-02 17:12:53.501 JST [124505] LOG:  --- RANGE STATS [5954130 - 5958224] : rel "pgbench_accounts" vacuumed 5954130 - 5958224 page for 4094 pages out of 13231135 pages, removed 2887, cannot removed 58
+2018-05-02 17:12:53.569 JST [124505] LOG:  --- RANGE STATS [5962320 - 5966414] : rel "pgbench_accounts" vacuumed 5962320 - 5966414 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 70
+2018-05-02 17:12:53.643 JST [124505] LOG:  --- RANGE STATS [5966415 - 5970509] : rel "pgbench_accounts" vacuumed 5966415 - 5970509 page for 4094 pages out of 13231135 pages, removed 631, cannot removed 77
+2018-05-02 17:12:53.714 JST [124505] LOG:  --- RANGE STATS [5974605 - 5978699] : rel "pgbench_accounts" vacuumed 5974605 - 5978699 page for 4094 pages out of 13231135 pages, removed 650, cannot removed 60
+2018-05-02 17:12:53.784 JST [124505] LOG:  --- RANGE STATS [5978700 - 5982794] : rel "pgbench_accounts" vacuumed 5978700 - 5982794 page for 4094 pages out of 13231135 pages, removed 669, cannot removed 54
+2018-05-02 17:12:53.851 JST [124505] LOG:  --- RANGE STATS [5982795 - 5986889] : rel "pgbench_accounts" vacuumed 5982795 - 5986889 page for 4094 pages out of 13231135 pages, removed 657, cannot removed 56
+2018-05-02 17:12:53.926 JST [124505] LOG:  --- RANGE STATS [5986890 - 5990984] : rel "pgbench_accounts" vacuumed 5986890 - 5990984 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 78
+2018-05-02 17:12:53.993 JST [124505] LOG:  --- RANGE STATS [5995080 - 5999174] : rel "pgbench_accounts" vacuumed 5995080 - 5999174 page for 4094 pages out of 13231135 pages, removed 568, cannot removed 53
+2018-05-02 17:12:54.070 JST [124505] LOG:  --- RANGE STATS [5999175 - 6003269] : rel "pgbench_accounts" vacuumed 5999175 - 6003269 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 78
+2018-05-02 17:12:54.139 JST [124505] LOG:  --- RANGE STATS [6003270 - 6007364] : rel "pgbench_accounts" vacuumed 6003270 - 6007364 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 67
+2018-05-02 17:12:54.288 JST [124505] LOG:  --- RANGE STATS [6011460 - 6015554] : rel "pgbench_accounts" vacuumed 6011460 - 6015554 page for 4094 pages out of 13231135 pages, removed 2880, cannot removed 71
+2018-05-02 17:12:54.358 JST [124505] LOG:  --- RANGE STATS [6015555 - 6019649] : rel "pgbench_accounts" vacuumed 6015555 - 6019649 page for 4094 pages out of 13231135 pages, removed 670, cannot removed 74
+2018-05-02 17:12:54.431 JST [124505] LOG:  --- RANGE STATS [6023745 - 6027839] : rel "pgbench_accounts" vacuumed 6023745 - 6027839 page for 4094 pages out of 13231135 pages, removed 600, cannot removed 93
+2018-05-02 17:12:54.500 JST [124505] LOG:  --- RANGE STATS [6027840 - 6031934] : rel "pgbench_accounts" vacuumed 6027840 - 6031934 page for 4094 pages out of 13231135 pages, removed 613, cannot removed 77
+2018-05-02 17:12:54.570 JST [124505] LOG:  --- RANGE STATS [6031935 - 6036029] : rel "pgbench_accounts" vacuumed 6031935 - 6036029 page for 4094 pages out of 13231135 pages, removed 584, cannot removed 92
+2018-05-02 17:12:54.639 JST [124505] LOG:  --- RANGE STATS [6036030 - 6040124] : rel "pgbench_accounts" vacuumed 6036030 - 6040124 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 75
+2018-05-02 17:12:54.714 JST [124505] LOG:  --- RANGE STATS [6040125 - 6044219] : rel "pgbench_accounts" vacuumed 6040125 - 6044219 page for 4094 pages out of 13231135 pages, removed 611, cannot removed 72
+2018-05-02 17:12:54.784 JST [124505] LOG:  --- RANGE STATS [6044220 - 6048314] : rel "pgbench_accounts" vacuumed 6044220 - 6048314 page for 4094 pages out of 13231135 pages, removed 662, cannot removed 78
+2018-05-02 17:12:54.934 JST [124505] LOG:  --- RANGE STATS [6048315 - 6052409] : rel "pgbench_accounts" vacuumed 6048315 - 6052409 page for 4094 pages out of 13231135 pages, removed 2851, cannot removed 89
+2018-05-02 17:12:55.002 JST [124505] LOG:  --- RANGE STATS [6056505 - 6060599] : rel "pgbench_accounts" vacuumed 6056505 - 6060599 page for 4094 pages out of 13231135 pages, removed 592, cannot removed 73
+2018-05-02 17:12:55.155 JST [124505] LOG:  --- RANGE STATS [6068790 - 6072884] : rel "pgbench_accounts" vacuumed 6068790 - 6072884 page for 4094 pages out of 13231135 pages, removed 2912, cannot removed 72
+2018-05-02 17:12:55.224 JST [124505] LOG:  --- RANGE STATS [6072885 - 6076979] : rel "pgbench_accounts" vacuumed 6072885 - 6076979 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 94
+2018-05-02 17:12:55.301 JST [124505] LOG:  --- RANGE STATS [6076980 - 6081074] : rel "pgbench_accounts" vacuumed 6076980 - 6081074 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 84
+2018-05-02 17:12:55.370 JST [124505] LOG:  --- RANGE STATS [6081075 - 6085169] : rel "pgbench_accounts" vacuumed 6081075 - 6085169 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 90
+2018-05-02 17:12:55.440 JST [124505] LOG:  --- RANGE STATS [6085170 - 6089264] : rel "pgbench_accounts" vacuumed 6085170 - 6089264 page for 4094 pages out of 13231135 pages, removed 643, cannot removed 83
+2018-05-02 17:12:55.521 JST [124505] LOG:  --- RANGE STATS [6089265 - 6093359] : rel "pgbench_accounts" vacuumed 6089265 - 6093359 page for 4094 pages out of 13231135 pages, removed 613, cannot removed 76
+2018-05-02 17:12:55.592 JST [124505] LOG:  --- RANGE STATS [6093360 - 6097454] : rel "pgbench_accounts" vacuumed 6093360 - 6097454 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 89
+2018-05-02 17:12:55.662 JST [124505] LOG:  --- RANGE STATS [6097455 - 6101549] : rel "pgbench_accounts" vacuumed 6097455 - 6101549 page for 4094 pages out of 13231135 pages, removed 675, cannot removed 80
+2018-05-02 17:12:55.737 JST [124505] LOG:  --- RANGE STATS [6101550 - 6105644] : rel "pgbench_accounts" vacuumed 6101550 - 6105644 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 82
+2018-05-02 17:12:55.806 JST [124505] LOG:  --- RANGE STATS [6105645 - 6109739] : rel "pgbench_accounts" vacuumed 6105645 - 6109739 page for 4094 pages out of 13231135 pages, removed 589, cannot removed 102
+2018-05-02 17:12:55.875 JST [124505] LOG:  --- RANGE STATS [6109740 - 6113834] : rel "pgbench_accounts" vacuumed 6109740 - 6113834 page for 4094 pages out of 13231135 pages, removed 658, cannot removed 77
+2018-05-02 17:12:55.942 JST [124505] LOG:  --- RANGE STATS [6113835 - 6117929] : rel "pgbench_accounts" vacuumed 6113835 - 6117929 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 99
+2018-05-02 17:12:56.015 JST [124505] LOG:  --- RANGE STATS [6117930 - 6122024] : rel "pgbench_accounts" vacuumed 6117930 - 6122024 page for 4094 pages out of 13231135 pages, removed 638, cannot removed 98
+2018-05-02 17:12:56.080 JST [124505] LOG:  --- RANGE STATS [6122025 - 6126119] : rel "pgbench_accounts" vacuumed 6122025 - 6126119 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 89
+2018-05-02 17:12:56.150 JST [124505] LOG:  --- RANGE STATS [6126120 - 6130214] : rel "pgbench_accounts" vacuumed 6126120 - 6130214 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 74
+2018-05-02 17:12:56.218 JST [124505] LOG:  --- RANGE STATS [6130215 - 6134309] : rel "pgbench_accounts" vacuumed 6130215 - 6134309 page for 4094 pages out of 13231135 pages, removed 611, cannot removed 95
+2018-05-02 17:12:56.289 JST [124505] LOG:  --- RANGE STATS [6134310 - 6138404] : rel "pgbench_accounts" vacuumed 6134310 - 6138404 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 77
+2018-05-02 17:12:56.365 JST [124505] LOG:  --- RANGE STATS [6138405 - 6142499] : rel "pgbench_accounts" vacuumed 6138405 - 6142499 page for 4094 pages out of 13231135 pages, removed 646, cannot removed 96
+2018-05-02 17:12:56.439 JST [124505] LOG:  --- RANGE STATS [6142500 - 6146594] : rel "pgbench_accounts" vacuumed 6142500 - 6146594 page for 4094 pages out of 13231135 pages, removed 635, cannot removed 93
+2018-05-02 17:12:56.512 JST [124505] LOG:  --- RANGE STATS [6150690 - 6154784] : rel "pgbench_accounts" vacuumed 6150690 - 6154784 page for 4094 pages out of 13231135 pages, removed 631, cannot removed 95
+2018-05-02 17:12:56.584 JST [124505] LOG:  --- RANGE STATS [6154785 - 6158879] : rel "pgbench_accounts" vacuumed 6154785 - 6158879 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 88
+2018-05-02 17:12:56.664 JST [124505] LOG:  --- RANGE STATS [6158880 - 6162974] : rel "pgbench_accounts" vacuumed 6158880 - 6162974 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 98
+2018-05-02 17:12:56.735 JST [124505] LOG:  --- RANGE STATS [6162975 - 6167069] : rel "pgbench_accounts" vacuumed 6162975 - 6167069 page for 4094 pages out of 13231135 pages, removed 576, cannot removed 108
+2018-05-02 17:12:56.805 JST [124505] LOG:  --- RANGE STATS [6167070 - 6171164] : rel "pgbench_accounts" vacuumed 6167070 - 6171164 page for 4094 pages out of 13231135 pages, removed 630, cannot removed 112
+2018-05-02 17:12:56.874 JST [124505] LOG:  --- RANGE STATS [6171165 - 6175259] : rel "pgbench_accounts" vacuumed 6171165 - 6175259 page for 4094 pages out of 13231135 pages, removed 645, cannot removed 84
+2018-05-02 17:12:56.947 JST [124505] LOG:  --- RANGE STATS [6183450 - 6187544] : rel "pgbench_accounts" vacuumed 6183450 - 6187544 page for 4094 pages out of 13231135 pages, removed 642, cannot removed 85
+2018-05-02 17:12:57.012 JST [124545] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:12:57.018 JST [124505] LOG:  --- RANGE STATS [6187545 - 6191639] : rel "pgbench_accounts" vacuumed 6187545 - 6191639 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 106
+2018-05-02 17:12:57.088 JST [124505] LOG:  --- RANGE STATS [6191640 - 6195734] : rel "pgbench_accounts" vacuumed 6191640 - 6195734 page for 4094 pages out of 13231135 pages, removed 621, cannot removed 107
+2018-05-02 17:12:57.157 JST [124505] LOG:  --- RANGE STATS [6195735 - 6199829] : rel "pgbench_accounts" vacuumed 6195735 - 6199829 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 104
+2018-05-02 17:12:57.226 JST [124505] LOG:  --- RANGE STATS [6199830 - 6203924] : rel "pgbench_accounts" vacuumed 6199830 - 6203924 page for 4094 pages out of 13231135 pages, removed 601, cannot removed 84
+2018-05-02 17:12:57.301 JST [124505] LOG:  --- RANGE STATS [6208020 - 6212114] : rel "pgbench_accounts" vacuumed 6208020 - 6212114 page for 4094 pages out of 13231135 pages, removed 659, cannot removed 103
+2018-05-02 17:12:57.370 JST [124505] LOG:  --- RANGE STATS [6212115 - 6216209] : rel "pgbench_accounts" vacuumed 6212115 - 6216209 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 99
+2018-05-02 17:12:57.440 JST [124505] LOG:  --- RANGE STATS [6220305 - 6224399] : rel "pgbench_accounts" vacuumed 6220305 - 6224399 page for 4094 pages out of 13231135 pages, removed 639, cannot removed 110
+2018-05-02 17:12:57.508 JST [124505] LOG:  --- RANGE STATS [6224400 - 6228494] : rel "pgbench_accounts" vacuumed 6224400 - 6228494 page for 4094 pages out of 13231135 pages, removed 612, cannot removed 102
+2018-05-02 17:12:57.580 JST [124505] LOG:  --- RANGE STATS [6236685 - 6240779] : rel "pgbench_accounts" vacuumed 6236685 - 6240779 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 112
+2018-05-02 17:12:57.651 JST [124505] LOG:  --- RANGE STATS [6240780 - 6244874] : rel "pgbench_accounts" vacuumed 6240780 - 6244874 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 108
+2018-05-02 17:12:57.720 JST [124505] LOG:  --- RANGE STATS [6244875 - 6248969] : rel "pgbench_accounts" vacuumed 6244875 - 6248969 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 112
+2018-05-02 17:12:57.788 JST [124505] LOG:  --- RANGE STATS [6248970 - 6253064] : rel "pgbench_accounts" vacuumed 6248970 - 6253064 page for 4094 pages out of 13231135 pages, removed 611, cannot removed 102
+2018-05-02 17:12:57.855 JST [124505] LOG:  --- RANGE STATS [6253065 - 6257159] : rel "pgbench_accounts" vacuumed 6253065 - 6257159 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 107
+2018-05-02 17:12:57.929 JST [124505] LOG:  --- RANGE STATS [6257160 - 6261254] : rel "pgbench_accounts" vacuumed 6257160 - 6261254 page for 4094 pages out of 13231135 pages, removed 634, cannot removed 107
+2018-05-02 17:12:58.005 JST [124505] LOG:  --- RANGE STATS [6261255 - 6265349] : rel "pgbench_accounts" vacuumed 6261255 - 6265349 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 107
+2018-05-02 17:12:58.077 JST [124505] LOG:  --- RANGE STATS [6265350 - 6269444] : rel "pgbench_accounts" vacuumed 6265350 - 6269444 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 114
+2018-05-02 17:12:58.146 JST [124505] LOG:  --- RANGE STATS [6273540 - 6277634] : rel "pgbench_accounts" vacuumed 6273540 - 6277634 page for 4094 pages out of 13231135 pages, removed 656, cannot removed 123
+2018-05-02 17:12:58.219 JST [124505] LOG:  --- RANGE STATS [6277635 - 6281729] : rel "pgbench_accounts" vacuumed 6277635 - 6281729 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 113
+2018-05-02 17:12:58.288 JST [124505] LOG:  --- RANGE STATS [6281730 - 6285824] : rel "pgbench_accounts" vacuumed 6281730 - 6285824 page for 4094 pages out of 13231135 pages, removed 608, cannot removed 97
+2018-05-02 17:12:58.357 JST [124505] LOG:  --- RANGE STATS [6285825 - 6289919] : rel "pgbench_accounts" vacuumed 6285825 - 6289919 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 132
+2018-05-02 17:12:58.433 JST [124505] LOG:  --- RANGE STATS [6289920 - 6294014] : rel "pgbench_accounts" vacuumed 6289920 - 6294014 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 100
+2018-05-02 17:12:58.501 JST [124505] LOG:  --- RANGE STATS [6298110 - 6302204] : rel "pgbench_accounts" vacuumed 6298110 - 6302204 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 131
+2018-05-02 17:12:58.574 JST [124505] LOG:  --- RANGE STATS [6302205 - 6306299] : rel "pgbench_accounts" vacuumed 6302205 - 6306299 page for 4094 pages out of 13231135 pages, removed 635, cannot removed 109
+2018-05-02 17:12:58.643 JST [124505] LOG:  --- RANGE STATS [6306300 - 6310394] : rel "pgbench_accounts" vacuumed 6306300 - 6310394 page for 4094 pages out of 13231135 pages, removed 666, cannot removed 102
+2018-05-02 17:12:58.712 JST [124505] LOG:  --- RANGE STATS [6310395 - 6314489] : rel "pgbench_accounts" vacuumed 6310395 - 6314489 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 98
+2018-05-02 17:12:58.781 JST [124505] LOG:  --- RANGE STATS [6314490 - 6318584] : rel "pgbench_accounts" vacuumed 6314490 - 6318584 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 128
+2018-05-02 17:12:58.862 JST [124505] LOG:  --- RANGE STATS [6318585 - 6322679] : rel "pgbench_accounts" vacuumed 6318585 - 6322679 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 110
+2018-05-02 17:12:58.930 JST [124505] LOG:  --- RANGE STATS [6330870 - 6334964] : rel "pgbench_accounts" vacuumed 6330870 - 6334964 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 111
+2018-05-02 17:12:58.998 JST [124505] LOG:  --- RANGE STATS [6334965 - 6339059] : rel "pgbench_accounts" vacuumed 6334965 - 6339059 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 136
+2018-05-02 17:12:59.070 JST [124505] LOG:  --- RANGE STATS [6339060 - 6343154] : rel "pgbench_accounts" vacuumed 6339060 - 6343154 page for 4094 pages out of 13231135 pages, removed 558, cannot removed 124
+2018-05-02 17:12:59.139 JST [124505] LOG:  --- RANGE STATS [6343155 - 6347249] : rel "pgbench_accounts" vacuumed 6343155 - 6347249 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 127
+2018-05-02 17:12:59.207 JST [124505] LOG:  --- RANGE STATS [6347250 - 6351344] : rel "pgbench_accounts" vacuumed 6347250 - 6351344 page for 4094 pages out of 13231135 pages, removed 580, cannot removed 131
+2018-05-02 17:12:59.280 JST [124505] LOG:  --- RANGE STATS [6355440 - 6359534] : rel "pgbench_accounts" vacuumed 6355440 - 6359534 page for 4094 pages out of 13231135 pages, removed 588, cannot removed 139
+2018-05-02 17:12:59.349 JST [124505] LOG:  --- RANGE STATS [6359535 - 6363629] : rel "pgbench_accounts" vacuumed 6359535 - 6363629 page for 4094 pages out of 13231135 pages, removed 621, cannot removed 96
+2018-05-02 17:12:59.417 JST [124505] LOG:  --- RANGE STATS [6363630 - 6367724] : rel "pgbench_accounts" vacuumed 6363630 - 6367724 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 111
+2018-05-02 17:12:59.489 JST [124505] LOG:  --- RANGE STATS [6367725 - 6371819] : rel "pgbench_accounts" vacuumed 6367725 - 6371819 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 125
+2018-05-02 17:12:59.557 JST [124505] LOG:  --- RANGE STATS [6371820 - 6375914] : rel "pgbench_accounts" vacuumed 6371820 - 6375914 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 126
+2018-05-02 17:12:59.631 JST [124505] LOG:  --- RANGE STATS [6380010 - 6384104] : rel "pgbench_accounts" vacuumed 6380010 - 6384104 page for 4094 pages out of 13231135 pages, removed 612, cannot removed 114
+2018-05-02 17:12:59.707 JST [124505] LOG:  --- RANGE STATS [6384105 - 6388199] : rel "pgbench_accounts" vacuumed 6384105 - 6388199 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 131
+2018-05-02 17:12:59.776 JST [124505] LOG:  --- RANGE STATS [6388200 - 6392294] : rel "pgbench_accounts" vacuumed 6388200 - 6392294 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 137
+2018-05-02 17:12:59.845 JST [124505] LOG:  --- RANGE STATS [6392295 - 6396389] : rel "pgbench_accounts" vacuumed 6392295 - 6396389 page for 4094 pages out of 13231135 pages, removed 637, cannot removed 130
+2018-05-02 17:12:59.912 JST [124505] LOG:  --- RANGE STATS [6396390 - 6400484] : rel "pgbench_accounts" vacuumed 6396390 - 6400484 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 128
+2018-05-02 17:12:59.986 JST [124505] LOG:  --- RANGE STATS [6400485 - 6404579] : rel "pgbench_accounts" vacuumed 6400485 - 6404579 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 124
+2018-05-02 17:13:00.057 JST [124505] LOG:  --- RANGE STATS [6404580 - 6408674] : rel "pgbench_accounts" vacuumed 6404580 - 6408674 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 139
+2018-05-02 17:13:00.134 JST [124505] LOG:  --- RANGE STATS [6412770 - 6416864] : rel "pgbench_accounts" vacuumed 6412770 - 6416864 page for 4094 pages out of 13231135 pages, removed 654, cannot removed 115
+2018-05-02 17:13:00.203 JST [124505] LOG:  --- RANGE STATS [6416865 - 6420959] : rel "pgbench_accounts" vacuumed 6416865 - 6420959 page for 4094 pages out of 13231135 pages, removed 595, cannot removed 154
+2018-05-02 17:13:00.271 JST [124505] LOG:  --- RANGE STATS [6420960 - 6425054] : rel "pgbench_accounts" vacuumed 6420960 - 6425054 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 138
+2018-05-02 17:13:00.343 JST [124505] LOG:  --- RANGE STATS [6425055 - 6429149] : rel "pgbench_accounts" vacuumed 6425055 - 6429149 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 136
+2018-05-02 17:13:00.412 JST [124505] LOG:  --- RANGE STATS [6429150 - 6433244] : rel "pgbench_accounts" vacuumed 6429150 - 6433244 page for 4094 pages out of 13231135 pages, removed 628, cannot removed 129
+2018-05-02 17:13:00.480 JST [124505] LOG:  --- RANGE STATS [6433245 - 6437339] : rel "pgbench_accounts" vacuumed 6433245 - 6437339 page for 4094 pages out of 13231135 pages, removed 633, cannot removed 141
+2018-05-02 17:13:00.549 JST [124505] LOG:  --- RANGE STATS [6437340 - 6441434] : rel "pgbench_accounts" vacuumed 6437340 - 6441434 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 139
+2018-05-02 17:13:00.617 JST [124505] LOG:  --- RANGE STATS [6441435 - 6445529] : rel "pgbench_accounts" vacuumed 6441435 - 6445529 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 150
+2018-05-02 17:13:00.690 JST [124505] LOG:  --- RANGE STATS [6445530 - 6449624] : rel "pgbench_accounts" vacuumed 6445530 - 6449624 page for 4094 pages out of 13231135 pages, removed 649, cannot removed 139
+2018-05-02 17:13:00.759 JST [124505] LOG:  --- RANGE STATS [6449625 - 6453719] : rel "pgbench_accounts" vacuumed 6449625 - 6453719 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 129
+2018-05-02 17:13:00.827 JST [124505] LOG:  --- RANGE STATS [6453720 - 6457814] : rel "pgbench_accounts" vacuumed 6453720 - 6457814 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 138
+2018-05-02 17:13:00.897 JST [124505] LOG:  --- RANGE STATS [6457815 - 6461909] : rel "pgbench_accounts" vacuumed 6457815 - 6461909 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 161
+2018-05-02 17:13:00.965 JST [124505] LOG:  --- RANGE STATS [6461910 - 6466004] : rel "pgbench_accounts" vacuumed 6461910 - 6466004 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 163
+2018-05-02 17:13:01.039 JST [124505] LOG:  --- RANGE STATS [6466005 - 6470099] : rel "pgbench_accounts" vacuumed 6466005 - 6470099 page for 4094 pages out of 13231135 pages, removed 633, cannot removed 143
+2018-05-02 17:13:01.109 JST [124505] LOG:  --- RANGE STATS [6474195 - 6478289] : rel "pgbench_accounts" vacuumed 6474195 - 6478289 page for 4094 pages out of 13231135 pages, removed 649, cannot removed 141
+2018-05-02 17:13:01.177 JST [124505] LOG:  --- RANGE STATS [6478290 - 6482384] : rel "pgbench_accounts" vacuumed 6478290 - 6482384 page for 4094 pages out of 13231135 pages, removed 613, cannot removed 145
+2018-05-02 17:13:01.246 JST [124505] LOG:  --- RANGE STATS [6482385 - 6486479] : rel "pgbench_accounts" vacuumed 6482385 - 6486479 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 150
+2018-05-02 17:13:01.315 JST [124505] LOG:  --- RANGE STATS [6490575 - 6494669] : rel "pgbench_accounts" vacuumed 6490575 - 6494669 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 165
+2018-05-02 17:13:01.384 JST [124505] LOG:  --- RANGE STATS [6494670 - 6498764] : rel "pgbench_accounts" vacuumed 6494670 - 6498764 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 151
+2018-05-02 17:13:01.457 JST [124505] LOG:  --- RANGE STATS [6498765 - 6502859] : rel "pgbench_accounts" vacuumed 6498765 - 6502859 page for 4094 pages out of 13231135 pages, removed 619, cannot removed 130
+2018-05-02 17:13:01.525 JST [124505] LOG:  --- RANGE STATS [6502860 - 6506954] : rel "pgbench_accounts" vacuumed 6502860 - 6506954 page for 4094 pages out of 13231135 pages, removed 639, cannot removed 144
+2018-05-02 17:13:01.593 JST [124505] LOG:  --- RANGE STATS [6506955 - 6511049] : rel "pgbench_accounts" vacuumed 6506955 - 6511049 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 161
+2018-05-02 17:13:01.661 JST [124505] LOG:  --- RANGE STATS [6511050 - 6515144] : rel "pgbench_accounts" vacuumed 6511050 - 6515144 page for 4094 pages out of 13231135 pages, removed 598, cannot removed 139
+2018-05-02 17:13:01.730 JST [124505] LOG:  --- RANGE STATS [6515145 - 6519239] : rel "pgbench_accounts" vacuumed 6515145 - 6519239 page for 4094 pages out of 13231135 pages, removed 628, cannot removed 148
+2018-05-02 17:13:01.805 JST [124505] LOG:  --- RANGE STATS [6519240 - 6523334] : rel "pgbench_accounts" vacuumed 6519240 - 6523334 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 142
+2018-05-02 17:13:01.881 JST [124505] LOG:  --- RANGE STATS [6523335 - 6527429] : rel "pgbench_accounts" vacuumed 6523335 - 6527429 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 151
+2018-05-02 17:13:01.950 JST [124505] LOG:  --- RANGE STATS [6527430 - 6531524] : rel "pgbench_accounts" vacuumed 6527430 - 6531524 page for 4094 pages out of 13231135 pages, removed 676, cannot removed 148
+2018-05-02 17:13:02.017 JST [124505] LOG:  --- RANGE STATS [6535620 - 6539714] : rel "pgbench_accounts" vacuumed 6535620 - 6539714 page for 4094 pages out of 13231135 pages, removed 589, cannot removed 139
+2018-05-02 17:13:02.024 JST [124565] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:02.094 JST [124565] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.05 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:02.106 JST [124505] LOG:  --- RANGE STATS [6539715 - 6543809] : rel "pgbench_accounts" vacuumed 6539715 - 6543809 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 129
+2018-05-02 17:13:02.177 JST [124505] LOG:  --- RANGE STATS [6543810 - 6547904] : rel "pgbench_accounts" vacuumed 6543810 - 6547904 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 159
+2018-05-02 17:13:02.253 JST [124505] LOG:  --- RANGE STATS [6552000 - 6556094] : rel "pgbench_accounts" vacuumed 6552000 - 6556094 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 123
+2018-05-02 17:13:02.321 JST [124505] LOG:  --- RANGE STATS [6556095 - 6560189] : rel "pgbench_accounts" vacuumed 6556095 - 6560189 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 136
+2018-05-02 17:13:02.390 JST [124505] LOG:  --- RANGE STATS [6560190 - 6564284] : rel "pgbench_accounts" vacuumed 6560190 - 6564284 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 156
+2018-05-02 17:13:02.458 JST [124505] LOG:  --- RANGE STATS [6564285 - 6568379] : rel "pgbench_accounts" vacuumed 6564285 - 6568379 page for 4094 pages out of 13231135 pages, removed 614, cannot removed 147
+2018-05-02 17:13:02.528 JST [124505] LOG:  --- RANGE STATS [6568380 - 6572474] : rel "pgbench_accounts" vacuumed 6568380 - 6572474 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 151
+2018-05-02 17:13:02.602 JST [124505] LOG:  --- RANGE STATS [6572475 - 6576569] : rel "pgbench_accounts" vacuumed 6572475 - 6576569 page for 4094 pages out of 13231135 pages, removed 650, cannot removed 156
+2018-05-02 17:13:02.671 JST [124505] LOG:  --- RANGE STATS [6576570 - 6580664] : rel "pgbench_accounts" vacuumed 6576570 - 6580664 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 162
+2018-05-02 17:13:02.739 JST [124505] LOG:  --- RANGE STATS [6584760 - 6588854] : rel "pgbench_accounts" vacuumed 6584760 - 6588854 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 161
+2018-05-02 17:13:02.808 JST [124505] LOG:  --- RANGE STATS [6588855 - 6592949] : rel "pgbench_accounts" vacuumed 6588855 - 6592949 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 158
+2018-05-02 17:13:02.874 JST [124505] LOG:  --- RANGE STATS [6592950 - 6597044] : rel "pgbench_accounts" vacuumed 6592950 - 6597044 page for 4094 pages out of 13231135 pages, removed 592, cannot removed 161
+2018-05-02 17:13:02.942 JST [124505] LOG:  --- RANGE STATS [6601140 - 6605234] : rel "pgbench_accounts" vacuumed 6601140 - 6605234 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 155
+2018-05-02 17:13:03.011 JST [124505] LOG:  --- RANGE STATS [6605235 - 6609329] : rel "pgbench_accounts" vacuumed 6605235 - 6609329 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 166
+2018-05-02 17:13:03.083 JST [124505] LOG:  --- RANGE STATS [6609330 - 6613424] : rel "pgbench_accounts" vacuumed 6609330 - 6613424 page for 4094 pages out of 13231135 pages, removed 634, cannot removed 149
+2018-05-02 17:13:03.152 JST [124505] LOG:  --- RANGE STATS [6613425 - 6617519] : rel "pgbench_accounts" vacuumed 6613425 - 6617519 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 178
+2018-05-02 17:13:03.219 JST [124505] LOG:  --- RANGE STATS [6617520 - 6621614] : rel "pgbench_accounts" vacuumed 6617520 - 6621614 page for 4094 pages out of 13231135 pages, removed 616, cannot removed 138
+2018-05-02 17:13:03.287 JST [124505] LOG:  --- RANGE STATS [6621615 - 6625709] : rel "pgbench_accounts" vacuumed 6621615 - 6625709 page for 4094 pages out of 13231135 pages, removed 593, cannot removed 193
+2018-05-02 17:13:03.357 JST [124505] LOG:  --- RANGE STATS [6629805 - 6633899] : rel "pgbench_accounts" vacuumed 6629805 - 6633899 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 155
+2018-05-02 17:13:03.425 JST [124505] LOG:  --- RANGE STATS [6633900 - 6637994] : rel "pgbench_accounts" vacuumed 6633900 - 6637994 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 170
+2018-05-02 17:13:03.491 JST [124505] LOG:  --- RANGE STATS [6637995 - 6642089] : rel "pgbench_accounts" vacuumed 6637995 - 6642089 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 162
+2018-05-02 17:13:03.564 JST [124505] LOG:  --- RANGE STATS [6642090 - 6646184] : rel "pgbench_accounts" vacuumed 6642090 - 6646184 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 157
+2018-05-02 17:13:03.633 JST [124505] LOG:  --- RANGE STATS [6646185 - 6650279] : rel "pgbench_accounts" vacuumed 6646185 - 6650279 page for 4094 pages out of 13231135 pages, removed 578, cannot removed 197
+2018-05-02 17:13:03.700 JST [124505] LOG:  --- RANGE STATS [6654375 - 6658469] : rel "pgbench_accounts" vacuumed 6654375 - 6658469 page for 4094 pages out of 13231135 pages, removed 607, cannot removed 171
+2018-05-02 17:13:03.770 JST [124505] LOG:  --- RANGE STATS [6658470 - 6662564] : rel "pgbench_accounts" vacuumed 6658470 - 6662564 page for 4094 pages out of 13231135 pages, removed 649, cannot removed 150
+2018-05-02 17:13:03.837 JST [124505] LOG:  --- RANGE STATS [6662565 - 6666659] : rel "pgbench_accounts" vacuumed 6662565 - 6666659 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 182
+2018-05-02 17:13:03.906 JST [124505] LOG:  --- RANGE STATS [6666660 - 6670754] : rel "pgbench_accounts" vacuumed 6666660 - 6670754 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 181
+2018-05-02 17:13:03.974 JST [124505] LOG:  --- RANGE STATS [6670755 - 6674849] : rel "pgbench_accounts" vacuumed 6670755 - 6674849 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 175
+2018-05-02 17:13:04.048 JST [124505] LOG:  --- RANGE STATS [6674850 - 6678944] : rel "pgbench_accounts" vacuumed 6674850 - 6678944 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 198
+2018-05-02 17:13:04.124 JST [124505] LOG:  --- RANGE STATS [6678945 - 6683039] : rel "pgbench_accounts" vacuumed 6678945 - 6683039 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 173
+2018-05-02 17:13:04.288 JST [124505] LOG:  --- RANGE STATS [6683040 - 6687134] : rel "pgbench_accounts" vacuumed 6683040 - 6687134 page for 4094 pages out of 13231135 pages, removed 2831, cannot removed 160
+2018-05-02 17:13:04.356 JST [124505] LOG:  --- RANGE STATS [6687135 - 6691229] : rel "pgbench_accounts" vacuumed 6687135 - 6691229 page for 4094 pages out of 13231135 pages, removed 589, cannot removed 177
+2018-05-02 17:13:04.431 JST [124505] LOG:  --- RANGE STATS [6691230 - 6695324] : rel "pgbench_accounts" vacuumed 6691230 - 6695324 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 182
+2018-05-02 17:13:04.503 JST [124505] LOG:  --- RANGE STATS [6695325 - 6699419] : rel "pgbench_accounts" vacuumed 6695325 - 6699419 page for 4094 pages out of 13231135 pages, removed 641, cannot removed 162
+2018-05-02 17:13:04.573 JST [124505] LOG:  --- RANGE STATS [6699420 - 6703514] : rel "pgbench_accounts" vacuumed 6699420 - 6703514 page for 4094 pages out of 13231135 pages, removed 578, cannot removed 168
+2018-05-02 17:13:04.645 JST [124505] LOG:  --- RANGE STATS [6703515 - 6707609] : rel "pgbench_accounts" vacuumed 6703515 - 6707609 page for 4094 pages out of 13231135 pages, removed 630, cannot removed 170
+2018-05-02 17:13:04.715 JST [124505] LOG:  --- RANGE STATS [6707610 - 6711704] : rel "pgbench_accounts" vacuumed 6707610 - 6711704 page for 4094 pages out of 13231135 pages, removed 653, cannot removed 174
+2018-05-02 17:13:04.786 JST [124505] LOG:  --- RANGE STATS [6711705 - 6715799] : rel "pgbench_accounts" vacuumed 6711705 - 6715799 page for 4094 pages out of 13231135 pages, removed 574, cannot removed 162
+2018-05-02 17:13:04.857 JST [124505] LOG:  --- RANGE STATS [6715800 - 6719894] : rel "pgbench_accounts" vacuumed 6715800 - 6719894 page for 4094 pages out of 13231135 pages, removed 611, cannot removed 182
+2018-05-02 17:13:04.931 JST [124505] LOG:  --- RANGE STATS [6719895 - 6723989] : rel "pgbench_accounts" vacuumed 6719895 - 6723989 page for 4094 pages out of 13231135 pages, removed 636, cannot removed 162
+2018-05-02 17:13:04.999 JST [124505] LOG:  --- RANGE STATS [6723990 - 6728084] : rel "pgbench_accounts" vacuumed 6723990 - 6728084 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 171
+2018-05-02 17:13:05.068 JST [124505] LOG:  --- RANGE STATS [6728085 - 6732179] : rel "pgbench_accounts" vacuumed 6728085 - 6732179 page for 4094 pages out of 13231135 pages, removed 661, cannot removed 189
+2018-05-02 17:13:05.136 JST [124505] LOG:  --- RANGE STATS [6732180 - 6736274] : rel "pgbench_accounts" vacuumed 6732180 - 6736274 page for 4094 pages out of 13231135 pages, removed 585, cannot removed 178
+2018-05-02 17:13:05.205 JST [124505] LOG:  --- RANGE STATS [6740370 - 6744464] : rel "pgbench_accounts" vacuumed 6740370 - 6744464 page for 4094 pages out of 13231135 pages, removed 664, cannot removed 188
+2018-05-02 17:13:05.274 JST [124505] LOG:  --- RANGE STATS [6744465 - 6748559] : rel "pgbench_accounts" vacuumed 6744465 - 6748559 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 179
+2018-05-02 17:13:05.348 JST [124505] LOG:  --- RANGE STATS [6748560 - 6752654] : rel "pgbench_accounts" vacuumed 6748560 - 6752654 page for 4094 pages out of 13231135 pages, removed 611, cannot removed 176
+2018-05-02 17:13:05.416 JST [124505] LOG:  --- RANGE STATS [6752655 - 6756749] : rel "pgbench_accounts" vacuumed 6752655 - 6756749 page for 4094 pages out of 13231135 pages, removed 578, cannot removed 187
+2018-05-02 17:13:05.485 JST [124505] LOG:  --- RANGE STATS [6756750 - 6760844] : rel "pgbench_accounts" vacuumed 6756750 - 6760844 page for 4094 pages out of 13231135 pages, removed 620, cannot removed 167
+2018-05-02 17:13:05.558 JST [124505] LOG:  --- RANGE STATS [6760845 - 6764939] : rel "pgbench_accounts" vacuumed 6760845 - 6764939 page for 4094 pages out of 13231135 pages, removed 635, cannot removed 183
+2018-05-02 17:13:05.629 JST [124505] LOG:  --- RANGE STATS [6764940 - 6769034] : rel "pgbench_accounts" vacuumed 6764940 - 6769034 page for 4094 pages out of 13231135 pages, removed 640, cannot removed 202
+2018-05-02 17:13:05.699 JST [124505] LOG:  --- RANGE STATS [6769035 - 6773129] : rel "pgbench_accounts" vacuumed 6769035 - 6773129 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 189
+2018-05-02 17:13:05.771 JST [124505] LOG:  --- RANGE STATS [6773130 - 6777224] : rel "pgbench_accounts" vacuumed 6773130 - 6777224 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 196
+2018-05-02 17:13:05.839 JST [124505] LOG:  --- RANGE STATS [6777225 - 6781319] : rel "pgbench_accounts" vacuumed 6777225 - 6781319 page for 4094 pages out of 13231135 pages, removed 582, cannot removed 177
+2018-05-02 17:13:05.913 JST [124505] LOG:  --- RANGE STATS [6781320 - 6785414] : rel "pgbench_accounts" vacuumed 6781320 - 6785414 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 202
+2018-05-02 17:13:05.982 JST [124505] LOG:  --- RANGE STATS [6785415 - 6789509] : rel "pgbench_accounts" vacuumed 6785415 - 6789509 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 201
+2018-05-02 17:13:06.053 JST [124505] LOG:  --- RANGE STATS [6789510 - 6793604] : rel "pgbench_accounts" vacuumed 6789510 - 6793604 page for 4094 pages out of 13231135 pages, removed 615, cannot removed 205
+2018-05-02 17:13:06.122 JST [124505] LOG:  --- RANGE STATS [6801795 - 6805889] : rel "pgbench_accounts" vacuumed 6801795 - 6805889 page for 4094 pages out of 13231135 pages, removed 651, cannot removed 177
+2018-05-02 17:13:06.192 JST [124505] LOG:  --- RANGE STATS [6809985 - 6814079] : rel "pgbench_accounts" vacuumed 6809985 - 6814079 page for 4094 pages out of 13231135 pages, removed 593, cannot removed 189
+2018-05-02 17:13:06.261 JST [124505] LOG:  --- RANGE STATS [6814080 - 6818174] : rel "pgbench_accounts" vacuumed 6814080 - 6818174 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 177
+2018-05-02 17:13:06.329 JST [124505] LOG:  --- RANGE STATS [6818175 - 6822269] : rel "pgbench_accounts" vacuumed 6818175 - 6822269 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 183
+2018-05-02 17:13:06.396 JST [124505] LOG:  --- RANGE STATS [6822270 - 6826364] : rel "pgbench_accounts" vacuumed 6822270 - 6826364 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 222
+2018-05-02 17:13:06.470 JST [124505] LOG:  --- RANGE STATS [6826365 - 6830459] : rel "pgbench_accounts" vacuumed 6826365 - 6830459 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 189
+2018-05-02 17:13:06.538 JST [124505] LOG:  --- RANGE STATS [6830460 - 6834554] : rel "pgbench_accounts" vacuumed 6830460 - 6834554 page for 4094 pages out of 13231135 pages, removed 606, cannot removed 185
+2018-05-02 17:13:06.607 JST [124505] LOG:  --- RANGE STATS [6834555 - 6838649] : rel "pgbench_accounts" vacuumed 6834555 - 6838649 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 200
+2018-05-02 17:13:06.677 JST [124505] LOG:  --- RANGE STATS [6838650 - 6842744] : rel "pgbench_accounts" vacuumed 6838650 - 6842744 page for 4094 pages out of 13231135 pages, removed 628, cannot removed 171
+2018-05-02 17:13:06.746 JST [124505] LOG:  --- RANGE STATS [6842745 - 6846839] : rel "pgbench_accounts" vacuumed 6842745 - 6846839 page for 4094 pages out of 13231135 pages, removed 626, cannot removed 198
+2018-05-02 17:13:06.822 JST [124505] LOG:  --- RANGE STATS [6846840 - 6850934] : rel "pgbench_accounts" vacuumed 6846840 - 6850934 page for 4094 pages out of 13231135 pages, removed 571, cannot removed 182
+2018-05-02 17:13:06.890 JST [124505] LOG:  --- RANGE STATS [6850935 - 6855029] : rel "pgbench_accounts" vacuumed 6850935 - 6855029 page for 4094 pages out of 13231135 pages, removed 646, cannot removed 213
+2018-05-02 17:13:06.957 JST [124505] LOG:  --- RANGE STATS [6855030 - 6859124] : rel "pgbench_accounts" vacuumed 6855030 - 6859124 page for 4094 pages out of 13231135 pages, removed 593, cannot removed 223
+2018-05-02 17:13:07.020 JST [124585] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:07.030 JST [124505] LOG:  --- RANGE STATS [6859125 - 6863219] : rel "pgbench_accounts" vacuumed 6859125 - 6863219 page for 4094 pages out of 13231135 pages, removed 590, cannot removed 223
+2018-05-02 17:13:07.097 JST [124505] LOG:  --- RANGE STATS [6863220 - 6867314] : rel "pgbench_accounts" vacuumed 6863220 - 6867314 page for 4094 pages out of 13231135 pages, removed 592, cannot removed 210
+2018-05-02 17:13:07.163 JST [124505] LOG:  --- RANGE STATS [6867315 - 6871409] : rel "pgbench_accounts" vacuumed 6867315 - 6871409 page for 4094 pages out of 13231135 pages, removed 624, cannot removed 195
+2018-05-02 17:13:07.237 JST [124505] LOG:  --- RANGE STATS [6871410 - 6875504] : rel "pgbench_accounts" vacuumed 6871410 - 6875504 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 207
+2018-05-02 17:13:07.305 JST [124505] LOG:  --- RANGE STATS [6875505 - 6879599] : rel "pgbench_accounts" vacuumed 6875505 - 6879599 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 195
+2018-05-02 17:13:07.374 JST [124505] LOG:  --- RANGE STATS [6879600 - 6883694] : rel "pgbench_accounts" vacuumed 6879600 - 6883694 page for 4094 pages out of 13231135 pages, removed 609, cannot removed 220
+2018-05-02 17:13:07.449 JST [124505] LOG:  --- RANGE STATS [6883695 - 6887789] : rel "pgbench_accounts" vacuumed 6883695 - 6887789 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 206
+2018-05-02 17:13:07.516 JST [124505] LOG:  --- RANGE STATS [6887790 - 6891884] : rel "pgbench_accounts" vacuumed 6887790 - 6891884 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 203
+2018-05-02 17:13:07.584 JST [124505] LOG:  --- RANGE STATS [6891885 - 6895979] : rel "pgbench_accounts" vacuumed 6891885 - 6895979 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 204
+2018-05-02 17:13:07.654 JST [124505] LOG:  --- RANGE STATS [6895980 - 6900074] : rel "pgbench_accounts" vacuumed 6895980 - 6900074 page for 4094 pages out of 13231135 pages, removed 594, cannot removed 208
+2018-05-02 17:13:07.723 JST [124505] LOG:  --- RANGE STATS [6900075 - 6904169] : rel "pgbench_accounts" vacuumed 6900075 - 6904169 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 219
+2018-05-02 17:13:07.789 JST [124505] LOG:  --- RANGE STATS [6904170 - 6908264] : rel "pgbench_accounts" vacuumed 6904170 - 6908264 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 192
+2018-05-02 17:13:07.858 JST [124505] LOG:  --- RANGE STATS [6908265 - 6912359] : rel "pgbench_accounts" vacuumed 6908265 - 6912359 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 182
+2018-05-02 17:13:07.928 JST [124505] LOG:  --- RANGE STATS [6912360 - 6916454] : rel "pgbench_accounts" vacuumed 6912360 - 6916454 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 239
+2018-05-02 17:13:07.994 JST [124505] LOG:  --- RANGE STATS [6920550 - 6924644] : rel "pgbench_accounts" vacuumed 6920550 - 6924644 page for 4094 pages out of 13231135 pages, removed 579, cannot removed 168
+2018-05-02 17:13:08.062 JST [124505] LOG:  --- RANGE STATS [6924645 - 6928739] : rel "pgbench_accounts" vacuumed 6924645 - 6928739 page for 4094 pages out of 13231135 pages, removed 639, cannot removed 229
+2018-05-02 17:13:08.135 JST [124505] LOG:  --- RANGE STATS [6928740 - 6932834] : rel "pgbench_accounts" vacuumed 6928740 - 6932834 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 210
+2018-05-02 17:13:08.203 JST [124505] LOG:  --- RANGE STATS [6936930 - 6941024] : rel "pgbench_accounts" vacuumed 6936930 - 6941024 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 203
+2018-05-02 17:13:08.270 JST [124505] LOG:  --- RANGE STATS [6941025 - 6945119] : rel "pgbench_accounts" vacuumed 6941025 - 6945119 page for 4094 pages out of 13231135 pages, removed 561, cannot removed 219
+2018-05-02 17:13:08.337 JST [124505] LOG:  --- RANGE STATS [6945120 - 6949214] : rel "pgbench_accounts" vacuumed 6945120 - 6949214 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 214
+2018-05-02 17:13:08.404 JST [124505] LOG:  --- RANGE STATS [6949215 - 6953309] : rel "pgbench_accounts" vacuumed 6949215 - 6953309 page for 4094 pages out of 13231135 pages, removed 601, cannot removed 203
+2018-05-02 17:13:08.471 JST [124505] LOG:  --- RANGE STATS [6953310 - 6957404] : rel "pgbench_accounts" vacuumed 6953310 - 6957404 page for 4094 pages out of 13231135 pages, removed 583, cannot removed 226
+2018-05-02 17:13:08.540 JST [124505] LOG:  --- RANGE STATS [6957405 - 6961499] : rel "pgbench_accounts" vacuumed 6957405 - 6961499 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 189
+2018-05-02 17:13:08.607 JST [124505] LOG:  --- RANGE STATS [6961500 - 6965594] : rel "pgbench_accounts" vacuumed 6961500 - 6965594 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 219
+2018-05-02 17:13:08.675 JST [124505] LOG:  --- RANGE STATS [6965595 - 6969689] : rel "pgbench_accounts" vacuumed 6965595 - 6969689 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 211
+2018-05-02 17:13:08.748 JST [124505] LOG:  --- RANGE STATS [6969690 - 6973784] : rel "pgbench_accounts" vacuumed 6969690 - 6973784 page for 4094 pages out of 13231135 pages, removed 595, cannot removed 233
+2018-05-02 17:13:08.814 JST [124505] LOG:  --- RANGE STATS [6973785 - 6977879] : rel "pgbench_accounts" vacuumed 6973785 - 6977879 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 230
+2018-05-02 17:13:08.882 JST [124505] LOG:  --- RANGE STATS [6977880 - 6981974] : rel "pgbench_accounts" vacuumed 6977880 - 6981974 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 238
+2018-05-02 17:13:08.950 JST [124505] LOG:  --- RANGE STATS [6986070 - 6990164] : rel "pgbench_accounts" vacuumed 6986070 - 6990164 page for 4094 pages out of 13231135 pages, removed 619, cannot removed 227
+2018-05-02 17:13:09.022 JST [124505] LOG:  --- RANGE STATS [6990165 - 6994259] : rel "pgbench_accounts" vacuumed 6990165 - 6994259 page for 4094 pages out of 13231135 pages, removed 633, cannot removed 195
+2018-05-02 17:13:09.159 JST [124505] LOG:  --- RANGE STATS [6994260 - 6998354] : rel "pgbench_accounts" vacuumed 6994260 - 6998354 page for 4094 pages out of 13231135 pages, removed 2752, cannot removed 206
+2018-05-02 17:13:09.230 JST [124505] LOG:  --- RANGE STATS [6998355 - 7002449] : rel "pgbench_accounts" vacuumed 6998355 - 7002449 page for 4094 pages out of 13231135 pages, removed 635, cannot removed 216
+2018-05-02 17:13:09.298 JST [124505] LOG:  --- RANGE STATS [7002450 - 7006544] : rel "pgbench_accounts" vacuumed 7002450 - 7006544 page for 4094 pages out of 13231135 pages, removed 574, cannot removed 202
+2018-05-02 17:13:09.366 JST [124505] LOG:  --- RANGE STATS [7006545 - 7010639] : rel "pgbench_accounts" vacuumed 7006545 - 7010639 page for 4094 pages out of 13231135 pages, removed 605, cannot removed 235
+2018-05-02 17:13:09.435 JST [124505] LOG:  --- RANGE STATS [7010640 - 7014734] : rel "pgbench_accounts" vacuumed 7010640 - 7014734 page for 4094 pages out of 13231135 pages, removed 584, cannot removed 226
+2018-05-02 17:13:09.504 JST [124505] LOG:  --- RANGE STATS [7014735 - 7018829] : rel "pgbench_accounts" vacuumed 7014735 - 7018829 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 202
+2018-05-02 17:13:09.573 JST [124505] LOG:  --- RANGE STATS [7022925 - 7027019] : rel "pgbench_accounts" vacuumed 7022925 - 7027019 page for 4094 pages out of 13231135 pages, removed 608, cannot removed 223
+2018-05-02 17:13:09.646 JST [124505] LOG:  --- RANGE STATS [7027020 - 7031114] : rel "pgbench_accounts" vacuumed 7027020 - 7031114 page for 4094 pages out of 13231135 pages, removed 569, cannot removed 233
+2018-05-02 17:13:09.714 JST [124505] LOG:  --- RANGE STATS [7031115 - 7035209] : rel "pgbench_accounts" vacuumed 7031115 - 7035209 page for 4094 pages out of 13231135 pages, removed 632, cannot removed 220
+2018-05-02 17:13:09.784 JST [124505] LOG:  --- RANGE STATS [7035210 - 7039304] : rel "pgbench_accounts" vacuumed 7035210 - 7039304 page for 4094 pages out of 13231135 pages, removed 589, cannot removed 226
+2018-05-02 17:13:09.852 JST [124505] LOG:  --- RANGE STATS [7039305 - 7043399] : rel "pgbench_accounts" vacuumed 7039305 - 7043399 page for 4094 pages out of 13231135 pages, removed 566, cannot removed 232
+2018-05-02 17:13:09.999 JST [124505] LOG:  --- RANGE STATS [7043400 - 7047494] : rel "pgbench_accounts" vacuumed 7043400 - 7047494 page for 4094 pages out of 13231135 pages, removed 2719, cannot removed 224
+2018-05-02 17:13:10.067 JST [124505] LOG:  --- RANGE STATS [7047495 - 7051589] : rel "pgbench_accounts" vacuumed 7047495 - 7051589 page for 4094 pages out of 13231135 pages, removed 578, cannot removed 246
+2018-05-02 17:13:10.209 JST [124505] LOG:  --- RANGE STATS [7051590 - 7055684] : rel "pgbench_accounts" vacuumed 7051590 - 7055684 page for 4094 pages out of 13231135 pages, removed 2790, cannot removed 220
+2018-05-02 17:13:10.283 JST [124505] LOG:  --- RANGE STATS [7055685 - 7059779] : rel "pgbench_accounts" vacuumed 7055685 - 7059779 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 244
+2018-05-02 17:13:10.350 JST [124505] LOG:  --- RANGE STATS [7059780 - 7063874] : rel "pgbench_accounts" vacuumed 7059780 - 7063874 page for 4094 pages out of 13231135 pages, removed 645, cannot removed 218
+2018-05-02 17:13:10.426 JST [124505] LOG:  --- RANGE STATS [7063875 - 7067969] : rel "pgbench_accounts" vacuumed 7063875 - 7067969 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 259
+2018-05-02 17:13:10.495 JST [124505] LOG:  --- RANGE STATS [7067970 - 7072064] : rel "pgbench_accounts" vacuumed 7067970 - 7072064 page for 4094 pages out of 13231135 pages, removed 623, cannot removed 204
+2018-05-02 17:13:10.563 JST [124505] LOG:  --- RANGE STATS [7072065 - 7076159] : rel "pgbench_accounts" vacuumed 7072065 - 7076159 page for 4094 pages out of 13231135 pages, removed 631, cannot removed 210
+2018-05-02 17:13:10.628 JST [124505] LOG:  --- RANGE STATS [7076160 - 7080254] : rel "pgbench_accounts" vacuumed 7076160 - 7080254 page for 4094 pages out of 13231135 pages, removed 574, cannot removed 228
+2018-05-02 17:13:10.697 JST [124505] LOG:  --- RANGE STATS [7080255 - 7084349] : rel "pgbench_accounts" vacuumed 7080255 - 7084349 page for 4094 pages out of 13231135 pages, removed 600, cannot removed 229
+2018-05-02 17:13:10.765 JST [124505] LOG:  --- RANGE STATS [7084350 - 7088444] : rel "pgbench_accounts" vacuumed 7084350 - 7088444 page for 4094 pages out of 13231135 pages, removed 622, cannot removed 219
+2018-05-02 17:13:10.830 JST [124505] LOG:  --- RANGE STATS [7088445 - 7092539] : rel "pgbench_accounts" vacuumed 7088445 - 7092539 page for 4094 pages out of 13231135 pages, removed 590, cannot removed 259
+2018-05-02 17:13:10.900 JST [124505] LOG:  --- RANGE STATS [7092540 - 7096634] : rel "pgbench_accounts" vacuumed 7092540 - 7096634 page for 4094 pages out of 13231135 pages, removed 637, cannot removed 227
+2018-05-02 17:13:10.974 JST [124505] LOG:  --- RANGE STATS [7096635 - 7100729] : rel "pgbench_accounts" vacuumed 7096635 - 7100729 page for 4094 pages out of 13231135 pages, removed 634, cannot removed 247
+2018-05-02 17:13:11.041 JST [124505] LOG:  --- RANGE STATS [7100730 - 7104824] : rel "pgbench_accounts" vacuumed 7100730 - 7104824 page for 4094 pages out of 13231135 pages, removed 656, cannot removed 215
+2018-05-02 17:13:11.109 JST [124505] LOG:  --- RANGE STATS [7104825 - 7108919] : rel "pgbench_accounts" vacuumed 7104825 - 7108919 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 242
+2018-05-02 17:13:11.177 JST [124505] LOG:  --- RANGE STATS [7117110 - 7121204] : rel "pgbench_accounts" vacuumed 7117110 - 7121204 page for 4094 pages out of 13231135 pages, removed 644, cannot removed 239
+2018-05-02 17:13:11.244 JST [124505] LOG:  --- RANGE STATS [7121205 - 7125299] : rel "pgbench_accounts" vacuumed 7121205 - 7125299 page for 4094 pages out of 13231135 pages, removed 584, cannot removed 225
+2018-05-02 17:13:11.312 JST [124505] LOG:  --- RANGE STATS [7125300 - 7129394] : rel "pgbench_accounts" vacuumed 7125300 - 7129394 page for 4094 pages out of 13231135 pages, removed 584, cannot removed 220
+2018-05-02 17:13:11.378 JST [124505] LOG:  --- RANGE STATS [7129395 - 7133489] : rel "pgbench_accounts" vacuumed 7129395 - 7133489 page for 4094 pages out of 13231135 pages, removed 566, cannot removed 228
+2018-05-02 17:13:11.446 JST [124505] LOG:  --- RANGE STATS [7133490 - 7137584] : rel "pgbench_accounts" vacuumed 7133490 - 7137584 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 237
+2018-05-02 17:13:11.515 JST [124505] LOG:  --- RANGE STATS [7141680 - 7145774] : rel "pgbench_accounts" vacuumed 7141680 - 7145774 page for 4094 pages out of 13231135 pages, removed 558, cannot removed 242
+2018-05-02 17:13:11.582 JST [124505] LOG:  --- RANGE STATS [7145775 - 7149869] : rel "pgbench_accounts" vacuumed 7145775 - 7149869 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 246
+2018-05-02 17:13:11.653 JST [124505] LOG:  --- RANGE STATS [7149870 - 7153964] : rel "pgbench_accounts" vacuumed 7149870 - 7153964 page for 4094 pages out of 13231135 pages, removed 629, cannot removed 218
+2018-05-02 17:13:11.722 JST [124505] LOG:  --- RANGE STATS [7153965 - 7158059] : rel "pgbench_accounts" vacuumed 7153965 - 7158059 page for 4094 pages out of 13231135 pages, removed 610, cannot removed 243
+2018-05-02 17:13:11.796 JST [124505] LOG:  --- RANGE STATS [7158060 - 7162154] : rel "pgbench_accounts" vacuumed 7158060 - 7162154 page for 4094 pages out of 13231135 pages, removed 589, cannot removed 225
+2018-05-02 17:13:11.863 JST [124505] LOG:  --- RANGE STATS [7162155 - 7166249] : rel "pgbench_accounts" vacuumed 7162155 - 7166249 page for 4094 pages out of 13231135 pages, removed 621, cannot removed 222
+2018-05-02 17:13:11.931 JST [124505] LOG:  --- RANGE STATS [7166250 - 7170344] : rel "pgbench_accounts" vacuumed 7166250 - 7170344 page for 4094 pages out of 13231135 pages, removed 626, cannot removed 248
+2018-05-02 17:13:12.004 JST [124505] LOG:  --- RANGE STATS [7170345 - 7174439] : rel "pgbench_accounts" vacuumed 7170345 - 7174439 page for 4094 pages out of 13231135 pages, removed 581, cannot removed 238
+2018-05-02 17:13:12.027 JST [124605] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:12.116 JST [124605] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:12.174 JST [124505] LOG:  --- RANGE STATS [7174440 - 7178534] : rel "pgbench_accounts" vacuumed 7174440 - 7178534 page for 4094 pages out of 13231135 pages, removed 618, cannot removed 228
+2018-05-02 17:13:12.245 JST [124505] LOG:  --- RANGE STATS [7178535 - 7182629] : rel "pgbench_accounts" vacuumed 7178535 - 7182629 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 241
+2018-05-02 17:13:12.313 JST [124505] LOG:  --- RANGE STATS [7182630 - 7186724] : rel "pgbench_accounts" vacuumed 7182630 - 7186724 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 274
+2018-05-02 17:13:12.383 JST [124505] LOG:  --- RANGE STATS [7186725 - 7190819] : rel "pgbench_accounts" vacuumed 7186725 - 7190819 page for 4094 pages out of 13231135 pages, removed 597, cannot removed 232
+2018-05-02 17:13:12.450 JST [124505] LOG:  --- RANGE STATS [7190820 - 7194914] : rel "pgbench_accounts" vacuumed 7190820 - 7194914 page for 4094 pages out of 13231135 pages, removed 563, cannot removed 235
+2018-05-02 17:13:12.518 JST [124505] LOG:  --- RANGE STATS [7194915 - 7199009] : rel "pgbench_accounts" vacuumed 7194915 - 7199009 page for 4094 pages out of 13231135 pages, removed 595, cannot removed 250
+2018-05-02 17:13:12.587 JST [124505] LOG:  --- RANGE STATS [7199010 - 7203104] : rel "pgbench_accounts" vacuumed 7199010 - 7203104 page for 4094 pages out of 13231135 pages, removed 612, cannot removed 231
+2018-05-02 17:13:12.663 JST [124505] LOG:  --- RANGE STATS [7203105 - 7207199] : rel "pgbench_accounts" vacuumed 7203105 - 7207199 page for 4094 pages out of 13231135 pages, removed 603, cannot removed 242
+2018-05-02 17:13:12.829 JST [124505] LOG:  --- RANGE STATS [7215390 - 7219484] : rel "pgbench_accounts" vacuumed 7215390 - 7219484 page for 4094 pages out of 13231135 pages, removed 2713, cannot removed 270
+2018-05-02 17:13:12.898 JST [124505] LOG:  --- RANGE STATS [7219485 - 7223579] : rel "pgbench_accounts" vacuumed 7219485 - 7223579 page for 4094 pages out of 13231135 pages, removed 578, cannot removed 236
+2018-05-02 17:13:12.968 JST [124505] LOG:  --- RANGE STATS [7231770 - 7235864] : rel "pgbench_accounts" vacuumed 7231770 - 7235864 page for 4094 pages out of 13231135 pages, removed 617, cannot removed 246
+2018-05-02 17:13:13.038 JST [124505] LOG:  --- RANGE STATS [7235865 - 7239959] : rel "pgbench_accounts" vacuumed 7235865 - 7239959 page for 4094 pages out of 13231135 pages, removed 585, cannot removed 250
+2018-05-02 17:13:13.105 JST [124505] LOG:  --- RANGE STATS [7239960 - 7244054] : rel "pgbench_accounts" vacuumed 7239960 - 7244054 page for 4094 pages out of 13231135 pages, removed 600, cannot removed 217
+2018-05-02 17:13:13.253 JST [124505] LOG:  --- RANGE STATS [7248150 - 7252244] : rel "pgbench_accounts" vacuumed 7248150 - 7252244 page for 4094 pages out of 13231135 pages, removed 2698, cannot removed 253
+2018-05-02 17:13:13.321 JST [124505] LOG:  --- RANGE STATS [7252245 - 7256339] : rel "pgbench_accounts" vacuumed 7252245 - 7256339 page for 4094 pages out of 13231135 pages, removed 594, cannot removed 278
+2018-05-02 17:13:13.387 JST [124505] LOG:  --- RANGE STATS [7260435 - 7264529] : rel "pgbench_accounts" vacuumed 7260435 - 7264529 page for 4094 pages out of 13231135 pages, removed 569, cannot removed 257
+2018-05-02 17:13:13.457 JST [124505] LOG:  --- RANGE STATS [7268625 - 7272719] : rel "pgbench_accounts" vacuumed 7268625 - 7272719 page for 4094 pages out of 13231135 pages, removed 571, cannot removed 249
+2018-05-02 17:13:13.525 JST [124505] LOG:  --- RANGE STATS [7272720 - 7276814] : rel "pgbench_accounts" vacuumed 7272720 - 7276814 page for 4094 pages out of 13231135 pages, removed 614, cannot removed 243
+2018-05-02 17:13:13.593 JST [124505] LOG:  --- RANGE STATS [7276815 - 7280909] : rel "pgbench_accounts" vacuumed 7276815 - 7280909 page for 4094 pages out of 13231135 pages, removed 625, cannot removed 223
+2018-05-02 17:13:13.660 JST [124505] LOG:  --- RANGE STATS [7280910 - 7285004] : rel "pgbench_accounts" vacuumed 7280910 - 7285004 page for 4094 pages out of 13231135 pages, removed 564, cannot removed 275
+2018-05-02 17:13:13.727 JST [124505] LOG:  --- RANGE STATS [7293195 - 7297289] : rel "pgbench_accounts" vacuumed 7293195 - 7297289 page for 4094 pages out of 13231135 pages, removed 572, cannot removed 236
+2018-05-02 17:13:13.878 JST [124505] LOG:  --- RANGE STATS [7297290 - 7301384] : rel "pgbench_accounts" vacuumed 7297290 - 7301384 page for 4094 pages out of 13231135 pages, removed 2695, cannot removed 258
+2018-05-02 17:13:13.946 JST [124505] LOG:  --- RANGE STATS [7305480 - 7309574] : rel "pgbench_accounts" vacuumed 7305480 - 7309574 page for 4094 pages out of 13231135 pages, removed 569, cannot removed 257
+2018-05-02 17:13:14.014 JST [124505] LOG:  --- RANGE STATS [7317765 - 7321859] : rel "pgbench_accounts" vacuumed 7317765 - 7321859 page for 4094 pages out of 13231135 pages, removed 594, cannot removed 258
+2018-05-02 17:13:14.081 JST [124505] LOG:  --- RANGE STATS [7321860 - 7325954] : rel "pgbench_accounts" vacuumed 7321860 - 7325954 page for 4094 pages out of 13231135 pages, removed 588, cannot removed 258
+2018-05-02 17:13:14.149 JST [124505] LOG:  --- RANGE STATS [7325955 - 7330049] : rel "pgbench_accounts" vacuumed 7325955 - 7330049 page for 4094 pages out of 13231135 pages, removed 594, cannot removed 252
+2018-05-02 17:13:14.217 JST [124505] LOG:  --- RANGE STATS [7330050 - 7334144] : rel "pgbench_accounts" vacuumed 7330050 - 7334144 page for 4094 pages out of 13231135 pages, removed 595, cannot removed 271
+2018-05-02 17:13:14.292 JST [124505] LOG:  --- RANGE STATS [7334145 - 7338239] : rel "pgbench_accounts" vacuumed 7334145 - 7338239 page for 4094 pages out of 13231135 pages, removed 603, cannot removed 267
+2018-05-02 17:13:14.362 JST [124505] LOG:  --- RANGE STATS [7338240 - 7342334] : rel "pgbench_accounts" vacuumed 7338240 - 7342334 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 270
+2018-05-02 17:13:14.431 JST [124505] LOG:  --- RANGE STATS [7358715 - 7362809] : rel "pgbench_accounts" vacuumed 7358715 - 7362809 page for 4094 pages out of 13231135 pages, removed 579, cannot removed 274
+2018-05-02 17:13:14.499 JST [124505] LOG:  --- RANGE STATS [7366905 - 7370999] : rel "pgbench_accounts" vacuumed 7366905 - 7370999 page for 4094 pages out of 13231135 pages, removed 592, cannot removed 280
+2018-05-02 17:13:14.567 JST [124505] LOG:  --- RANGE STATS [7371000 - 7375094] : rel "pgbench_accounts" vacuumed 7371000 - 7375094 page for 4094 pages out of 13231135 pages, removed 573, cannot removed 283
+2018-05-02 17:13:14.634 JST [124505] LOG:  --- RANGE STATS [7375095 - 7379189] : rel "pgbench_accounts" vacuumed 7375095 - 7379189 page for 4094 pages out of 13231135 pages, removed 572, cannot removed 269
+2018-05-02 17:13:14.703 JST [124505] LOG:  --- RANGE STATS [7379190 - 7383284] : rel "pgbench_accounts" vacuumed 7379190 - 7383284 page for 4094 pages out of 13231135 pages, removed 627, cannot removed 256
+2018-05-02 17:13:14.770 JST [124505] LOG:  --- RANGE STATS [7395570 - 7399664] : rel "pgbench_accounts" vacuumed 7395570 - 7399664 page for 4094 pages out of 13231135 pages, removed 604, cannot removed 266
+2018-05-02 17:13:14.838 JST [124505] LOG:  --- RANGE STATS [7403760 - 7407854] : rel "pgbench_accounts" vacuumed 7403760 - 7407854 page for 4094 pages out of 13231135 pages, removed 612, cannot removed 264
+2018-05-02 17:13:14.905 JST [124505] LOG:  --- RANGE STATS [7407855 - 7411949] : rel "pgbench_accounts" vacuumed 7407855 - 7411949 page for 4094 pages out of 13231135 pages, removed 602, cannot removed 287
+2018-05-02 17:13:14.973 JST [124505] LOG:  --- RANGE STATS [7416045 - 7420139] : rel "pgbench_accounts" vacuumed 7416045 - 7420139 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 259
+2018-05-02 17:13:15.042 JST [124505] LOG:  --- RANGE STATS [7420140 - 7424234] : rel "pgbench_accounts" vacuumed 7420140 - 7424234 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 262
+2018-05-02 17:13:15.111 JST [124505] LOG:  --- RANGE STATS [7428330 - 7432424] : rel "pgbench_accounts" vacuumed 7428330 - 7432424 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 243
+2018-05-02 17:13:15.178 JST [124505] LOG:  --- RANGE STATS [7432425 - 7436519] : rel "pgbench_accounts" vacuumed 7432425 - 7436519 page for 4094 pages out of 13231135 pages, removed 569, cannot removed 270
+2018-05-02 17:13:15.246 JST [124505] LOG:  --- RANGE STATS [7436520 - 7440614] : rel "pgbench_accounts" vacuumed 7436520 - 7440614 page for 4094 pages out of 13231135 pages, removed 641, cannot removed 272
+2018-05-02 17:13:15.315 JST [124505] LOG:  --- RANGE STATS [7440615 - 7444709] : rel "pgbench_accounts" vacuumed 7440615 - 7444709 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 269
+2018-05-02 17:13:15.382 JST [124505] LOG:  --- RANGE STATS [7444710 - 7448804] : rel "pgbench_accounts" vacuumed 7444710 - 7448804 page for 4094 pages out of 13231135 pages, removed 575, cannot removed 267
+2018-05-02 17:13:15.448 JST [124505] LOG:  --- RANGE STATS [7448805 - 7452899] : rel "pgbench_accounts" vacuumed 7448805 - 7452899 page for 4094 pages out of 13231135 pages, removed 553, cannot removed 281
+2018-05-02 17:13:15.524 JST [124505] LOG:  --- RANGE STATS [7461090 - 7465184] : rel "pgbench_accounts" vacuumed 7461090 - 7465184 page for 4094 pages out of 13231135 pages, removed 599, cannot removed 274
+2018-05-02 17:13:15.590 JST [124505] LOG:  --- RANGE STATS [7485660 - 7489754] : rel "pgbench_accounts" vacuumed 7485660 - 7489754 page for 4094 pages out of 13231135 pages, removed 584, cannot removed 262
+2018-05-02 17:13:15.658 JST [124505] LOG:  --- RANGE STATS [7493850 - 7497944] : rel "pgbench_accounts" vacuumed 7493850 - 7497944 page for 4094 pages out of 13231135 pages, removed 631, cannot removed 272
+2018-05-02 17:13:15.724 JST [124505] LOG:  --- RANGE STATS [7502040 - 7506134] : rel "pgbench_accounts" vacuumed 7502040 - 7506134 page for 4094 pages out of 13231135 pages, removed 574, cannot removed 267
+2018-05-02 17:13:15.792 JST [124505] LOG:  --- RANGE STATS [7506135 - 7510229] : rel "pgbench_accounts" vacuumed 7506135 - 7510229 page for 4094 pages out of 13231135 pages, removed 594, cannot removed 265
+2018-05-02 17:13:15.860 JST [124505] LOG:  --- RANGE STATS [7510230 - 7514324] : rel "pgbench_accounts" vacuumed 7510230 - 7514324 page for 4094 pages out of 13231135 pages, removed 560, cannot removed 291
+2018-05-02 17:13:15.935 JST [124505] LOG:  --- RANGE STATS [7534800 - 7538894] : rel "pgbench_accounts" vacuumed 7534800 - 7538894 page for 4094 pages out of 13231135 pages, removed 580, cannot removed 285
+2018-05-02 17:13:16.002 JST [124505] LOG:  --- RANGE STATS [7547085 - 7551179] : rel "pgbench_accounts" vacuumed 7547085 - 7551179 page for 4094 pages out of 13231135 pages, removed 576, cannot removed 263
+2018-05-02 17:13:16.069 JST [124505] LOG:  --- RANGE STATS [7555275 - 7559369] : rel "pgbench_accounts" vacuumed 7555275 - 7559369 page for 4094 pages out of 13231135 pages, removed 558, cannot removed 267
+2018-05-02 17:13:16.136 JST [124505] LOG:  --- RANGE STATS [7563465 - 7567559] : rel "pgbench_accounts" vacuumed 7563465 - 7567559 page for 4094 pages out of 13231135 pages, removed 574, cannot removed 279
+2018-05-02 17:13:16.205 JST [124505] LOG:  --- RANGE STATS [7571655 - 7575749] : rel "pgbench_accounts" vacuumed 7571655 - 7575749 page for 4094 pages out of 13231135 pages, removed 591, cannot removed 283
+2018-05-02 17:13:16.354 JST [124505] LOG:  --- RANGE STATS [7575750 - 7579844] : rel "pgbench_accounts" vacuumed 7575750 - 7579844 page for 4094 pages out of 13231135 pages, removed 2689, cannot removed 261
+2018-05-02 17:13:16.421 JST [124505] LOG:  --- RANGE STATS [7579845 - 7583939] : rel "pgbench_accounts" vacuumed 7579845 - 7583939 page for 4094 pages out of 13231135 pages, removed 586, cannot removed 274
+2018-05-02 17:13:16.568 JST [124505] LOG:  --- RANGE STATS [7596225 - 7600319] : rel "pgbench_accounts" vacuumed 7596225 - 7600319 page for 4094 pages out of 13231135 pages, removed 2634, cannot removed 307
+2018-05-02 17:13:16.635 JST [124505] LOG:  --- RANGE STATS [7604415 - 7608509] : rel "pgbench_accounts" vacuumed 7604415 - 7608509 page for 4094 pages out of 13231135 pages, removed 583, cannot removed 285
+2018-05-02 17:13:16.706 JST [124505] LOG:  --- RANGE STATS [7612605 - 7616699] : rel "pgbench_accounts" vacuumed 7612605 - 7616699 page for 4094 pages out of 13231135 pages, removed 601, cannot removed 289
+2018-05-02 17:13:16.768 JST [124505] LOG:  --- RANGE STATS [7628985 - 7633079] : rel "pgbench_accounts" vacuumed 7628985 - 7633079 page for 4094 pages out of 13231135 pages, removed 546, cannot removed 248
+2018-05-02 17:13:16.842 JST [124505] LOG:  --- RANGE STATS [7653555 - 7657649] : rel "pgbench_accounts" vacuumed 7653555 - 7657649 page for 4094 pages out of 13231135 pages, removed 587, cannot removed 254
+2018-05-02 17:13:16.909 JST [124505] LOG:  --- RANGE STATS [7665840 - 7669934] : rel "pgbench_accounts" vacuumed 7665840 - 7669934 page for 4094 pages out of 13231135 pages, removed 582, cannot removed 269
+2018-05-02 17:13:16.976 JST [124505] LOG:  --- RANGE STATS [7702695 - 7706789] : rel "pgbench_accounts" vacuumed 7702695 - 7706789 page for 4094 pages out of 13231135 pages, removed 596, cannot removed 288
+2018-05-02 17:13:17.032 JST [124625] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:17.043 JST [124505] LOG:  --- RANGE STATS [7727265 - 7731359] : rel "pgbench_accounts" vacuumed 7727265 - 7731359 page for 4094 pages out of 13231135 pages, removed 572, cannot removed 278
+2018-05-02 17:13:17.185 JST [124505] LOG:  --- RANGE STATS [7776405 - 7780499] : rel "pgbench_accounts" vacuumed 7776405 - 7780499 page for 4094 pages out of 13231135 pages, removed 513, cannot removed 289
+2018-05-02 17:13:17.251 JST [124505] LOG:  --- RANGE STATS [7829640 - 7833734] : rel "pgbench_accounts" vacuumed 7829640 - 7833734 page for 4094 pages out of 13231135 pages, removed 552, cannot removed 272
+2018-05-02 17:13:17.319 JST [124505] LOG:  --- RANGE STATS [7850115 - 7854209] : rel "pgbench_accounts" vacuumed 7850115 - 7854209 page for 4094 pages out of 13231135 pages, removed 583, cannot removed 253
+2018-05-02 17:13:17.385 JST [124505] LOG:  --- RANGE STATS [7862400 - 7866494] : rel "pgbench_accounts" vacuumed 7862400 - 7866494 page for 4094 pages out of 13231135 pages, removed 546, cannot removed 281
+2018-05-02 17:13:17.459 JST [124505] LOG:  --- RANGE STATS [7870590 - 7874684] : rel "pgbench_accounts" vacuumed 7870590 - 7874684 page for 4094 pages out of 13231135 pages, removed 571, cannot removed 274
+2018-05-02 17:13:17.526 JST [124505] LOG:  --- RANGE STATS [7899255 - 7903349] : rel "pgbench_accounts" vacuumed 7899255 - 7903349 page for 4094 pages out of 13231135 pages, removed 539, cannot removed 286
+2018-05-02 17:13:17.593 JST [124505] LOG:  --- RANGE STATS [7903350 - 7907444] : rel "pgbench_accounts" vacuumed 7903350 - 7907444 page for 4094 pages out of 13231135 pages, removed 586, cannot removed 282
+2018-05-02 17:13:17.658 JST [124505] LOG:  --- RANGE STATS [7919730 - 7923824] : rel "pgbench_accounts" vacuumed 7919730 - 7923824 page for 4094 pages out of 13231135 pages, removed 552, cannot removed 286
+2018-05-02 17:13:17.725 JST [124505] LOG:  --- RANGE STATS [7932015 - 7936109] : rel "pgbench_accounts" vacuumed 7932015 - 7936109 page for 4094 pages out of 13231135 pages, removed 577, cannot removed 284
+2018-05-02 17:13:22.045 JST [124645] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:22.116 JST [124645] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.05 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:32.069 JST [124701] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:32.855 JST [124701] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.31 s, system: 0.11 s, elapsed: 0.77 s
+2018-05-02 17:13:32.922 JST [124701] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:37.074 JST [124741] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:42.135 JST [124773] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:47.093 JST [124811] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:13:52.150 JST [124831] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.05 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-02 17:13:57.109 JST [124852] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:14:02.161 JST [124966] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.01 s, elapsed: 0.05 s
+2018-05-02 17:14:07.117 JST [124995] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:14:12.180 JST [125016] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.01 s, elapsed: 0.06 s
+2018-05-02 17:14:17.134 JST [125045] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 17:14:17.661 JST [124390] LOG:  received fast shutdown request
+2018-05-02 17:14:17.661 JST [124390] LOG:  aborting any active transactions
+2018-05-02 17:14:17.661 JST [124472] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124468] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124467] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124505] FATAL:  terminating autovacuum process due to administrator command
+2018-05-02 17:14:17.661 JST [124466] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124465] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124464] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124463] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124469] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124398] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124411] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124412] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124415] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124413] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124419] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124416] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124426] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124435] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124424] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124433] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124432] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124431] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124430] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124417] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124428] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124439] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124429] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124421] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124422] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124427] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124438] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124442] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124440] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124418] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124436] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124454] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124451] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124450] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124470] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124447] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124447] STATEMENT:  UPDATE pgbench_tellers SET tbalance = tbalance + $1 WHERE tid = $2;
+2018-05-02 17:14:17.661 JST [124446] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124444] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124462] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124448] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124448] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-02 17:14:17.661 JST [124443] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124461] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124434] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124420] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124445] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.661 JST [124471] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124437] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124425] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124458] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124459] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124441] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124456] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124455] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124453] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124449] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124408] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124410] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124460] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124452] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124457] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124409] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.662 JST [124423] FATAL:  terminating connection due to administrator command
+2018-05-02 17:14:17.664 JST [124390] LOG:  background worker "logical replication launcher" (PID 124399) exited with exit code 1
+2018-05-02 17:14:17.875 JST [124390] LOG:  background worker "walker" (PID 124398) exited with exit code 1
+2018-05-02 17:14:17.946 JST [125052] FATAL:  the database system is shutting down

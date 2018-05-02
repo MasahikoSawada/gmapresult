@@ -1,0 +1,2 @@
+time,relname,n_live_tup,n_dead_tup,dead_tuple_ratio,relsize,relsize_pretty,vacuum_count,autovacuum_count
+05:16:11,pgbench_accounts,800000000,11300070,1.393,103460.3203125,101 GB,1,1

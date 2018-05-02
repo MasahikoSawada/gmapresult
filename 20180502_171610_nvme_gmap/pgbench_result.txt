@@ -1,0 +1,14 @@
+
+
+------ CONFIGURATION -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "5"
+clients    = "64"
+jobs       = "5"
+output dir = "20180502_171610_nvme_gmap"
+--------------------------------
+
+/home/masahiko/pgsql/bench/eval/gaussian_bench.sql:1: syntax error in command "set"
+\set aid random_gaussian(1, 100000 * , 2.0)
+                                     ^ error found here

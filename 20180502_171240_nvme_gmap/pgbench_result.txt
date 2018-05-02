@@ -1,0 +1,151 @@
+
+
+------ CONFIGURATION -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "600"
+clients    = "64"
+jobs       = "5"
+output dir = "20180502_171240_nvme_gmap"
+--------------------------------
+
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+FATAL:  terminating connection due to administrator command
+client 61 aborted in command 7 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+FATAL:  terminating connection due to administrator command
+client 9 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 11 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 16 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 22 aborted in command 4 (SQL) of script 1; SQL command send failed
+client 25 aborted in command 4 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 26 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 27 aborted in command 4 (SQL) of script 1; SQL command send failed
+client 28 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 29 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 31 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 33 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 34 aborted in command 10 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 35 aborted in command 7 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 36 aborted in command 4 (SQL) of script 0; SQL command send failed
+client 37 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 38 aborted in command 7 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 39 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 41 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 42 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 45 aborted in command 5 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 49 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 52 aborted in command 8 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 53 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 62 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 0 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 1 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 2 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 3 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 5 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+client 7 aborted in command 10 (SQL) of script 1; perhaps the backend died while processing
+client 8 aborted in command 10 (SQL) of script 1; perhaps the backend died while processing
+client 10 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+client 12 aborted in command 8 (SQL) of script 1; perhaps the backend died while processing
+client 13 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+client 14 aborted in command 7 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 15 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+client 17 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+client 18 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 19 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 20 aborted in command 4 (SQL) of script 0; perhaps the backend died while processing
+client 21 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+client 24 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+client 30 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+client 32 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 40 aborted in command 4 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 43 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 44 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 46 aborted in command 5 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 47 aborted in command 8 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 48 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 50 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 51 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 54 aborted in command 4 (SQL) of script 0; perhaps the backend died while processing
+client 55 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 56 aborted in command 4 (SQL) of script 0; perhaps the backend died while processing
+client 57 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 58 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+client 59 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+client 60 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+client 63 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+client 23 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+client 6 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+client 4 aborted in command 10 (SQL) of script 1; perhaps the backend died while processing
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 600 s
+number of transactions actually processed: 1780130
+latency average = 3.471 ms
+tps = 18437.891148 (including connections establishing)
+tps = 18438.414512 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 5 (targets 83.3% of total)
+ - 1482475 transactions (83.3% of total, tps = 15354.896935)
+ - latency average = 3.432 ms
+ - latency stddev = 3.698 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 16.7% of total)
+ - 297655 transactions (16.7% of total, tps = 3082.994214)
+ - latency average = 3.451 ms
+ - latency stddev = 3.580 ms
