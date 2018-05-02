@@ -1,0 +1,154 @@
+2018-05-03 02:41:38.455 JST [52974] LOG:  received fast shutdown request
+2018-05-03 02:41:38.456 JST [52974] LOG:  aborting any active transactions
+2018-05-03 02:41:38.457 JST [52974] LOG:  background worker "logical replication launcher" (PID 52983) exited with exit code 1
+2018-05-03 02:41:38.457 JST [52978] LOG:  shutting down
+2018-05-03 02:41:38.559 JST [52978] LOG:  checkpoint starting: shutdown immediate
+2018-05-03 02:41:39.182 JST [52978] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.000 s, total=0.724 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2018-05-03 02:41:39.406 JST [52974] LOG:  database system is shut down
+2018-05-03 02:41:41.317 JST [53031] LOG:  database system was shut down at 2018-05-03 02:41:38 JST
+2018-05-03 02:41:41.582 JST [53028] LOG:  database system is ready to accept connections
+2018-05-03 02:41:51.708 JST [53118] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:41:51.972 JST [53118] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.06 s, system: 0.00 s, elapsed: 0.07 s
+2018-05-03 02:41:52.022 JST [53118] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.03 s
+2018-05-03 02:42:01.659 JST [53157] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:01.760 JST [53157] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.07 s, system: 0.01 s, elapsed: 0.09 s
+2018-05-03 02:42:01.813 JST [53157] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:42:06.739 JST [53178] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:11.742 JST [53207] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:11.860 JST [53207] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.09 s, system: 0.01 s, elapsed: 0.10 s
+2018-05-03 02:42:11.913 JST [53207] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:42:21.738 JST [53249] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:21.875 JST [53249] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.10 s, system: 0.01 s, elapsed: 0.12 s
+2018-05-03 02:42:21.931 JST [53249] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:42:26.740 JST [53270] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:31.746 JST [53291] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:31.909 JST [53291] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.12 s, system: 0.02 s, elapsed: 0.15 s
+2018-05-03 02:42:31.970 JST [53291] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:42:36.762 JST [53309] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:41.771 JST [53331] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:41.934 JST [53331] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.12 s, system: 0.02 s, elapsed: 0.15 s
+2018-05-03 02:42:41.990 JST [53331] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:42:46.777 JST [53352] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:51.777 JST [53373] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:51.838 JST [53373] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:42:56.785 JST [53394] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:42:57.006 JST [53394] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.16 s, system: 0.03 s, elapsed: 0.21 s
+2018-05-03 02:43:01.884 JST [53416] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:01.943 JST [53416] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:43:06.875 JST [53437] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:11.878 JST [53466] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:12.101 JST [53466] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.16 s, system: 0.03 s, elapsed: 0.21 s
+2018-05-03 02:43:12.159 JST [53466] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:43:16.879 JST [53487] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:21.882 JST [53509] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:21.940 JST [53509] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:43:26.886 JST [53530] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:27.143 JST [53530] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 0.24 s
+2018-05-03 02:43:31.897 JST [53548] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:31.955 JST [53548] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:43:36.900 JST [53569] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:36.964 JST [53569] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:43:41.900 JST [53590] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:42.156 JST [53590] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.19 s, system: 0.04 s, elapsed: 0.24 s
+2018-05-03 02:43:46.905 JST [53611] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:46.969 JST [53611] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:43:51.908 JST [53632] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:56.898 JST [53653] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:43:56.958 JST [53653] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:01.904 JST [53675] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:02.209 JST [53675] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.22 s, system: 0.05 s, elapsed: 0.29 s
+2018-05-03 02:44:06.907 JST [53696] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:06.967 JST [53696] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:11.914 JST [53725] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:11.973 JST [53725] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:16.916 JST [53747] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:16.976 JST [53747] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:21.935 JST [53765] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:22.300 JST [53765] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.25 s, system: 0.08 s, elapsed: 0.35 s
+2018-05-03 02:44:22.359 JST [53765] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:26.936 JST [53786] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:31.941 JST [53807] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:32.001 JST [53807] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:36.944 JST [53828] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:41.947 JST [53849] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:42.008 JST [53849] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:44:46.938 JST [53870] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:47.372 JST [53870] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.32 s, system: 0.08 s, elapsed: 0.42 s
+2018-05-03 02:44:51.938 JST [53891] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:44:51.998 JST [53891] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:44:56.946 JST [53912] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:01.974 JST [53933] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:02.433 JST [53933] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:45:06.953 JST [53954] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:11.964 JST [53980] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:12.363 JST [53980] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.28 s, system: 0.08 s, elapsed: 0.38 s
+2018-05-03 02:45:12.419 JST [53980] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:45:16.965 JST [54003] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:22.049 JST [54023] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:22.109 JST [54023] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.02 s, system: 0.02 s, elapsed: 0.04 s
+2018-05-03 02:45:26.976 JST [54045] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:31.966 JST [54066] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:32.026 JST [54066] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:45:36.967 JST [54087] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:37.382 JST [54087] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.29 s, system: 0.09 s, elapsed: 0.40 s
+2018-05-03 02:45:41.979 JST [54106] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:42.040 JST [54106] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:45:46.981 JST [54126] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:51.981 JST [54147] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:45:52.039 JST [54147] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:46:01.985 JST [54189] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:02.052 JST [54189] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:46:07.396 JST [54210] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.29 s, system: 0.11 s, elapsed: 0.42 s
+2018-05-03 02:46:14.491 JST [54247] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:14.553 JST [54247] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:46:24.592 JST [54289] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:24.651 JST [54289] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:46:29.585 JST [54310] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:29.646 JST [54310] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:46:34.588 JST [54331] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:34.648 JST [54331] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:46:39.591 JST [54352] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:40.024 JST [54352] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.30 s, system: 0.09 s, elapsed: 0.42 s
+2018-05-03 02:46:40.082 JST [54352] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:46:44.593 JST [54373] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:49.595 JST [54394] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:49.656 JST [54394] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:46:59.611 JST [54433] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:46:59.676 JST [54433] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:47:09.613 JST [54483] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:09.673 JST [54483] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:47:19.606 JST [54525] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:19.666 JST [54525] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:47:25.037 JST [54546] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.31 s, system: 0.10 s, elapsed: 0.43 s
+2018-05-03 02:47:29.613 JST [54567] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:29.671 JST [54567] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:47:39.617 JST [54609] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:39.710 JST [54609] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:47:49.631 JST [54648] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:49.694 JST [54648] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:47:59.635 JST [54690] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:47:59.692 JST [54690] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-03 02:48:09.630 JST [54740] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:48:09.691 JST [54740] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:48:15.067 JST [54761] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.32 s, system: 0.10 s, elapsed: 0.44 s
+2018-05-03 02:48:19.635 JST [54782] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:48:19.698 JST [54782] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:48:29.640 JST [54824] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-03 02:48:29.701 JST [54824] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-03 02:48:31.695 JST [53053] PANIC:  could not write to file "pg_wal/xlogtemp.53053": No space left on device
+2018-05-03 02:48:31.695 JST [53053] STATEMENT:  END;
+2018-05-03 02:48:32.195 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.211 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.213 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.246 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.247 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.281 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.282 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.317 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.318 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.354 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.354 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.390 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.390 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.426 JST [53036] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2018-05-03 02:48:32.427 JST [53036] LOG:  could not

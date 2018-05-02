@@ -1,0 +1,32 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "hdd"
+target     = "gmap"
+duration   = "3600"
+clients    = "64"
+jobs       = "5"
+output dir = "20180503_031843_hdd_gmap"
+rate       = "0.2"
+--------------------------------
+
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 3600 s
+number of transactions actually processed: 1484016
+latency average = 155.256 ms
+tps = 412.222862 (including connections establishing)
+tps = 412.223309 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 5 (targets 83.3% of total)
+ - 1236015 transactions (83.3% of total, tps = 343.334331)
+ - latency average = 155.384 ms
+ - latency stddev = 793.180 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 16.7% of total)
+ - 248001 transactions (16.7% of total, tps = 68.888531)
+ - latency average = 154.539 ms
+ - latency stddev = 784.014 ms
