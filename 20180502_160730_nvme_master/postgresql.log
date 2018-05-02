@@ -1,0 +1,12 @@
+2018-05-02 16:07:31.137 JST [89174] LOG:  received fast shutdown request
+2018-05-02 16:07:31.138 JST [89174] LOG:  aborting any active transactions
+2018-05-02 16:07:31.139 JST [89174] LOG:  background worker "logical replication launcher" (PID 89183) exited with exit code 1
+2018-05-02 16:07:31.139 JST [89178] LOG:  shutting down
+2018-05-02 16:07:31.140 JST [89178] LOG:  checkpoint starting: shutdown immediate
+2018-05-02 16:07:31.337 JST [89178] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.000 s, total=0.197 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=5 kB
+2018-05-02 16:07:31.577 JST [89174] LOG:  database system is shut down
+2018-05-02 16:07:32.349 JST [89238] LOG:  database system was shut down at 2018-05-02 16:07:31 JST
+2018-05-02 16:07:32.351 JST [89236] LOG:  database system is ready to accept connections
+2018-05-02 16:07:37.444 JST [89335] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-02 16:07:42.406 JST [89364] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-02 16:07:47.085 JST [89236] LOG:  received fast shutdown request
