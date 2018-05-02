@@ -1,0 +1,20 @@
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 2 s
+number of transactions actually processed: 37272
+latency average = 3.438 ms
+tps = 18613.072548 (including connections establishing)
+tps = 18638.548473 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 5 (targets 83.3% of total)
+ - 31209 transactions (83.7% of total, tps = 15585.302134)
+ - latency average = 3.082 ms
+ - latency stddev = 1.789 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 16.7% of total)
+ - 6063 transactions (16.3% of total, tps = 3027.770414)
+ - latency average = 3.088 ms
+ - latency stddev = 1.688 ms
