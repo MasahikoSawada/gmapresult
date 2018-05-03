@@ -1,0 +1,4 @@
+2018-05-04 03:50:39.133 JST [77413] LOG:  received fast shutdown request
+2018-05-04 03:50:49.831 JST [77537] LOG:  shutting down
+2018-05-04 03:51:02.455 JST [77537] LOG:  checkpoint starting: shutdown immediate
+2018-05-04 03:51:39.391 JST [77590] FATAL:  the database system is shutting down
