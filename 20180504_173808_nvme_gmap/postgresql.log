@@ -1,0 +1,4 @@
+2018-05-04 17:38:09.032 JST [127442] LOG:  database system was interrupted; last known up at 2018-05-04 01:16:04 JST
+2018-05-04 17:38:10.324 JST [127442] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-04 17:38:10.326 JST [127442] LOG:  redo starts at 168/CCC0BAF8
+2018-05-04 17:39:08.255 JST [127507] FATAL:  the database system is starting up

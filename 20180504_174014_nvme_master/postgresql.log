@@ -1,0 +1,7 @@
+2018-05-04 17:40:14.077 JST [127551] LOG:  received fast shutdown request
+2018-05-04 17:40:15.183 JST [127659] LOG:  shutting down
+2018-05-04 17:40:19.126 JST [127551] LOG:  database system is shut down
+2018-05-04 17:40:19.940 JST [127666] LOG:  database system was shut down in recovery at 2018-05-04 17:40:15 JST
+2018-05-04 17:40:19.940 JST [127666] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-04 17:40:19.941 JST [127666] LOG:  redo starts at 11E/BF1E488
+2018-05-04 17:41:19.333 JST [127730] FATAL:  the database system is starting up
