@@ -1,0 +1,45 @@
+2018-05-07 18:32:02.442 JST [100516] LOG:  received fast shutdown request
+2018-05-07 18:32:02.442 JST [100516] LOG:  aborting any active transactions
+2018-05-07 18:32:02.442 JST [100525] FATAL:  terminating connection due to administrator command
+2018-05-07 18:32:02.443 JST [100516] LOG:  background worker "logical replication launcher" (PID 100526) exited with exit code 1
+2018-05-07 18:32:02.446 JST [100516] LOG:  background worker "walker" (PID 100525) exited with exit code 1
+2018-05-07 18:32:02.446 JST [100520] LOG:  shutting down
+2018-05-07 18:32:02.447 JST [100520] LOG:  checkpoint starting: shutdown immediate
+2018-05-07 18:32:02.558 JST [100520] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.000 s, total=0.112 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=521 kB
+2018-05-07 18:32:02.919 JST [100516] LOG:  database system is shut down
+2018-05-07 18:32:03.636 JST [100571] LOG:  database system was shut down at 2018-05-07 18:32:02 JST
+2018-05-07 18:32:03.638 JST [100569] LOG:  database system is ready to accept connections
+2018-05-07 18:32:03.639 JST [100577] LOG:  restored 25079 13285 1663
+2018-05-07 18:32:03.642 JST [100577] LOG:  restored 25080 13285 1663
+2018-05-07 18:32:03.645 JST [100577] LOG:  restored 25082 13285 1663
+2018-05-07 18:32:03.649 JST [100577] LOG:  restored 25081 13285 1663
+2018-05-07 18:32:08.696 JST [100638] LOG:  ----- Select higher 10 percent ranges -----
+2018-05-07 18:32:08.696 JST [100638] LOG:  99366,99483,99512,100302,99956,100583,100509,100263,101258,107917,108056,108105,108045,108231,108111,107699,107503,107762,107005,107893,106794,107620,107068,107085,107794,106989,107171,107550,106813,107174,106371,107046,107218,106896,107364,106644,106722,106575,107143,106482,106669,106381,106699,106823,106750,106312,106427,107027,105754,106364,106619,106314,106531,105907,106017,106564,106050,105429,106093,105648,106164,105833,106268,106328,105495,105362,105393,105741,105475,105907,105637,104869,105367,105110,105593,105203,104740,104612,105205,105248,104562,105053,104124,104606,105014,104495,104267,105042,104030,104452,104477,104172,104352,104251,104686,104305,104255,103946,103875,104038,103831,104228,104051,104028,103769,103894,103747,103351,104201,103688,103563,103631,103436,103267,103741,103264,103585,103347,102655,103317,102879,102525,103543,102681,102826,102814,102969,102334,102233,102346,102532,102235,102904,102267,102648,102448,101664,102460,102007,102064,102125,102147,102003,101570,101480,101456,101169,101450,101408,101580,101853,101442,101074,100989,101014,101163,101664,101250,100647,101290,100614,101077,100369,100563,100822,100796,100887,100581,101189,100382,100208,100585,99888,100461,100176,99683,99413,99497,100378,100104,99355,99913,99775,99486,99617,99518,99404
+2018-05-07 18:32:08.696 JST [100638] LOG:  ---------- CHOOSE 187 ranges-----------------
+2018-05-07 18:32:08.696 JST [100638] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-07 18:32:09.760 JST [100638] LOG:  --- RANGE STATS [4787055 - 4791149] : rel "pgbench_accounts" vacuumed 4787055 - 4791149 page for 4094 pages out of 13450436 pages, removed 176, cannot removed 6
+2018-05-07 18:32:10.816 JST [100638] LOG:  --- RANGE STATS [4799340 - 4803434] : rel "pgbench_accounts" vacuumed 4799340 - 4803434 page for 4094 pages out of 13450436 pages, removed 181, cannot removed 15
+2018-05-07 18:32:11.856 JST [100638] LOG:  --- RANGE STATS [4815720 - 4819814] : rel "pgbench_accounts" vacuumed 4815720 - 4819814 page for 4094 pages out of 13450436 pages, removed 186, cannot removed 24
+2018-05-07 18:32:12.909 JST [100638] LOG:  --- RANGE STATS [4848480 - 4852574] : rel "pgbench_accounts" vacuumed 4848480 - 4852574 page for 4094 pages out of 13450436 pages, removed 195, cannot removed 33
+2018-05-07 18:32:13.703 JST [100670] LOG:  starting vacuum on "pgbench_branches"
+2018-05-07 18:32:14.203 JST [100638] LOG:  --- RANGE STATS [4873050 - 4877144] : rel "pgbench_accounts" vacuumed 4873050 - 4877144 page for 4094 pages out of 13450436 pages, removed 179, cannot removed 30
+2018-05-07 18:32:14.799 JST [100670] LOG:  --- RANGE STATS [0 - 23834] : rel "pgbench_branches" vacuumed 0 - 23834 page for 23834 pages out of 23834 pages, removed 73573, cannot removed 1935
+2018-05-07 18:32:16.220 JST [100638] LOG:  --- RANGE STATS [4889430 - 4893524] : rel "pgbench_accounts" vacuumed 4889430 - 4893524 page for 4094 pages out of 13450436 pages, removed 196, cannot removed 49
+2018-05-07 18:32:17.477 JST [100670] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 23834 remain, 2 skipped due to pins, 20149 skipped frozen
+	tuples: 73573 removed, 21984 remain, 1935 are dead but not yet removable, oldest xmin: 354478808
+	buffer usage: 17790 hits, 7022 misses, 191 dirtied
+	avg read rate: 14.537 MB/s, avg write rate: 0.395 MB/s
+	system usage: CPU: user: 0.08 s, system: 0.05 s, elapsed: 3.77 s
+2018-05-07 18:32:18.455 JST [100638] LOG:  --- RANGE STATS [4914000 - 4918094] : rel "pgbench_accounts" vacuumed 4914000 - 4918094 page for 4094 pages out of 13450436 pages, removed 397, cannot removed 76
+2018-05-07 18:32:18.717 JST [100690] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-07 18:32:24.248 JST [100690] LOG:  --- RANGE STATS [0 - 27387] : rel "pgbench_tellers" vacuumed 0 - 27387 page for 27387 pages out of 27387 pages, removed 192902, cannot removed 45975
+2018-05-07 18:32:25.789 JST [100638] LOG:  --- RANGE STATS [4918095 - 4922189] : rel "pgbench_accounts" vacuumed 4918095 - 4922189 page for 4094 pages out of 13450436 pages, removed 3750, cannot removed 111
+2018-05-07 18:32:30.369 JST [100670] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.05 s, system: 0.09 s, elapsed: 12.89 s
+2018-05-07 18:32:30.529 JST [100690] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 1
+	pages: 0 removed, 27387 remain, 0 skipped due to pins, 12964 skipped frozen
+	tuples: 192902 removed, 163889 remain, 45975 are dead but not yet removable, oldest xmin: 354559605
+	buffer usage: 39928 hits, 6407 misses, 4448 dirtied
+	avg read rate: 4.238 MB/s, avg write rate: 2.942 MB/s
+	system usage: CPU: user: 0.28 s, system: 0.11 s, elapsed: 11.81 s
+2018-05-07 18:32:32.259 JST [100638] LOG:  --- RANGE STATS [4975425 - 4979519] : rel "pgbench_accounts" vacuumed 4975425 - 4979519 page for 4094 pages out of 13450436 pages, removed 3698, cannot removed 179
