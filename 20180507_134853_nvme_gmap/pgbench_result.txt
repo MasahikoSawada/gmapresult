@@ -1,0 +1,13 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "14400"
+clients    = "32"
+jobs       = "2"
+output dir = "20180507_134853_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
+psql: FATAL:  the database system is shutting down

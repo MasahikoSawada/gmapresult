@@ -1,0 +1,38 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "10"
+clients    = "32"
+jobs       = "2"
+output dir = "20180507_100122_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 32
+number of threads: 1
+duration: 10 s
+number of transactions actually processed: 209868
+latency average = 1.525 ms
+tps = 20984.147984 (including connections establishing)
+tps = 20990.308118 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 5 (targets 83.3% of total)
+ - 174801 transactions (83.3% of total, tps = 17477.891111)
+ - latency average = 1.508 ms
+ - latency stddev = 0.607 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 16.7% of total)
+ - 35067 transactions (16.7% of total, tps = 3506.256873)
+ - latency average = 1.510 ms
+ - latency stddev = 0.647 ms
+Timing is on.
+ERROR:  syntax error at or near "') as after, pg_size_pretty(pg_relation_size('"
+LINE 1: ... before_pretty, pg_relation_size('pgbench_accounts') as afte...
+                                                             ^
+Time: 0.288 ms
+select 107621842944 as before, pg_size_pretty(107621842944::bigint) as before_pretty, pg_relation_size('pgbench_accounts') as after, pg_size_pretty(pg_relation_size('pgbench_accounts')::bigint) as after_pretty, pg_relation_size('pgbench_accounts') / 107621842944::float as ratio
