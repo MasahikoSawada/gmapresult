@@ -1,0 +1,29 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "300"
+clients    = "64"
+jobs       = "32"
+output dir = "20180508_161448_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
+transaction type: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 300 s
+number of transactions actually processed: 5065027
+latency average = 3.791 ms
+tps = 16880.599946 (including connections establishing)
+tps = 16880.754815 (excluding connections establishing)
+Timing is on.
+    before    | before_pretty |    after     | after_pretty |      ratio       
+--------------+---------------+--------------+--------------+------------------
+ 108298665984 | 101 GB        | 108581781504 | 101 GB       | 1.00261421059463
+(1 row)
+
+Time: 1.307 ms

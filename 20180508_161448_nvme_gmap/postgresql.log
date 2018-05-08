@@ -1,0 +1,405 @@
+2018-05-08 16:14:48.614 JST [130480] LOG:  received fast shutdown request
+2018-05-08 16:14:48.614 JST [130480] LOG:  aborting any active transactions
+2018-05-08 16:14:48.614 JST [130488] FATAL:  terminating connection due to administrator command
+2018-05-08 16:14:48.615 JST [130480] LOG:  background worker "logical replication launcher" (PID 130489) exited with exit code 1
+2018-05-08 16:14:48.616 JST [130480] LOG:  background worker "walker" (PID 130488) exited with exit code 1
+2018-05-08 16:14:48.616 JST [130483] LOG:  shutting down
+2018-05-08 16:14:48.617 JST [130483] LOG:  checkpoint starting: shutdown immediate
+2018-05-08 16:14:48.728 JST [130483] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.000 s, total=0.112 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=1 kB
+2018-05-08 16:14:49.050 JST [130480] LOG:  database system is shut down
+2018-05-08 16:14:49.804 JST [130535] LOG:  database system was shut down at 2018-05-08 16:14:48 JST
+2018-05-08 16:14:49.806 JST [130532] LOG:  database system is ready to accept connections
+2018-05-08 16:14:49.833 JST [130541] LOG:  restored 25079 13285 1663
+2018-05-08 16:14:49.835 JST [130541] LOG:  restored 25080 13285 1663
+2018-05-08 16:14:49.836 JST [130541] LOG:  restored 25082 13285 1663
+2018-05-08 16:14:49.838 JST [130541] LOG:  restored 25081 13285 1663
+2018-05-08 16:14:54.861 JST [130643] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-08 16:14:54.861 JST [130643] LOG:  4387,4424,4424,4389,4499,4467,4434,4392,4482,4509,4421,4449,4423,4409,4400,4389,4487,4398,4380,4413,4388,4439,4485,4540,4396,4436,4460,4397,4513,4562,4583,4554,4545,4510,4603,4589,4534,4511,4470,4510,4537,4488,4532,4539,4506,4500,4444,4486,4569,4502,4579,4693,4525,4601,4568,4524,4541,4650,4525,4609,4515,4543,4510,4568,4564,4528,4638,4659,4605,4520,4610,4652,4601,4612,4699,4482,4503,4624,4616,4598,4608,4589,4566,4600,4626,4540,4533,4636,4583,4644,4501,4638,4636,4623,4555,4621,4742,4735,4747,4641,4754,4706,4763,4746,4591,4595,4636,4693,4677,4647,4808,4693,4558,4737,4665,4762,4676,4818,4753,4662,4611,4763,4748,4681,4777,4695,4744,4757,4661,4737,4733,4774,4792,4639,4625,4698,4637,4766,4804,4769,4771,4859,4771,4826,4694,4788,4742,4668,4792,4717,4713,4819,4758,4814,4795,4756,4793,4813,4853,4687,4765,4819,4957,4863,4808,4937,4975,4831,4990,4820,4828,4887,4805,4916,4837,4952,4808,4828,4800,4874,4850,4915,4914,4760,4893,4836,4836,4743,4886,4918,4903,4872,4796,4882,4878,4912,4908,4784,4715,4884,4874,4923,4967,4919,4880,4840,5022,4766,4852,4872,4762,4847,4808,4865,4836,4832,4817,4839,4833,4896,4799,4814,4746,4816,4862,4868,4779,4982,4892,4868,4776,4823,4803,4863,4814,4852,4804,4729,4816,4831,4655,4855,4707,4685,4835,4735,4874,4702,4616,4835,4785,4753,4838,4804,4725,4656,4650,4745,4815,4674,4664,4814,4711,4747,4724,4646,4689,4670,4862,4637,4601,4609,4622,4692,4561,4773,4602,4753,4663,4694,4626,4686,4632,4572,4622,4673,4571,4582,4596,4578,4602,4684,4600,4663,4614,4610,4657,4571,4560,4574,4647,4494,4614,4477,4634,4570,4631,4577,4615,4536,4666,4655,4536,4595,4459,4509,4633,4439,4498,4501,4466,4560,4544,4644,4466,4546,4465,4488,4613,4570,4563,4487,4396,4468,4521,4673,4454,4437,4519,4442,4506,4384,4566,4521,4486,4435,4538,4438,4439,4454,4432,4440,4506,4389,4437,4478,4505,4405,4476,4679,4527,4428,4550,4492,4423,4377,4388,4401,4383,4390,4414,4464,4429,4377,4404,4409,4380,4432,4413,4377
+2018-05-08 16:14:54.861 JST [130643] LOG:  ---------- CHOOSE 380 ranges-----------------
+2018-05-08 16:14:54.862 JST [130643] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-08 16:14:59.481 JST [130643] LOG:  --- RANGE STATS [4893525 - 4897619] : rel "pgbench_accounts" vacuumed 4893525 - 4897619 page for 4094 pages out of 13220815 pages, removed 290, cannot removed 21
+2018-05-08 16:15:00.674 JST [130668] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.81 s
+2018-05-08 16:15:01.140 JST [130668] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.06 s, system: 0.00 s, elapsed: 0.45 s
+2018-05-08 16:15:03.405 JST [130536] LOG:  checkpoint starting: immediate force wait
+2018-05-08 16:15:04.729 JST [130643] LOG:  --- RANGE STATS [4963140 - 4967234] : rel "pgbench_accounts" vacuumed 4963140 - 4967234 page for 4094 pages out of 13220815 pages, removed 321, cannot removed 82
+2018-05-08 16:15:09.532 JST [130643] LOG:  --- RANGE STATS [5004090 - 5008184] : rel "pgbench_accounts" vacuumed 5004090 - 5008184 page for 4094 pages out of 13220815 pages, removed 295, cannot removed 114
+2018-05-08 16:15:09.592 JST [130536] LOG:  checkpoint complete: wrote 396926 buffers (6.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.141 s, sync=0.026 s, total=6.187 s; sync files=127, longest=0.008 s, average=0.000 s; distance=3123910 kB, estimate=3123910 kB
+2018-05-08 16:15:10.851 JST [130710] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.96 s
+2018-05-08 16:15:11.253 JST [130710] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.06 s, system: 0.00 s, elapsed: 0.39 s
+2018-05-08 16:15:19.865 JST [130643] LOG:  --- RANGE STATS [5008185 - 5012279] : rel "pgbench_accounts" vacuumed 5008185 - 5012279 page for 4094 pages out of 13220815 pages, removed 2686, cannot removed 175
+2018-05-08 16:15:20.697 JST [130750] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.81 s
+2018-05-08 16:15:21.044 JST [130750] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.06 s, system: 0.00 s, elapsed: 0.33 s
+2018-05-08 16:15:25.387 JST [130643] LOG:  --- RANGE STATS [5012280 - 5016374] : rel "pgbench_accounts" vacuumed 5012280 - 5016374 page for 4094 pages out of 13220815 pages, removed 319, cannot removed 232
+2018-05-08 16:15:29.904 JST [130790] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:30.995 JST [130790] LOG:  --- RANGE STATS [0 - 972] : rel "pgbench_branches" vacuumed 0 - 972 page for 972 pages out of 972 pages, removed 11615, cannot removed 110078
+2018-05-08 16:15:31.110 JST [130790] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 972 remain, 0 skipped due to pins, 37 skipped frozen
+	tuples: 11615 removed, 118878 remain, 110078 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 2010 hits, 186 misses, 2 dirtied
+	avg read rate: 1.204 MB/s, avg write rate: 0.013 MB/s
+	system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 1.20 s
+2018-05-08 16:15:31.903 JST [130790] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.79 s
+2018-05-08 16:15:31.913 JST [130790] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:32.738 JST [130790] LOG:  --- RANGE STATS [0 - 1313] : rel "pgbench_tellers" vacuumed 0 - 1313 page for 1313 pages out of 1313 pages, removed 26, cannot removed 153727
+2018-05-08 16:15:33.006 JST [130790] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 1
+	pages: 0 removed, 1313 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 26 removed, 226916 remain, 153727 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 3351 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.07 s, system: 0.01 s, elapsed: 1.09 s
+2018-05-08 16:15:33.560 JST [130790] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.06 s, system: 0.00 s, elapsed: 0.55 s
+2018-05-08 16:15:34.904 JST [130810] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:35.587 JST [130810] LOG:  --- RANGE STATS [0 - 1055] : rel "pgbench_branches" vacuumed 0 - 1055 page for 1055 pages out of 1055 pages, removed 0, cannot removed 219506
+2018-05-08 16:15:35.690 JST [130810] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 1055 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 228016 remain, 219506 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 2498 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 0.78 s
+2018-05-08 16:15:35.700 JST [130810] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:36.302 JST [130643] LOG:  --- RANGE STATS [5024565 - 5028659] : rel "pgbench_accounts" vacuumed 5024565 - 5028659 page for 4094 pages out of 13220815 pages, removed 301, cannot removed 317
+2018-05-08 16:15:36.860 JST [130810] LOG:  --- RANGE STATS [0 - 1780] : rel "pgbench_tellers" vacuumed 0 - 1780 page for 1780 pages out of 1780 pages, removed 0, cannot removed 239784
+2018-05-08 16:15:37.107 JST [130810] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 1780 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 317101 remain, 239784 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 4410 hits, 0 misses, 1 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.006 MB/s
+	system usage: CPU: user: 0.07 s, system: 0.00 s, elapsed: 1.40 s
+2018-05-08 16:15:39.911 JST [130830] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:40.840 JST [130830] LOG:  --- RANGE STATS [0 - 1459] : rel "pgbench_branches" vacuumed 0 - 1459 page for 1459 pages out of 1459 pages, removed 0, cannot removed 322091
+2018-05-08 16:15:41.025 JST [130830] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 1459 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 324483 remain, 322091 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 3558 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.03 s, system: 0.01 s, elapsed: 1.11 s
+2018-05-08 16:15:41.578 JST [130830] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.55 s
+2018-05-08 16:15:41.589 JST [130830] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:43.126 JST [130830] LOG:  --- RANGE STATS [0 - 2399] : rel "pgbench_tellers" vacuumed 0 - 2399 page for 2399 pages out of 2399 pages, removed 0, cannot removed 368238
+2018-05-08 16:15:43.536 JST [130830] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 2399 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 431591 remain, 368238 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 6111 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.08 s, system: 0.00 s, elapsed: 1.94 s
+2018-05-08 16:15:44.416 JST [130830] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.07 s, system: 0.00 s, elapsed: 0.87 s
+2018-05-08 16:15:44.921 JST [130847] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:46.143 JST [130847] LOG:  --- RANGE STATS [0 - 1924] : rel "pgbench_branches" vacuumed 0 - 1924 page for 1924 pages out of 1924 pages, removed 0, cannot removed 428143
+2018-05-08 16:15:46.432 JST [130847] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 1924 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 429573 remain, 428143 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 4798 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.05 s, system: 0.01 s, elapsed: 1.51 s
+2018-05-08 16:15:46.442 JST [130847] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:48.101 JST [130643] LOG:  --- RANGE STATS [5040945 - 5045039] : rel "pgbench_accounts" vacuumed 5040945 - 5045039 page for 4094 pages out of 13220815 pages, removed 267, cannot removed 377
+2018-05-08 16:15:48.317 JST [130847] LOG:  --- RANGE STATS [0 - 2925] : rel "pgbench_tellers" vacuumed 0 - 2925 page for 2925 pages out of 2925 pages, removed 0, cannot removed 472760
+2018-05-08 16:15:48.851 JST [130847] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 2925 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 528499 remain, 472760 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 7550 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.09 s, system: 0.02 s, elapsed: 2.40 s
+2018-05-08 16:15:49.925 JST [130867] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:51.483 JST [130867] LOG:  --- RANGE STATS [0 - 2442] : rel "pgbench_branches" vacuumed 0 - 2442 page for 2442 pages out of 2442 pages, removed 0, cannot removed 544433
+2018-05-08 16:15:51.833 JST [130867] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 2442 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 546641 remain, 544433 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 6050 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.06 s, system: 0.01 s, elapsed: 1.90 s
+2018-05-08 16:15:52.680 JST [130867] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.01 s, system: 0.00 s, elapsed: 0.84 s
+2018-05-08 16:15:52.691 JST [130867] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:54.930 JST [130895] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:15:55.071 JST [130867] LOG:  --- RANGE STATS [0 - 3641] : rel "pgbench_tellers" vacuumed 0 - 3641 page for 3641 pages out of 3641 pages, removed 0, cannot removed 610315
+2018-05-08 16:15:55.992 JST [130867] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 3641 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 661386 remain, 610315 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 9565 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.11 s, system: 0.03 s, elapsed: 3.30 s
+2018-05-08 16:15:57.298 JST [130895] LOG:  --- RANGE STATS [0 - 2847] : rel "pgbench_branches" vacuumed 0 - 2847 page for 2847 pages out of 2847 pages, removed 0, cannot removed 637056
+2018-05-08 16:15:57.686 JST [130867] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.08 s, system: 0.00 s, elapsed: 1.69 s
+2018-05-08 16:15:57.832 JST [130895] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 2847 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 637483 remain, 637056 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 7170 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.06 s, system: 0.02 s, elapsed: 2.90 s
+2018-05-08 16:15:57.842 JST [130895] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:15:59.934 JST [130915] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:00.697 JST [130895] LOG:  --- RANGE STATS [0 - 4218] : rel "pgbench_tellers" vacuumed 0 - 4218 page for 4218 pages out of 4218 pages, removed 0, cannot removed 720738
+2018-05-08 16:16:01.740 JST [130895] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 4218 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 767961 remain, 720738 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 11011 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.11 s, system: 0.02 s, elapsed: 3.89 s
+2018-05-08 16:16:01.762 JST [130536] LOG:  checkpoint starting: immediate force wait
+2018-05-08 16:16:01.988 JST [130643] LOG:  --- RANGE STATS [5045040 - 5049134] : rel "pgbench_accounts" vacuumed 5045040 - 5049134 page for 4094 pages out of 13220815 pages, removed 319, cannot removed 566
+2018-05-08 16:16:02.451 JST [130915] LOG:  --- RANGE STATS [0 - 3306] : rel "pgbench_branches" vacuumed 0 - 3306 page for 3306 pages out of 3306 pages, removed 0, cannot removed 741172
+2018-05-08 16:16:03.009 JST [130915] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 3306 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 741468 remain, 741172 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 8386 hits, 0 misses, 1 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.003 MB/s
+	system usage: CPU: user: 0.07 s, system: 0.02 s, elapsed: 3.07 s
+2018-05-08 16:16:04.160 JST [130915] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.02 s, system: 0.00 s, elapsed: 1.15 s
+2018-05-08 16:16:04.170 JST [130915] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:16:04.943 JST [130935] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:08.058 JST [130935] LOG:  --- RANGE STATS [0 - 3757] : rel "pgbench_branches" vacuumed 0 - 3757 page for 3757 pages out of 3757 pages, removed 0, cannot removed 843085
+2018-05-08 16:16:08.075 JST [130915] LOG:  --- RANGE STATS [0 - 4987] : rel "pgbench_tellers" vacuumed 0 - 4987 page for 4987 pages out of 4987 pages, removed 0, cannot removed 862314
+2018-05-08 16:16:08.878 JST [130935] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 3757 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 843396 remain, 843085 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 9525 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.08 s, system: 0.02 s, elapsed: 3.93 s
+2018-05-08 16:16:09.198 JST [130915] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 4987 remain, 3 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 909430 remain, 862314 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 12973 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.13 s, system: 0.03 s, elapsed: 5.02 s
+2018-05-08 16:16:09.945 JST [130955] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:11.269 JST [130915] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.08 s, system: 0.00 s, elapsed: 2.07 s
+2018-05-08 16:16:12.895 JST [130955] LOG:  --- RANGE STATS [0 - 4132] : rel "pgbench_branches" vacuumed 0 - 4132 page for 4132 pages out of 4132 pages, removed 0, cannot removed 927503
+2018-05-08 16:16:13.554 JST [130955] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 4132 remain, 3 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 927903 remain, 927503 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 10417 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.10 s, system: 0.03 s, elapsed: 3.60 s
+2018-05-08 16:16:14.939 JST [130975] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:16:14.943 JST [130955] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.02 s, system: 0.00 s, elapsed: 1.38 s
+2018-05-08 16:16:17.762 JST [130643] LOG:  --- RANGE STATS [5053230 - 5057324] : rel "pgbench_accounts" vacuumed 5053230 - 5057324 page for 4094 pages out of 13220815 pages, removed 256, cannot removed 626
+2018-05-08 16:16:18.722 JST [130975] LOG:  --- RANGE STATS [0 - 5920] : rel "pgbench_tellers" vacuumed 0 - 5920 page for 5920 pages out of 5920 pages, removed 0, cannot removed 1035317
+2018-05-08 16:16:19.863 JST [130975] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 5920 remain, 3 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1081829 remain, 1035317 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 15533 hits, 0 misses, 1 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.002 MB/s
+	system usage: CPU: user: 0.13 s, system: 0.05 s, elapsed: 4.92 s
+2018-05-08 16:16:19.988 JST [130995] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:23.054 JST [130995] LOG:  --- RANGE STATS [0 - 4754] : rel "pgbench_branches" vacuumed 0 - 4754 page for 4754 pages out of 4754 pages, removed 0, cannot removed 1066852
+2018-05-08 16:16:23.754 JST [130995] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 4754 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1069153 remain, 1066852 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 11827 hits, 0 misses, 4 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.008 MB/s
+	system usage: CPU: user: 0.13 s, system: 0.02 s, elapsed: 3.76 s
+2018-05-08 16:16:23.764 JST [130995] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:16:24.998 JST [131015] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:25.329 JST [130536] LOG:  checkpoint complete: wrote 1588408 buffers (24.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=23.472 s, sync=0.081 s, total=23.567 s; sync files=134, longest=0.026 s, average=0.000 s; distance=12706192 kB, estimate=12706192 kB
+2018-05-08 16:16:29.233 JST [131015] LOG:  --- RANGE STATS [0 - 5104] : rel "pgbench_branches" vacuumed 0 - 5104 page for 5104 pages out of 5104 pages, removed 0, cannot removed 1147619
+2018-05-08 16:16:29.233 JST [131015] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 5104 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1147810 remain, 1147619 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 10247 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.11 s, system: 0.02 s, elapsed: 4.23 s
+2018-05-08 16:16:30.272 JST [130995] LOG:  --- RANGE STATS [0 - 6392] : rel "pgbench_tellers" vacuumed 0 - 6392 page for 6392 pages out of 6392 pages, removed 0, cannot removed 1146621
+2018-05-08 16:16:30.272 JST [130995] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 6392 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1170260 remain, 1146621 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 12808 hits, 0 misses, 203 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.244 MB/s
+	system usage: CPU: user: 0.14 s, system: 0.02 s, elapsed: 6.50 s
+2018-05-08 16:16:31.485 JST [131015] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.02 s, system: 0.00 s, elapsed: 2.25 s
+2018-05-08 16:16:32.903 JST [130995] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.10 s, system: 0.00 s, elapsed: 2.63 s
+2018-05-08 16:16:34.091 JST [130643] LOG:  --- RANGE STATS [5061420 - 5065514] : rel "pgbench_accounts" vacuumed 5061420 - 5065514 page for 4094 pages out of 13220815 pages, removed 259, cannot removed 720
+2018-05-08 16:16:35.012 JST [131055] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:38.746 JST [131055] LOG:  --- RANGE STATS [0 - 5890] : rel "pgbench_branches" vacuumed 0 - 5890 page for 5890 pages out of 5890 pages, removed 0, cannot removed 1325344
+2018-05-08 16:16:39.734 JST [131055] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 5890 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1325437 remain, 1325344 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 14971 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.13 s, system: 0.04 s, elapsed: 4.72 s
+2018-05-08 16:16:39.745 JST [131055] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:16:40.020 JST [131072] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:45.291 JST [131072] LOG:  --- RANGE STATS [0 - 6347] : rel "pgbench_branches" vacuumed 0 - 6347 page for 6347 pages out of 6347 pages, removed 0, cannot removed 1428250
+2018-05-08 16:16:45.292 JST [131072] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 6347 remain, 4 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1428274 remain, 1428250 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 12731 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.12 s, system: 0.03 s, elapsed: 5.27 s
+2018-05-08 16:16:46.417 JST [131055] LOG:  --- RANGE STATS [0 - 8179] : rel "pgbench_tellers" vacuumed 0 - 8179 page for 8179 pages out of 8179 pages, removed 0, cannot removed 1477474
+2018-05-08 16:16:48.125 JST [131072] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.02 s, system: 0.00 s, elapsed: 2.83 s
+2018-05-08 16:16:48.457 JST [131055] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 8179 remain, 2 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1500342 remain, 1477474 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 21656 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.18 s, system: 0.04 s, elapsed: 8.71 s
+2018-05-08 16:16:50.045 JST [131128] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:16:51.795 JST [131055] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.10 s, system: 0.00 s, elapsed: 3.33 s
+2018-05-08 16:16:55.049 JST [131156] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:16:55.094 JST [131128] LOG:  --- RANGE STATS [0 - 7286] : rel "pgbench_branches" vacuumed 0 - 7286 page for 7286 pages out of 7286 pages, removed 0, cannot removed 1640210
+2018-05-08 16:16:56.712 JST [131128] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 7286 remain, 5 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1640255 remain, 1640210 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 18575 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.16 s, system: 0.04 s, elapsed: 6.66 s
+2018-05-08 16:16:57.173 JST [130643] LOG:  --- RANGE STATS [5073705 - 5077799] : rel "pgbench_accounts" vacuumed 5073705 - 5077799 page for 4094 pages out of 13220815 pages, removed 1209, cannot removed 921
+2018-05-08 16:17:00.055 JST [131190] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:17:02.203 JST [131156] LOG:  --- RANGE STATS [0 - 9877] : rel "pgbench_tellers" vacuumed 0 - 9877 page for 9877 pages out of 9877 pages, removed 0, cannot removed 1793785
+2018-05-08 16:17:04.860 JST [131156] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 9877 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1814865 remain, 1793785 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 26318 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.22 s, system: 0.06 s, elapsed: 9.81 s
+2018-05-08 16:17:05.155 JST [131210] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:17:06.764 JST [131190] LOG:  --- RANGE STATS [0 - 8185] : rel "pgbench_branches" vacuumed 0 - 8185 page for 8185 pages out of 8185 pages, removed 0, cannot removed 1843200
+2018-05-08 16:17:08.586 JST [131190] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 8185 remain, 6 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1843211 remain, 1843200 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 20887 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.18 s, system: 0.06 s, elapsed: 8.53 s
+2018-05-08 16:17:09.408 JST [130536] LOG:  checkpoint starting: immediate force wait
+2018-05-08 16:17:12.286 JST [131190] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.03 s, system: 0.00 s, elapsed: 3.69 s
+2018-05-08 16:17:13.802 JST [131210] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_tellers" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 2003765
+2018-05-08 16:17:15.161 JST [131250] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:17:16.429 JST [131210] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 10991 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 2020953 remain, 2003765 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 29479 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.24 s, system: 0.07 s, elapsed: 11.27 s
+2018-05-08 16:17:21.492 JST [131210] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.11 s, system: 0.00 s, elapsed: 5.06 s
+2018-05-08 16:17:22.715 JST [131250] LOG:  --- RANGE STATS [0 - 9544] : rel "pgbench_branches" vacuumed 0 - 9544 page for 9544 pages out of 9544 pages, removed 0, cannot removed 2151448
+2018-05-08 16:17:24.344 JST [131250] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 9544 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 2151467 remain, 2151448 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 24334 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.23 s, system: 0.06 s, elapsed: 9.18 s
+2018-05-08 16:17:24.355 JST [131250] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:17:25.177 JST [131293] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:17:28.911 JST [130643] LOG:  --- RANGE STATS [5077800 - 5081894] : rel "pgbench_accounts" vacuumed 5077800 - 5081894 page for 4094 pages out of 13220815 pages, removed 2118, cannot removed 1156
+2018-05-08 16:17:33.634 JST [130770] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.48 s, system: 0.28 s, elapsed: 128.74 s
+2018-05-08 16:17:33.671 JST [131293] LOG:  --- RANGE STATS [0 - 10291] : rel "pgbench_branches" vacuumed 0 - 10291 page for 10291 pages out of 10291 pages, removed 0, cannot removed 2306021
+2018-05-08 16:17:35.446 JST [130536] LOG:  checkpoint complete: wrote 1728720 buffers (26.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=25.958 s, sync=0.064 s, total=26.038 s; sync files=134, longest=0.014 s, average=0.000 s; distance=14157963 kB, estimate=14157963 kB
+2018-05-08 16:17:35.498 JST [131250] LOG:  --- RANGE STATS [0 - 12916] : rel "pgbench_tellers" vacuumed 0 - 12916 page for 12916 pages out of 12916 pages, removed 0, cannot removed 1391616
+2018-05-08 16:17:35.593 JST [131293] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 10291 remain, 7 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 2306042 remain, 2306021 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 26195 hits, 0 misses, 2 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.002 MB/s
+	system usage: CPU: user: 0.38 s, system: 0.06 s, elapsed: 10.41 s
+2018-05-08 16:17:39.016 JST [131293] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 3.42 s
+2018-05-08 16:17:39.118 JST [130536] LOG:  checkpoint starting: immediate force wait
+2018-05-08 16:17:40.207 JST [131352] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:17:41.528 JST [131250] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 1
+	pages: 0 removed, 12916 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 1410515 remain, 1391616 are dead but not yet removable, oldest xmin: 98583623
+	buffer usage: 39690 hits, 0 misses, 453 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.206 MB/s
+	system usage: CPU: user: 0.85 s, system: 0.11 s, elapsed: 17.17 s
+2018-05-08 16:17:42.971 JST [131352] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 7765, cannot removed 10228
+2018-05-08 16:17:45.216 JST [131377] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:17:50.024 JST [130536] LOG:  checkpoint complete: wrote 692517 buffers (10.6%); 1 WAL file(s) added, 0 removed, 0 recycled; write=10.820 s, sync=0.029 s, total=10.906 s; sync files=135, longest=0.016 s, average=0.000 s; distance=5955119 kB, estimate=13337679 kB
+2018-05-08 16:17:55.180 JST [130643] LOG:  --- RANGE STATS [5081895 - 5085989] : rel "pgbench_accounts" vacuumed 5081895 - 5085989 page for 4094 pages out of 13220815 pages, removed 1946, cannot removed 1356
+2018-05-08 16:17:58.980 JST [131377] LOG:  --- RANGE STATS [0 - 13804] : rel "pgbench_tellers" vacuumed 0 - 13804 page for 13804 pages out of 13804 pages, removed 24325, cannot removed 46116
+2018-05-08 16:18:22.514 JST [130643] LOG:  --- RANGE STATS [5085990 - 5090084] : rel "pgbench_accounts" vacuumed 5085990 - 5090084 page for 4094 pages out of 13220815 pages, removed 1903, cannot removed 1459
+2018-05-08 16:18:32.288 JST [131352] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 10991 remain, 1 skipped due to pins, 0 skipped frozen
+	tuples: 7765 removed, 18150 remain, 10228 are dead but not yet removable, oldest xmin: 101111510
+	buffer usage: 38491 hits, 0 misses, 6770 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 1.016 MB/s
+	system usage: CPU: user: 0.70 s, system: 0.09 s, elapsed: 52.08 s
+2018-05-08 16:18:35.308 JST [131585] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:18:35.830 JST [131585] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 38382, cannot removed 4978
+2018-05-08 16:18:37.569 JST [131585] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 10991 remain, 1 skipped due to pins, 10176 skipped frozen
+	tuples: 38382 removed, 20309 remain, 4978 are dead but not yet removable, oldest xmin: 101856373
+	buffer usage: 7202 hits, 0 misses, 3 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.010 MB/s
+	system usage: CPU: user: 0.03 s, system: 0.03 s, elapsed: 2.26 s
+2018-05-08 16:18:41.002 JST [131585] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.02 s, system: 0.03 s, elapsed: 3.43 s
+2018-05-08 16:18:44.901 JST [130643] LOG:  --- RANGE STATS [5098275 - 5102369] : rel "pgbench_accounts" vacuumed 5098275 - 5102369 page for 4094 pages out of 13220815 pages, removed 1778, cannot removed 1557
+2018-05-08 16:18:53.803 JST [131645] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.04 s, system: 0.03 s, elapsed: 3.46 s
+2018-05-08 16:18:55.448 JST [131377] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 1
+	pages: 0 removed, 13804 remain, 0 skipped due to pins, 37 skipped frozen
+	tuples: 24325 removed, 125540 remain, 46116 are dead but not yet removable, oldest xmin: 101149560
+	buffer usage: 44495 hits, 0 misses, 10414 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 1.158 MB/s
+	system usage: CPU: user: 0.95 s, system: 0.13 s, elapsed: 70.23 s
+2018-05-08 16:18:58.389 JST [131377] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.11 s, system: 0.00 s, elapsed: 2.94 s
+2018-05-08 16:19:00.867 JST [130643] LOG:  --- RANGE STATS [5102370 - 5106464] : rel "pgbench_accounts" vacuumed 5102370 - 5106464 page for 4094 pages out of 13220815 pages, removed 1746, cannot removed 1650
+2018-05-08 16:19:02.656 JST [131715] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.03 s, system: 0.03 s, elapsed: 2.30 s
+2018-05-08 16:19:05.348 JST [131756] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:19:10.054 JST [131756] LOG:  --- RANGE STATS [0 - 13804] : rel "pgbench_tellers" vacuumed 0 - 13804 page for 13804 pages out of 13804 pages, removed 106769, cannot removed 98459
+2018-05-08 16:19:10.361 JST [131776] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:11.489 JST [131776] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 28355, cannot removed 130244
+2018-05-08 16:19:14.008 JST [131756] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 1
+	pages: 0 removed, 13804 remain, 0 skipped due to pins, 6008 skipped frozen
+	tuples: 106769 removed, 210957 remain, 98459 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 24754 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.19 s, system: 0.08 s, elapsed: 8.65 s
+2018-05-08 16:19:14.183 JST [131776] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 1
+	pages: 0 removed, 10991 remain, 0 skipped due to pins, 9399 skipped frozen
+	tuples: 28355 removed, 145266 remain, 130244 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 9246 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.08 s, system: 0.03 s, elapsed: 3.82 s
+2018-05-08 16:19:18.725 JST [131776] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.03 s, system: 0.02 s, elapsed: 4.54 s
+2018-05-08 16:19:19.516 JST [131756] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.12 s, system: 0.00 s, elapsed: 5.50 s
+2018-05-08 16:19:20.369 JST [131851] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:21.652 JST [131851] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 295290
+2018-05-08 16:19:23.388 JST [131851] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 10991 remain, 0 skipped due to pins, 8976 skipped frozen
+	tuples: 0 removed, 308754 remain, 295290 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 9596 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.05 s, system: 0.04 s, elapsed: 3.01 s
+2018-05-08 16:19:23.399 JST [131851] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:19:24.802 JST [130643] LOG:  --- RANGE STATS [5106465 - 5110559] : rel "pgbench_accounts" vacuumed 5106465 - 5110559 page for 4094 pages out of 13220815 pages, removed 1702, cannot removed 1717
+2018-05-08 16:19:25.380 JST [131872] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:27.352 JST [131872] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 383074
+2018-05-08 16:19:29.626 JST [131872] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 10991 remain, 3 skipped due to pins, 8615 skipped frozen
+	tuples: 0 removed, 401908 remain, 383074 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 10315 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.06 s, system: 0.04 s, elapsed: 4.24 s
+2018-05-08 16:19:29.768 JST [131851] LOG:  --- RANGE STATS [0 - 13804] : rel "pgbench_tellers" vacuumed 0 - 13804 page for 13804 pages out of 13804 pages, removed 0, cannot removed 357955
+2018-05-08 16:19:29.797 JST [130536] LOG:  checkpoint starting: immediate force wait
+2018-05-08 16:19:33.240 JST [131851] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 13804 remain, 0 skipped due to pins, 5319 skipped frozen
+	tuples: 0 removed, 459709 remain, 357955 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 25427 hits, 0 misses, 1 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.001 MB/s
+	system usage: CPU: user: 0.17 s, system: 0.06 s, elapsed: 9.84 s
+2018-05-08 16:19:33.941 JST [131872] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.04 s, system: 0.02 s, elapsed: 4.31 s
+2018-05-08 16:19:33.951 JST [131872] LOG:  starting vacuum on "pgbench_tellers"
+2018-05-08 16:19:35.406 JST [131909] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:37.876 JST [131909] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 525749
+2018-05-08 16:19:40.130 JST [131909] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 10991 remain, 4 skipped due to pins, 8025 skipped frozen
+	tuples: 0 removed, 539805 remain, 525749 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 11494 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.08 s, system: 0.03 s, elapsed: 4.72 s
+2018-05-08 16:19:40.407 JST [131952] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:41.124 JST [131872] LOG:  --- RANGE STATS [0 - 13804] : rel "pgbench_tellers" vacuumed 0 - 13804 page for 13804 pages out of 13804 pages, removed 0, cannot removed 508507
+2018-05-08 16:19:43.115 JST [131952] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 595525
+2018-05-08 16:19:44.588 JST [131872] LOG:  automatic vacuum of table "postgres.public.pgbench_tellers": index scans: 0
+	pages: 0 removed, 13804 remain, 0 skipped due to pins, 4435 skipped frozen
+	tuples: 0 removed, 621106 remain, 508507 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 27231 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.18 s, system: 0.05 s, elapsed: 10.63 s
+2018-05-08 16:19:45.391 JST [131952] LOG:  automatic vacuum of table "postgres.public.pgbench_branches": index scans: 0
+	pages: 0 removed, 10991 remain, 2 skipped due to pins, 7739 skipped frozen
+	tuples: 0 removed, 613635 remain, 595525 are dead but not yet removable, oldest xmin: 102292580
+	buffer usage: 12068 hits, 0 misses, 0 dirtied
+	avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 0.09 s, system: 0.04 s, elapsed: 4.98 s
+2018-05-08 16:19:45.415 JST [132013] LOG:  starting vacuum on "pgbench_branches"
+2018-05-08 16:19:48.368 JST [132013] LOG:  --- RANGE STATS [0 - 10991] : rel "pgbench_branches" vacuumed 0 - 10991 page for 10991 pages out of 10991 pages, removed 0, cannot removed 657982
