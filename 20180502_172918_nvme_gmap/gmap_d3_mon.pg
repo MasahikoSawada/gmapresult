@@ -1,4 +1,0 @@
-time,relname,n_live_tup,n_dead_tup,dead_tuple_ratio,relsize,relsize_pretty,vacuum_count,autovacuum_count
-05:29:20,pgbench_accounts,800000000,12048740,1.484,103499.6171875,101 GB,1,1
-05:29:21,pgbench_accounts,800000000,12055607,1.485,103500.546875,101 GB,1,1
-05:29:22,pgbench_accounts,800000000,12073987,1.487,103501.2421875,101 GB,1,1
