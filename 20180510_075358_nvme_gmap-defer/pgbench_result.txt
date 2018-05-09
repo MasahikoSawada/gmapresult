@@ -1,0 +1,231 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap-defer"
+duration   = "3600"
+clients    = "64"
+jobs       = "32"
+output dir = "20180510_075358_nvme_gmap-defer"
+rate       = "0.2"
+--------------------------------
+
+client 29 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(334101554) already exists.
+
+client 58 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(380646025) already exists.
+
+client 22 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(358732305) already exists.
+
+client 18 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(332903677) already exists.
+
+client 38 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(330612697) already exists.
+
+client 14 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(439837075) already exists.
+
+client 0 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(434395478) already exists.
+
+client 43 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(283210583) already exists.
+
+client 19 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(438328301) already exists.
+
+client 8 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(436671364) already exists.
+
+client 45 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(463562785) already exists.
+
+client 42 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(309874146) already exists.
+
+client 13 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(560447306) already exists.
+
+client 6 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(404515179) already exists.
+
+client 34 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(416069677) already exists.
+
+client 30 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(430036658) already exists.
+
+client 28 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(438074799) already exists.
+
+client 36 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(418209386) already exists.
+
+client 5 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(416470172) already exists.
+
+client 2 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(322008630) already exists.
+
+client 26 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(281487426) already exists.
+
+client 7 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(388037611) already exists.
+
+client 15 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(381991391) already exists.
+
+client 53 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(330746500) already exists.
+
+client 16 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(359934458) already exists.
+
+client 55 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(344966677) already exists.
+
+client 9 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(423998978) already exists.
+
+client 20 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(373709593) already exists.
+
+client 57 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(410422676) already exists.
+
+client 50 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(362422376) already exists.
+
+client 24 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(331147458) already exists.
+
+client 32 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(413678600) already exists.
+
+client 23 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(399298486) already exists.
+
+client 39 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(251295487) already exists.
+
+client 12 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(480888711) already exists.
+
+client 54 aborted in command 5 (SQL) of script 1; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(533926172) already exists.
+
+client 49 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(384521943) already exists.
+
+client 35 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(379911780) already exists.
+
+client 1 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(491010000) already exists.
+
+client 27 aborted in command 5 (SQL) of script 1; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(332140304) already exists.
+
+client 48 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(465551731) already exists.
+
+client 25 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(519456157) already exists.
+
+client 61 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(382369863) already exists.
+
+client 4 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(426762449) already exists.
+
+client 3 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(411916306) already exists.
+
+client 21 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(426726503) already exists.
+
+client 60 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(503123536) already exists.
+
+client 40 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(354948886) already exists.
+
+client 62 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(526764111) already exists.
+
+client 47 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(444099967) already exists.
+
+client 41 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(491732706) already exists.
+
+client 37 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(469449424) already exists.
+
+client 17 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(438221548) already exists.
+
+client 52 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(344486134) already exists.
+
+client 59 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(471032600) already exists.
+
+client 46 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(415676646) already exists.
+
+client 11 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(391900123) already exists.
+
+client 63 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(379906133) already exists.
+
+client 10 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(375722372) already exists.
+
+client 51 aborted in command 7 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(364997430) already exists.
+
+client 44 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(405623461) already exists.
+
+client 31 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(415071172) already exists.
+
+client 33 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(369586019) already exists.
+
+client 56 aborted in command 6 (SQL) of script 0; ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+DETAIL:  Key (aid)=(395461354) already exists.
+
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 3600 s
+number of transactions actually processed: 12653874
+latency average = 3.406 ms
+tps = 18790.942943 (including connections establishing)
+tps = 18791.062665 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 9 (targets 90.0% of total)
+ - 11390407 transactions (90.0% of total, tps = 16914.700434)
+ - latency average = 3.334 ms
+ - latency stddev = 3.857 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 10.0% of total)
+ - 1263467 transactions (10.0% of total, tps = 1876.242509)
+ - latency average = 3.008 ms
+ - latency stddev = 5.307 ms
+Timing is on.
+    before    | before_pretty |    after     | after_pretty |      ratio       
+--------------+---------------+--------------+--------------+------------------
+ 107436072960 | 100 GB        | 108595552256 | 101 GB       | 1.01079227175803
+(1 row)
+
+Time: 1.284 ms
