@@ -1,0 +1,392 @@
+2018-05-10 09:04:04.527 JST [47015] LOG:  received fast shutdown request
+2018-05-10 09:04:04.528 JST [47015] LOG:  aborting any active transactions
+2018-05-10 09:04:04.528 JST [47024] FATAL:  terminating connection due to administrator command
+2018-05-10 09:04:04.529 JST [47015] LOG:  background worker "logical replication launcher" (PID 47025) exited with exit code 1
+2018-05-10 09:04:04.531 JST [47015] LOG:  background worker "walker" (PID 47024) exited with exit code 1
+2018-05-10 09:04:04.531 JST [47019] LOG:  shutting down
+2018-05-10 09:04:04.531 JST [47019] LOG:  checkpoint starting: shutdown immediate
+2018-05-10 09:04:04.646 JST [47019] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.111 s, sync=0.000 s, total=0.114 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2018-05-10 09:04:04.786 JST [47015] LOG:  database system is shut down
+2018-05-10 09:04:05.797 JST [47070] LOG:  database system was shut down at 2018-05-10 09:04:04 JST
+2018-05-10 09:04:05.799 JST [47067] LOG:  database system is ready to accept connections
+2018-05-10 09:04:05.801 JST [47076] LOG:  restored 16399 13285 1663
+2018-05-10 09:04:05.805 JST [47076] LOG:  restored 16396 13285 1663
+2018-05-10 09:04:05.809 JST [47076] LOG:  restored 16397 13285 1663
+2018-05-10 09:04:05.814 JST [47076] LOG:  restored 16398 13285 1663
+2018-05-10 09:05:10.951 JST [47556] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:05:11.313 JST [47556] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.19 s, system: 0.03 s, elapsed: 0.35 s
+2018-05-10 09:05:11.367 JST [47556] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.04 s
+2018-05-10 09:06:11.055 JST [47915] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:06:11.117 JST [47915] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-10 09:06:26.752 JST [48000] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.29 s, system: 0.06 s, elapsed: 0.66 s
+2018-05-10 09:07:06.162 JST [48243] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:07:11.214 JST [48273] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.05 s
+2018-05-10 09:08:06.260 JST [48616] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:08:07.417 JST [48616] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.51 s, system: 0.08 s, elapsed: 1.14 s
+2018-05-10 09:08:11.333 JST [48646] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.07 s
+2018-05-10 09:09:06.362 JST [48976] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:09:11.437 JST [49007] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.05 s, system: 0.00 s, elapsed: 0.07 s
+2018-05-10 09:10:01.454 JST [49310] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:10:11.537 JST [49376] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.07 s
+2018-05-10 09:10:17.661 JST [49401] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.46 s, system: 0.09 s, elapsed: 1.17 s
+2018-05-10 09:10:56.564 JST [49645] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:11:06.582 JST [49705] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-10 09:11:06.583 JST [49705] LOG:  
+2018-05-10 09:11:06.583 JST [49705] LOG:  ---------- CHOOSE 0 ranges-----------------
+2018-05-10 09:11:06.583 JST [49705] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-10 09:11:11.682 JST [49735] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.01 s, elapsed: 0.09 s
+2018-05-10 09:11:56.664 JST [50008] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:12:11.762 JST [50099] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.09 s
+2018-05-10 09:12:51.719 JST [50339] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:13:03.564 JST [50399] LOG:  automatic analyze of table "postgres.public.pgbench_history" system usage: CPU: user: 0.50 s, system: 0.13 s, elapsed: 1.85 s
+2018-05-10 09:13:11.810 JST [50459] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.01 s, elapsed: 0.09 s
+2018-05-10 09:13:51.767 JST [50702] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:14:11.862 JST [50822] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.09 s
+2018-05-10 09:14:33.828 JST [49705] LOG:  automatic vacuum of table "postgres.public.pgbench_accounts": index scans: 0
+	pages: 0 removed, 13221000 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 800000000 remain, 0 are dead but not yet removable, oldest xmin: 7511972
+	buffer usage: 1490968 hits, 706242 misses, 2 dirtied
+	avg read rate: 26.623 MB/s, avg write rate: 0.000 MB/s
+	system usage: CPU: user: 4.11 s, system: 5.60 s, elapsed: 207.24 s
+2018-05-10 09:14:36.799 JST [50970] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-10 09:14:36.800 JST [50970] LOG:  209945,201424,193675,187233,177458,174247,168846,163305,158138,150492,149728,145379,140644,137066,133317,129777,122706,122991
+2018-05-10 09:14:36.800 JST [50970] LOG:  ---------- CHOOSE 18 ranges-----------------
+2018-05-10 09:14:36.800 JST [50970] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-10 09:14:36.987 JST [50970] LOG:  --- RANGE STATS [13116285 - 13120379] : rel "pgbench_accounts" vacuumed 13116285 - 13120379 page for 4094 pages out of 13253029 pages, removed 9092, cannot removed 6(total 6)
+2018-05-10 09:14:37.191 JST [50970] LOG:  --- RANGE STATS [13120380 - 13124474] : rel "pgbench_accounts" vacuumed 13120380 - 13124474 page for 4094 pages out of 13253029 pages, removed 9131, cannot removed 2(total 8)
+2018-05-10 09:14:37.394 JST [50970] LOG:  --- RANGE STATS [13124475 - 13128569] : rel "pgbench_accounts" vacuumed 13124475 - 13128569 page for 4094 pages out of 13253029 pages, removed 9039, cannot removed 13(total 21)
+2018-05-10 09:14:37.599 JST [50970] LOG:  --- RANGE STATS [13128570 - 13132664] : rel "pgbench_accounts" vacuumed 13128570 - 13132664 page for 4094 pages out of 13253029 pages, removed 9056, cannot removed 20(total 41)
+2018-05-10 09:14:37.801 JST [50970] LOG:  --- RANGE STATS [13132665 - 13136759] : rel "pgbench_accounts" vacuumed 13132665 - 13136759 page for 4094 pages out of 13253029 pages, removed 10659, cannot removed 26(total 67)
+2018-05-10 09:14:37.997 JST [50970] LOG:  --- RANGE STATS [13136760 - 13140854] : rel "pgbench_accounts" vacuumed 13136760 - 13140854 page for 4094 pages out of 13253029 pages, removed 9181, cannot removed 36(total 103)
+2018-05-10 09:14:38.192 JST [50970] LOG:  --- RANGE STATS [13140855 - 13144949] : rel "pgbench_accounts" vacuumed 13140855 - 13144949 page for 4094 pages out of 13253029 pages, removed 8983, cannot removed 31(total 134)
+2018-05-10 09:14:38.386 JST [50970] LOG:  --- RANGE STATS [13144950 - 13149044] : rel "pgbench_accounts" vacuumed 13144950 - 13149044 page for 4094 pages out of 13253029 pages, removed 9091, cannot removed 41(total 175)
+2018-05-10 09:14:38.561 JST [50970] LOG:  --- RANGE STATS [13149045 - 13153139] : rel "pgbench_accounts" vacuumed 13149045 - 13153139 page for 4094 pages out of 13253029 pages, removed 9213, cannot removed 42(total 217)
+2018-05-10 09:14:38.757 JST [50970] LOG:  --- RANGE STATS [13153140 - 13157234] : rel "pgbench_accounts" vacuumed 13153140 - 13157234 page for 4094 pages out of 13253029 pages, removed 11050, cannot removed 42(total 259)
+2018-05-10 09:14:38.952 JST [50970] LOG:  --- RANGE STATS [13157235 - 13161329] : rel "pgbench_accounts" vacuumed 13157235 - 13161329 page for 4094 pages out of 13253029 pages, removed 8605, cannot removed 62(total 321)
+2018-05-10 09:14:39.144 JST [50970] LOG:  --- RANGE STATS [13161330 - 13165424] : rel "pgbench_accounts" vacuumed 13161330 - 13165424 page for 4094 pages out of 13253029 pages, removed 8766, cannot removed 57(total 378)
+2018-05-10 09:14:39.317 JST [50970] LOG:  --- RANGE STATS [13165425 - 13169519] : rel "pgbench_accounts" vacuumed 13165425 - 13169519 page for 4094 pages out of 13253029 pages, removed 8930, cannot removed 60(total 438)
+2018-05-10 09:14:39.509 JST [50970] LOG:  --- RANGE STATS [13169520 - 13173614] : rel "pgbench_accounts" vacuumed 13169520 - 13173614 page for 4094 pages out of 13253029 pages, removed 8783, cannot removed 60(total 498)
+2018-05-10 09:14:39.699 JST [50970] LOG:  --- RANGE STATS [13173615 - 13177709] : rel "pgbench_accounts" vacuumed 13173615 - 13177709 page for 4094 pages out of 13253029 pages, removed 8697, cannot removed 100(total 598)
+2018-05-10 09:14:39.889 JST [50970] LOG:  --- RANGE STATS [13177710 - 13181804] : rel "pgbench_accounts" vacuumed 13177710 - 13181804 page for 4094 pages out of 13253029 pages, removed 8679, cannot removed 68(total 666)
+2018-05-10 09:14:40.059 JST [50970] LOG:  --- RANGE STATS [13181805 - 13185899] : rel "pgbench_accounts" vacuumed 13181805 - 13185899 page for 4094 pages out of 13253029 pages, removed 12197, cannot removed 74(total 740)
+2018-05-10 09:14:40.248 JST [50970] LOG:  --- RANGE STATS [13185900 - 13189994] : rel "pgbench_accounts" vacuumed 13185900 - 13189994 page for 4094 pages out of 13253029 pages, removed 8602, cannot removed 83(total 823)
+2018-05-10 09:14:40.261 JST [50970] LOG:  collect: max = 11184810, num = 60079(+60079)
+2018-05-10 09:14:46.650 JST [47146] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:46.650 JST [47146] DETAIL:  Key (aid)=(324425222) already exists.
+2018-05-10 09:14:46.650 JST [47146] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:14:46.803 JST [51038] LOG:  automatic analyze of table "postgres.public.pgbench_branches" system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2018-05-10 09:14:47.618 JST [50970] LOG:  automatic vacuum of table "postgres.public.pgbench_accounts": index scans: 1
+	pages: 0 removed, 13253029 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 167754 removed, 808118656 remain, 823 are dead but not yet removable, oldest xmin: 11354641
+	buffer usage: 190810 hits, 3225 misses, 2 dirtied
+	avg read rate: 2.328 MB/s, avg write rate: 0.001 MB/s
+	system usage: CPU: user: 1.37 s, system: 0.38 s, elapsed: 10.82 s
+2018-05-10 09:14:48.609 JST [47134] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:48.609 JST [47134] DETAIL:  Key (aid)=(324654922) already exists.
+2018-05-10 09:14:48.609 JST [47134] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:14:49.011 JST [47155] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:49.011 JST [47155] DETAIL:  Key (aid)=(450011221) already exists.
+2018-05-10 09:14:49.011 JST [47155] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:14:51.800 JST [51068] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-10 09:14:51.800 JST [51068] LOG:  215349,206877,199111,192523,182643,179760,174068,168728,163334,155554,155053,150596,145802,142277,138501,134998,127628,128102,124274,121145,117489,115037,112373,107105,106887,103478,100942,98348,95740,93531,89110
+2018-05-10 09:14:51.800 JST [51068] LOG:  ---------- CHOOSE 31 ranges-----------------
+2018-05-10 09:14:51.800 JST [51068] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-10 09:14:52.012 JST [51068] LOG:  --- RANGE STATS [13116285 - 13120379] : rel "pgbench_accounts" vacuumed 13116285 - 13120379 page for 4094 pages out of 13253765 pages, removed 2651, cannot removed 0(total 0)
+2018-05-10 09:14:52.222 JST [51068] LOG:  --- RANGE STATS [13120380 - 13124474] : rel "pgbench_accounts" vacuumed 13120380 - 13124474 page for 4094 pages out of 13253765 pages, removed 2618, cannot removed 12(total 12)
+2018-05-10 09:14:52.431 JST [51068] LOG:  --- RANGE STATS [13124475 - 13128569] : rel "pgbench_accounts" vacuumed 13124475 - 13128569 page for 4094 pages out of 13253765 pages, removed 2573, cannot removed 14(total 26)
+2018-05-10 09:14:52.640 JST [51068] LOG:  --- RANGE STATS [13128570 - 13132664] : rel "pgbench_accounts" vacuumed 13128570 - 13132664 page for 4094 pages out of 13253765 pages, removed 2592, cannot removed 8(total 34)
+2018-05-10 09:14:52.734 JST [47120] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:52.734 JST [47120] DETAIL:  Key (aid)=(396295215) already exists.
+2018-05-10 09:14:52.734 JST [47120] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:14:52.846 JST [51068] LOG:  --- RANGE STATS [13132665 - 13136759] : rel "pgbench_accounts" vacuumed 13132665 - 13136759 page for 4094 pages out of 13253765 pages, removed 2619, cannot removed 26(total 60)
+2018-05-10 09:14:53.061 JST [51068] LOG:  --- RANGE STATS [13136760 - 13140854] : rel "pgbench_accounts" vacuumed 13136760 - 13140854 page for 4094 pages out of 13253765 pages, removed 320, cannot removed 1857(total 1917)
+2018-05-10 09:14:53.170 JST [51068] LOG:  --- RANGE STATS [13140855 - 13144949] : rel "pgbench_accounts" vacuumed 13140855 - 13144949 page for 4094 pages out of 13253765 pages, removed 388, cannot removed 32(total 1949)
+2018-05-10 09:14:53.296 JST [51068] LOG:  --- RANGE STATS [13144950 - 13149044] : rel "pgbench_accounts" vacuumed 13144950 - 13149044 page for 4094 pages out of 13253765 pages, removed 381, cannot removed 33(total 1982)
+2018-05-10 09:14:53.398 JST [51068] LOG:  --- RANGE STATS [13149045 - 13153139] : rel "pgbench_accounts" vacuumed 13149045 - 13153139 page for 4094 pages out of 13253765 pages, removed 346, cannot removed 28(total 2010)
+2018-05-10 09:14:53.481 JST [51068] LOG:  --- RANGE STATS [13153140 - 13157234] : rel "pgbench_accounts" vacuumed 13153140 - 13157234 page for 4094 pages out of 13253765 pages, removed 325, cannot removed 50(total 2060)
+2018-05-10 09:14:53.610 JST [51068] LOG:  --- RANGE STATS [13157235 - 13161329] : rel "pgbench_accounts" vacuumed 13157235 - 13161329 page for 4094 pages out of 13253765 pages, removed 426, cannot removed 53(total 2113)
+2018-05-10 09:14:53.712 JST [51068] LOG:  --- RANGE STATS [13161330 - 13165424] : rel "pgbench_accounts" vacuumed 13161330 - 13165424 page for 4094 pages out of 13253765 pages, removed 329, cannot removed 46(total 2159)
+2018-05-10 09:14:53.818 JST [51068] LOG:  --- RANGE STATS [13165425 - 13169519] : rel "pgbench_accounts" vacuumed 13165425 - 13169519 page for 4094 pages out of 13253765 pages, removed 357, cannot removed 50(total 2209)
+2018-05-10 09:14:53.922 JST [51068] LOG:  --- RANGE STATS [13169520 - 13173614] : rel "pgbench_accounts" vacuumed 13169520 - 13173614 page for 4094 pages out of 13253765 pages, removed 359, cannot removed 46(total 2255)
+2018-05-10 09:14:54.050 JST [51068] LOG:  --- RANGE STATS [13173615 - 13177709] : rel "pgbench_accounts" vacuumed 13173615 - 13177709 page for 4094 pages out of 13253765 pages, removed 392, cannot removed 58(total 2313)
+2018-05-10 09:14:54.156 JST [51068] LOG:  --- RANGE STATS [13177710 - 13181804] : rel "pgbench_accounts" vacuumed 13177710 - 13181804 page for 4094 pages out of 13253765 pages, removed 379, cannot removed 44(total 2357)
+2018-05-10 09:14:54.281 JST [51068] LOG:  --- RANGE STATS [13181805 - 13185899] : rel "pgbench_accounts" vacuumed 13181805 - 13185899 page for 4094 pages out of 13253765 pages, removed 366, cannot removed 64(total 2421)
+2018-05-10 09:14:54.311 JST [47149] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:54.311 JST [47149] DETAIL:  Key (aid)=(375697685) already exists.
+2018-05-10 09:14:54.311 JST [47149] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:14:54.385 JST [51068] LOG:  --- RANGE STATS [13185900 - 13189994] : rel "pgbench_accounts" vacuumed 13185900 - 13189994 page for 4094 pages out of 13253765 pages, removed 361, cannot removed 73(total 2494)
+2018-05-10 09:14:54.575 JST [51068] LOG:  --- RANGE STATS [13189995 - 13194089] : rel "pgbench_accounts" vacuumed 13189995 - 13194089 page for 4094 pages out of 13253765 pages, removed 8418, cannot removed 49(total 2543)
+2018-05-10 09:14:54.745 JST [51068] LOG:  --- RANGE STATS [13194090 - 13198184] : rel "pgbench_accounts" vacuumed 13194090 - 13198184 page for 4094 pages out of 13253765 pages, removed 8500, cannot removed 61(total 2604)
+2018-05-10 09:14:54.932 JST [51068] LOG:  --- RANGE STATS [13198185 - 13202279] : rel "pgbench_accounts" vacuumed 13198185 - 13202279 page for 4094 pages out of 13253765 pages, removed 8269, cannot removed 52(total 2656)
+2018-05-10 09:14:55.119 JST [51068] LOG:  --- RANGE STATS [13202280 - 13206374] : rel "pgbench_accounts" vacuumed 13202280 - 13206374 page for 4094 pages out of 13253765 pages, removed 8115, cannot removed 64(total 2720)
+2018-05-10 09:14:55.306 JST [51068] LOG:  --- RANGE STATS [13206375 - 13210469] : rel "pgbench_accounts" vacuumed 13206375 - 13210469 page for 4094 pages out of 13253765 pages, removed 8103, cannot removed 64(total 2784)
+2018-05-10 09:14:55.490 JST [51068] LOG:  --- RANGE STATS [13210470 - 13214564] : rel "pgbench_accounts" vacuumed 13210470 - 13214564 page for 4094 pages out of 13253765 pages, removed 10554, cannot removed 80(total 2864)
+2018-05-10 09:14:55.629 JST [47154] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:55.629 JST [47154] DETAIL:  Key (aid)=(458678901) already exists.
+2018-05-10 09:14:55.629 JST [47154] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:14:55.672 JST [51068] LOG:  --- RANGE STATS [13214565 - 13218659] : rel "pgbench_accounts" vacuumed 13214565 - 13218659 page for 4094 pages out of 13253765 pages, removed 7748, cannot removed 77(total 2941)
+2018-05-10 09:14:55.854 JST [51068] LOG:  --- RANGE STATS [13218660 - 13222754] : rel "pgbench_accounts" vacuumed 13218660 - 13222754 page for 4094 pages out of 13253765 pages, removed 7608, cannot removed 97(total 3038)
+2018-05-10 09:14:56.009 JST [47157] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:56.009 JST [47157] DETAIL:  Key (aid)=(327649924) already exists.
+2018-05-10 09:14:56.009 JST [47157] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:14:56.034 JST [51068] LOG:  --- RANGE STATS [13222755 - 13226849] : rel "pgbench_accounts" vacuumed 13222755 - 13226849 page for 4094 pages out of 13253765 pages, removed 7536, cannot removed 77(total 3115)
+2018-05-10 09:14:56.212 JST [51068] LOG:  --- RANGE STATS [13226850 - 13230944] : rel "pgbench_accounts" vacuumed 13226850 - 13230944 page for 4094 pages out of 13253765 pages, removed 7146, cannot removed 113(total 3228)
+2018-05-10 09:14:56.414 JST [51068] LOG:  --- RANGE STATS [13230945 - 13235039] : rel "pgbench_accounts" vacuumed 13230945 - 13235039 page for 4094 pages out of 13253765 pages, removed 7182, cannot removed 92(total 3320)
+2018-05-10 09:14:56.595 JST [51068] LOG:  --- RANGE STATS [13235040 - 13239134] : rel "pgbench_accounts" vacuumed 13235040 - 13239134 page for 4094 pages out of 13253765 pages, removed 6650, cannot removed 102(total 3422)
+2018-05-10 09:14:56.782 JST [51068] LOG:  --- RANGE STATS [13239135 - 13243229] : rel "pgbench_accounts" vacuumed 13239135 - 13243229 page for 4094 pages out of 13253765 pages, removed 11187, cannot removed 73(total 3495)
+2018-05-10 09:14:56.783 JST [51068] LOG:  collect: max = 11184810, num = 101439(+41360)
+2018-05-10 09:14:57.475 JST [47123] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:57.475 JST [47123] DETAIL:  Key (aid)=(347542337) already exists.
+2018-05-10 09:14:57.475 JST [47123] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:14:57.698 JST [47124] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:57.698 JST [47124] DETAIL:  Key (aid)=(347947123) already exists.
+2018-05-10 09:14:57.698 JST [47124] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:14:58.968 JST [47156] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:14:58.968 JST [47156] DETAIL:  Key (aid)=(441366227) already exists.
+2018-05-10 09:14:58.968 JST [47156] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:00.091 JST [47105] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:00.091 JST [47105] DETAIL:  Key (aid)=(380802055) already exists.
+2018-05-10 09:15:00.091 JST [47105] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:01.662 JST [47148] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:01.662 JST [47148] DETAIL:  Key (aid)=(503662802) already exists.
+2018-05-10 09:15:01.662 JST [47148] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:03.460 JST [51068] LOG:  automatic vacuum of table "postgres.public.pgbench_accounts": index scans: 1
+	pages: 0 removed, 13253765 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 124798 removed, 807893682 remain, 3495 are dead but not yet removable, oldest xmin: 11632608
+	buffer usage: 243760 hits, 2 misses, 2 dirtied
+	avg read rate: 0.001 MB/s, avg write rate: 0.001 MB/s
+	system usage: CPU: user: 1.52 s, system: 0.29 s, elapsed: 11.66 s
+2018-05-10 09:15:03.508 JST [47147] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:03.508 JST [47147] DETAIL:  Key (aid)=(433845460) already exists.
+2018-05-10 09:15:03.508 JST [47147] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:03.723 JST [47126] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:03.723 JST [47126] DETAIL:  Key (aid)=(513916328) already exists.
+2018-05-10 09:15:03.723 JST [47126] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:04.613 JST [47116] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:04.613 JST [47116] DETAIL:  Key (aid)=(473269240) already exists.
+2018-05-10 09:15:04.613 JST [47116] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:05.705 JST [47121] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:05.705 JST [47121] DETAIL:  Key (aid)=(400126457) already exists.
+2018-05-10 09:15:05.705 JST [47121] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:06.706 JST [47165] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:06.706 JST [47165] DETAIL:  Key (aid)=(382085545) already exists.
+2018-05-10 09:15:06.706 JST [47165] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:06.782 JST [47152] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:06.782 JST [47152] DETAIL:  Key (aid)=(346793614) already exists.
+2018-05-10 09:15:06.782 JST [47152] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:06.821 JST [51153] LOG:  ----- Select higher 20 percent ranges -----
+2018-05-10 09:15:06.821 JST [51153] LOG:  21881,21835,22110,21862,21907,21796,21965,21944,22035,21975,22057,21888,21825,21773,22296,21756,21907,22234,21851,21823,22054,21931,22098,21834,22152,21882,21962,21899,21923,21993,22062,21960,21899,21960,22218,22343,21939,21857,22112,22169,22060,22305,22022,22129,22153,22075,22190,22395,22003,22439,22295,22250,22262,22210,22136,21924,22512,22033,21759,22088,22109,22145,22149,22345,21969,22013,22023,22064,22516,21873,22167,22130,21944,21950,22080,21995,21773,22006,21939,22223,22010,22158,21997,22156,22120,21894,21853,21904,22101,22403,21782,21824,22024,22431,21797,21777,21880,83433,124609,121537,117830,115390,112694,107422,107169,103786,101245,98650,96002,93841,89377,89143,86850,48347
+2018-05-10 09:15:06.821 JST [51153] LOG:  ---------- CHOOSE 114 ranges-----------------
+2018-05-10 09:15:06.821 JST [51153] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-10 09:15:07.182 JST [51153] LOG:  --- RANGE STATS [6203925 - 6208019] : rel "pgbench_accounts" vacuumed 6203925 - 6208019 page for 4094 pages out of 13253765 pages, removed 7099, cannot removed 3(total 3)
+2018-05-10 09:15:07.328 JST [47128] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:07.328 JST [47128] DETAIL:  Key (aid)=(391929096) already exists.
+2018-05-10 09:15:07.328 JST [47128] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:07.534 JST [51153] LOG:  --- RANGE STATS [6318585 - 6322679] : rel "pgbench_accounts" vacuumed 6318585 - 6322679 page for 4094 pages out of 13253765 pages, removed 7082, cannot removed 25(total 28)
+2018-05-10 09:15:07.884 JST [51153] LOG:  --- RANGE STATS [6322680 - 6326774] : rel "pgbench_accounts" vacuumed 6322680 - 6326774 page for 4094 pages out of 13253765 pages, removed 7021, cannot removed 41(total 69)
+2018-05-10 09:15:08.000 JST [47130] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:08.000 JST [47130] DETAIL:  Key (aid)=(384057559) already exists.
+2018-05-10 09:15:08.000 JST [47130] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:08.233 JST [51153] LOG:  --- RANGE STATS [6326775 - 6330869] : rel "pgbench_accounts" vacuumed 6326775 - 6330869 page for 4094 pages out of 13253765 pages, removed 7116, cannot removed 41(total 110)
+2018-05-10 09:15:08.585 JST [51153] LOG:  --- RANGE STATS [6339060 - 6343154] : rel "pgbench_accounts" vacuumed 6339060 - 6343154 page for 4094 pages out of 13253765 pages, removed 7072, cannot removed 56(total 166)
+2018-05-10 09:15:08.610 JST [47158] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:08.610 JST [47158] DETAIL:  Key (aid)=(491085726) already exists.
+2018-05-10 09:15:08.610 JST [47158] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:08.654 JST [47142] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:08.654 JST [47142] DETAIL:  Key (aid)=(447759359) already exists.
+2018-05-10 09:15:08.654 JST [47142] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:08.928 JST [51153] LOG:  --- RANGE STATS [6351345 - 6355439] : rel "pgbench_accounts" vacuumed 6351345 - 6355439 page for 4094 pages out of 13253765 pages, removed 7056, cannot removed 69(total 235)
+2018-05-10 09:15:08.974 JST [47151] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:08.974 JST [47151] DETAIL:  Key (aid)=(362761618) already exists.
+2018-05-10 09:15:08.974 JST [47151] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:09.273 JST [51153] LOG:  --- RANGE STATS [6355440 - 6359534] : rel "pgbench_accounts" vacuumed 6355440 - 6359534 page for 4094 pages out of 13253765 pages, removed 7034, cannot removed 87(total 322)
+2018-05-10 09:15:09.612 JST [51153] LOG:  --- RANGE STATS [6363630 - 6367724] : rel "pgbench_accounts" vacuumed 6363630 - 6367724 page for 4094 pages out of 13253765 pages, removed 7056, cannot removed 96(total 418)
+2018-05-10 09:15:09.971 JST [51153] LOG:  --- RANGE STATS [6367725 - 6371819] : rel "pgbench_accounts" vacuumed 6367725 - 6371819 page for 4094 pages out of 13253765 pages, removed 6996, cannot removed 124(total 542)
+2018-05-10 09:15:10.308 JST [51153] LOG:  --- RANGE STATS [6371820 - 6375914] : rel "pgbench_accounts" vacuumed 6371820 - 6375914 page for 4094 pages out of 13253765 pages, removed 7003, cannot removed 141(total 683)
+2018-05-10 09:15:10.648 JST [51153] LOG:  --- RANGE STATS [6384105 - 6388199] : rel "pgbench_accounts" vacuumed 6384105 - 6388199 page for 4094 pages out of 13253765 pages, removed 6984, cannot removed 169(total 852)
+2018-05-10 09:15:10.977 JST [47137] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:10.977 JST [47137] DETAIL:  Key (aid)=(433931945) already exists.
+2018-05-10 09:15:10.977 JST [47137] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:10.981 JST [51153] LOG:  --- RANGE STATS [6388200 - 6392294] : rel "pgbench_accounts" vacuumed 6388200 - 6392294 page for 4094 pages out of 13253765 pages, removed 6957, cannot removed 167(total 1019)
+2018-05-10 09:15:11.117 JST [47108] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:11.117 JST [47108] DETAIL:  Key (aid)=(370547849) already exists.
+2018-05-10 09:15:11.117 JST [47108] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:11.179 JST [47135] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:11.179 JST [47135] DETAIL:  Key (aid)=(461341373) already exists.
+2018-05-10 09:15:11.179 JST [47135] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:11.320 JST [51153] LOG:  --- RANGE STATS [6392295 - 6396389] : rel "pgbench_accounts" vacuumed 6392295 - 6396389 page for 4094 pages out of 13253765 pages, removed 6951, cannot removed 176(total 1195)
+2018-05-10 09:15:11.327 JST [47097] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:11.327 JST [47097] DETAIL:  Key (aid)=(427082267) already exists.
+2018-05-10 09:15:11.327 JST [47097] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:11.477 JST [47166] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:11.477 JST [47166] DETAIL:  Key (aid)=(415805383) already exists.
+2018-05-10 09:15:11.477 JST [47166] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:11.684 JST [51153] LOG:  --- RANGE STATS [6396390 - 6400484] : rel "pgbench_accounts" vacuumed 6396390 - 6400484 page for 4094 pages out of 13253765 pages, removed 6938, cannot removed 191(total 1386)
+2018-05-10 09:15:11.923 JST [51183] LOG:  automatic analyze of table "postgres.public.pgbench_tellers" system usage: CPU: user: 0.04 s, system: 0.00 s, elapsed: 0.09 s
+2018-05-10 09:15:12.065 JST [51153] LOG:  --- RANGE STATS [6400485 - 6404579] : rel "pgbench_accounts" vacuumed 6400485 - 6404579 page for 4094 pages out of 13253765 pages, removed 7013, cannot removed 170(total 1556)
+2018-05-10 09:15:12.422 JST [51153] LOG:  --- RANGE STATS [6404580 - 6408674] : rel "pgbench_accounts" vacuumed 6404580 - 6408674 page for 4094 pages out of 13253765 pages, removed 6889, cannot removed 208(total 1764)
+2018-05-10 09:15:12.582 JST [47125] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:12.582 JST [47125] DETAIL:  Key (aid)=(538400694) already exists.
+2018-05-10 09:15:12.582 JST [47125] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:12.760 JST [51153] LOG:  --- RANGE STATS [6408675 - 6412769] : rel "pgbench_accounts" vacuumed 6408675 - 6412769 page for 4094 pages out of 13253765 pages, removed 6905, cannot removed 260(total 2024)
+2018-05-10 09:15:13.075 JST [51153] LOG:  --- RANGE STATS [6412770 - 6416864] : rel "pgbench_accounts" vacuumed 6412770 - 6416864 page for 4094 pages out of 13253765 pages, removed 6904, cannot removed 231(total 2255)
+2018-05-10 09:15:13.165 JST [47107] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:13.165 JST [47107] DETAIL:  Key (aid)=(295318765) already exists.
+2018-05-10 09:15:13.165 JST [47107] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:13.312 JST [47161] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:13.312 JST [47161] DETAIL:  Key (aid)=(353725043) already exists.
+2018-05-10 09:15:13.312 JST [47161] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:13.424 JST [51153] LOG:  --- RANGE STATS [6420960 - 6425054] : rel "pgbench_accounts" vacuumed 6420960 - 6425054 page for 4094 pages out of 13253765 pages, removed 6904, cannot removed 230(total 2485)
+2018-05-10 09:15:13.758 JST [51153] LOG:  --- RANGE STATS [6425055 - 6429149] : rel "pgbench_accounts" vacuumed 6425055 - 6429149 page for 4094 pages out of 13253765 pages, removed 6884, cannot removed 252(total 2737)
+2018-05-10 09:15:14.098 JST [51153] LOG:  --- RANGE STATS [6429150 - 6433244] : rel "pgbench_accounts" vacuumed 6429150 - 6433244 page for 4094 pages out of 13253765 pages, removed 6833, cannot removed 298(total 3035)
+2018-05-10 09:15:14.188 JST [47101] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:14.188 JST [47101] DETAIL:  Key (aid)=(383896587) already exists.
+2018-05-10 09:15:14.188 JST [47101] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:14.455 JST [51153] LOG:  --- RANGE STATS [6433245 - 6437339] : rel "pgbench_accounts" vacuumed 6433245 - 6437339 page for 4094 pages out of 13253765 pages, removed 6827, cannot removed 307(total 3342)
+2018-05-10 09:15:14.791 JST [51153] LOG:  --- RANGE STATS [6437340 - 6441434] : rel "pgbench_accounts" vacuumed 6437340 - 6441434 page for 4094 pages out of 13253765 pages, removed 6820, cannot removed 275(total 3617)
+2018-05-10 09:15:15.124 JST [51153] LOG:  --- RANGE STATS [6445530 - 6449624] : rel "pgbench_accounts" vacuumed 6445530 - 6449624 page for 4094 pages out of 13253765 pages, removed 6876, cannot removed 307(total 3924)
+2018-05-10 09:15:15.280 JST [47164] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:15.280 JST [47164] DETAIL:  Key (aid)=(379136823) already exists.
+2018-05-10 09:15:15.280 JST [47164] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:15.465 JST [51153] LOG:  --- RANGE STATS [6457815 - 6461909] : rel "pgbench_accounts" vacuumed 6457815 - 6461909 page for 4094 pages out of 13253765 pages, removed 6803, cannot removed 318(total 4242)
+2018-05-10 09:15:15.785 JST [47111] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:15.785 JST [47111] DETAIL:  Key (aid)=(360894862) already exists.
+2018-05-10 09:15:15.785 JST [47111] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:15.801 JST [51153] LOG:  --- RANGE STATS [6461910 - 6466004] : rel "pgbench_accounts" vacuumed 6461910 - 6466004 page for 4094 pages out of 13253765 pages, removed 6826, cannot removed 330(total 4572)
+2018-05-10 09:15:16.134 JST [51153] LOG:  --- RANGE STATS [6466005 - 6470099] : rel "pgbench_accounts" vacuumed 6466005 - 6470099 page for 4094 pages out of 13253765 pages, removed 6927, cannot removed 344(total 4916)
+2018-05-10 09:15:16.464 JST [51153] LOG:  --- RANGE STATS [6470100 - 6474194] : rel "pgbench_accounts" vacuumed 6470100 - 6474194 page for 4094 pages out of 13253765 pages, removed 6847, cannot removed 328(total 5244)
+2018-05-10 09:15:16.773 JST [51153] LOG:  --- RANGE STATS [6474195 - 6478289] : rel "pgbench_accounts" vacuumed 6474195 - 6478289 page for 4094 pages out of 13253765 pages, removed 6717, cannot removed 435(total 5679)
+2018-05-10 09:15:17.104 JST [51153] LOG:  --- RANGE STATS [6478290 - 6482384] : rel "pgbench_accounts" vacuumed 6478290 - 6482384 page for 4094 pages out of 13253765 pages, removed 6866, cannot removed 346(total 6025)
+2018-05-10 09:15:17.434 JST [51153] LOG:  --- RANGE STATS [6482385 - 6486479] : rel "pgbench_accounts" vacuumed 6482385 - 6486479 page for 4094 pages out of 13253765 pages, removed 6751, cannot removed 426(total 6451)
+2018-05-10 09:15:17.623 JST [47095] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:17.623 JST [47095] DETAIL:  Key (aid)=(396512742) already exists.
+2018-05-10 09:15:17.623 JST [47095] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:17.765 JST [51153] LOG:  --- RANGE STATS [6486480 - 6490574] : rel "pgbench_accounts" vacuumed 6486480 - 6490574 page for 4094 pages out of 13253765 pages, removed 6825, cannot removed 398(total 6849)
+2018-05-10 09:15:17.820 JST [47136] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:17.820 JST [47136] DETAIL:  Key (aid)=(462797880) already exists.
+2018-05-10 09:15:17.820 JST [47136] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:18.027 JST [47109] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:18.027 JST [47109] DETAIL:  Key (aid)=(417106287) already exists.
+2018-05-10 09:15:18.027 JST [47109] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:18.097 JST [51153] LOG:  --- RANGE STATS [6490575 - 6494669] : rel "pgbench_accounts" vacuumed 6490575 - 6494669 page for 4094 pages out of 13253765 pages, removed 6736, cannot removed 449(total 7298)
+2018-05-10 09:15:18.429 JST [51153] LOG:  --- RANGE STATS [6494670 - 6498764] : rel "pgbench_accounts" vacuumed 6494670 - 6498764 page for 4094 pages out of 13253765 pages, removed 6727, cannot removed 429(total 7727)
+2018-05-10 09:15:18.438 JST [47144] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:18.438 JST [47144] DETAIL:  Key (aid)=(291852378) already exists.
+2018-05-10 09:15:18.438 JST [47144] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:18.764 JST [51153] LOG:  --- RANGE STATS [6498765 - 6502859] : rel "pgbench_accounts" vacuumed 6498765 - 6502859 page for 4094 pages out of 13253765 pages, removed 6669, cannot removed 498(total 8225)
+2018-05-10 09:15:19.094 JST [51153] LOG:  --- RANGE STATS [6502860 - 6506954] : rel "pgbench_accounts" vacuumed 6502860 - 6506954 page for 4094 pages out of 13253765 pages, removed 6717, cannot removed 480(total 8705)
+2018-05-10 09:15:19.255 JST [47127] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:19.255 JST [47127] DETAIL:  Key (aid)=(401860411) already exists.
+2018-05-10 09:15:19.255 JST [47127] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:19.407 JST [51153] LOG:  --- RANGE STATS [6506955 - 6511049] : rel "pgbench_accounts" vacuumed 6506955 - 6511049 page for 4094 pages out of 13253765 pages, removed 6715, cannot removed 480(total 9185)
+2018-05-10 09:15:19.433 JST [47132] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:19.433 JST [47132] DETAIL:  Key (aid)=(372238185) already exists.
+2018-05-10 09:15:19.433 JST [47132] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:19.735 JST [51153] LOG:  --- RANGE STATS [6515145 - 6519239] : rel "pgbench_accounts" vacuumed 6515145 - 6519239 page for 4094 pages out of 13253765 pages, removed 6676, cannot removed 497(total 9682)
+2018-05-10 09:15:20.074 JST [51153] LOG:  --- RANGE STATS [6519240 - 6523334] : rel "pgbench_accounts" vacuumed 6519240 - 6523334 page for 4094 pages out of 13253765 pages, removed 6681, cannot removed 490(total 10172)
+2018-05-10 09:15:20.407 JST [51153] LOG:  --- RANGE STATS [6523335 - 6527429] : rel "pgbench_accounts" vacuumed 6523335 - 6527429 page for 4094 pages out of 13253765 pages, removed 6615, cannot removed 532(total 10704)
+2018-05-10 09:15:20.418 JST [47113] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:20.418 JST [47113] DETAIL:  Key (aid)=(396834867) already exists.
+2018-05-10 09:15:20.418 JST [47113] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:20.486 JST [47160] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:20.486 JST [47160] DETAIL:  Key (aid)=(308517547) already exists.
+2018-05-10 09:15:20.486 JST [47160] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:20.718 JST [51153] LOG:  --- RANGE STATS [6527430 - 6531524] : rel "pgbench_accounts" vacuumed 6527430 - 6531524 page for 4094 pages out of 13253765 pages, removed 6703, cannot removed 489(total 11193)
+2018-05-10 09:15:20.797 JST [47145] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:20.797 JST [47145] DETAIL:  Key (aid)=(421788281) already exists.
+2018-05-10 09:15:20.797 JST [47145] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:20.981 JST [47133] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:20.981 JST [47133] DETAIL:  Key (aid)=(383756106) already exists.
+2018-05-10 09:15:20.981 JST [47133] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:21.049 JST [51153] LOG:  --- RANGE STATS [6531525 - 6535619] : rel "pgbench_accounts" vacuumed 6531525 - 6535619 page for 4094 pages out of 13253765 pages, removed 6607, cannot removed 578(total 11771)
+2018-05-10 09:15:21.138 JST [47099] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:21.138 JST [47099] DETAIL:  Key (aid)=(314978677) already exists.
+2018-05-10 09:15:21.138 JST [47099] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:21.377 JST [51153] LOG:  --- RANGE STATS [6535620 - 6539714] : rel "pgbench_accounts" vacuumed 6535620 - 6539714 page for 4094 pages out of 13253765 pages, removed 6535, cannot removed 577(total 12348)
+2018-05-10 09:15:21.707 JST [51153] LOG:  --- RANGE STATS [6539715 - 6543809] : rel "pgbench_accounts" vacuumed 6539715 - 6543809 page for 4094 pages out of 13253765 pages, removed 6580, cannot removed 567(total 12915)
+2018-05-10 09:15:21.983 JST [47122] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:21.983 JST [47122] DETAIL:  Key (aid)=(339261116) already exists.
+2018-05-10 09:15:21.983 JST [47122] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:21.996 JST [51153] LOG:  --- RANGE STATS [6543810 - 6547904] : rel "pgbench_accounts" vacuumed 6543810 - 6547904 page for 4094 pages out of 13253765 pages, removed 6592, cannot removed 591(total 13506)
+2018-05-10 09:15:22.349 JST [51153] LOG:  --- RANGE STATS [6547905 - 6551999] : rel "pgbench_accounts" vacuumed 6547905 - 6551999 page for 4094 pages out of 13253765 pages, removed 6450, cannot removed 633(total 14139)
+2018-05-10 09:15:22.681 JST [51153] LOG:  --- RANGE STATS [6552000 - 6556094] : rel "pgbench_accounts" vacuumed 6552000 - 6556094 page for 4094 pages out of 13253765 pages, removed 6602, cannot removed 556(total 14695)
+2018-05-10 09:15:22.884 JST [47162] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:22.884 JST [47162] DETAIL:  Key (aid)=(370524026) already exists.
+2018-05-10 09:15:22.884 JST [47162] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:22.990 JST [51153] LOG:  --- RANGE STATS [6556095 - 6560189] : rel "pgbench_accounts" vacuumed 6556095 - 6560189 page for 4094 pages out of 13253765 pages, removed 6545, cannot removed 652(total 15347)
+2018-05-10 09:15:23.342 JST [51153] LOG:  --- RANGE STATS [6560190 - 6564284] : rel "pgbench_accounts" vacuumed 6560190 - 6564284 page for 4094 pages out of 13253765 pages, removed 6571, cannot removed 596(total 15943)
+2018-05-10 09:15:23.492 JST [47163] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:23.492 JST [47163] DETAIL:  Key (aid)=(356102147) already exists.
+2018-05-10 09:15:23.492 JST [47163] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:23.652 JST [51153] LOG:  --- RANGE STATS [6564285 - 6568379] : rel "pgbench_accounts" vacuumed 6564285 - 6568379 page for 4094 pages out of 13253765 pages, removed 6523, cannot removed 661(total 16604)
+2018-05-10 09:15:23.780 JST [47139] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:23.780 JST [47139] DETAIL:  Key (aid)=(436582900) already exists.
+2018-05-10 09:15:23.780 JST [47139] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:23.980 JST [51153] LOG:  --- RANGE STATS [6568380 - 6572474] : rel "pgbench_accounts" vacuumed 6568380 - 6572474 page for 4094 pages out of 13253765 pages, removed 6605, cannot removed 604(total 17208)
+2018-05-10 09:15:24.277 JST [47140] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:24.277 JST [47140] DETAIL:  Key (aid)=(335059618) already exists.
+2018-05-10 09:15:24.277 JST [47140] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:24.311 JST [51153] LOG:  --- RANGE STATS [6572475 - 6576569] : rel "pgbench_accounts" vacuumed 6572475 - 6576569 page for 4094 pages out of 13253765 pages, removed 6515, cannot removed 662(total 17870)
+2018-05-10 09:15:24.627 JST [51153] LOG:  --- RANGE STATS [6576570 - 6580664] : rel "pgbench_accounts" vacuumed 6576570 - 6580664 page for 4094 pages out of 13253765 pages, removed 6577, cannot removed 655(total 18525)
+2018-05-10 09:15:24.806 JST [47131] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:24.806 JST [47131] DETAIL:  Key (aid)=(328440912) already exists.
+2018-05-10 09:15:24.806 JST [47131] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:24.969 JST [51153] LOG:  --- RANGE STATS [6580665 - 6584759] : rel "pgbench_accounts" vacuumed 6580665 - 6584759 page for 4094 pages out of 13253765 pages, removed 6492, cannot removed 701(total 19226)
+2018-05-10 09:15:25.287 JST [51153] LOG:  --- RANGE STATS [6588855 - 6592949] : rel "pgbench_accounts" vacuumed 6588855 - 6592949 page for 4094 pages out of 13253765 pages, removed 6482, cannot removed 672(total 19898)
+2018-05-10 09:15:25.550 JST [47143] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:25.550 JST [47143] DETAIL:  Key (aid)=(294802036) already exists.
+2018-05-10 09:15:25.550 JST [47143] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:25.627 JST [51153] LOG:  --- RANGE STATS [6592950 - 6597044] : rel "pgbench_accounts" vacuumed 6592950 - 6597044 page for 4094 pages out of 13253765 pages, removed 6417, cannot removed 744(total 20642)
+2018-05-10 09:15:25.737 JST [47141] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:25.737 JST [47141] DETAIL:  Key (aid)=(451918198) already exists.
+2018-05-10 09:15:25.737 JST [47141] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:25.944 JST [51153] LOG:  --- RANGE STATS [6601140 - 6605234] : rel "pgbench_accounts" vacuumed 6601140 - 6605234 page for 4094 pages out of 13253765 pages, removed 6489, cannot removed 729(total 21371)
+2018-05-10 09:15:26.196 JST [47159] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:26.196 JST [47159] DETAIL:  Key (aid)=(361993305) already exists.
+2018-05-10 09:15:26.196 JST [47159] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:26.277 JST [51153] LOG:  --- RANGE STATS [6605235 - 6609329] : rel "pgbench_accounts" vacuumed 6605235 - 6609329 page for 4094 pages out of 13253765 pages, removed 6480, cannot removed 755(total 22126)
+2018-05-10 09:15:26.605 JST [51153] LOG:  --- RANGE STATS [6609330 - 6613424] : rel "pgbench_accounts" vacuumed 6609330 - 6613424 page for 4094 pages out of 13253765 pages, removed 6380, cannot removed 746(total 22872)
+2018-05-10 09:15:26.610 JST [47150] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:26.610 JST [47150] DETAIL:  Key (aid)=(427571619) already exists.
+2018-05-10 09:15:26.610 JST [47150] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:26.696 JST [47103] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:26.696 JST [47103] DETAIL:  Key (aid)=(364293751) already exists.
+2018-05-10 09:15:26.696 JST [47103] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:26.873 JST [47115] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:26.873 JST [47115] DETAIL:  Key (aid)=(433841671) already exists.
+2018-05-10 09:15:26.873 JST [47115] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:26.914 JST [51153] LOG:  --- RANGE STATS [6617520 - 6621614] : rel "pgbench_accounts" vacuumed 6617520 - 6621614 page for 4094 pages out of 13253765 pages, removed 6422, cannot removed 766(total 23638)
+2018-05-10 09:15:27.223 JST [51153] LOG:  --- RANGE STATS [6621615 - 6625709] : rel "pgbench_accounts" vacuumed 6621615 - 6625709 page for 4094 pages out of 13253765 pages, removed 6475, cannot removed 744(total 24382)
+2018-05-10 09:15:27.556 JST [51153] LOG:  --- RANGE STATS [6625710 - 6629804] : rel "pgbench_accounts" vacuumed 6625710 - 6629804 page for 4094 pages out of 13253765 pages, removed 6453, cannot removed 728(total 25110)
+2018-05-10 09:15:27.707 JST [47119] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:27.707 JST [47119] DETAIL:  Key (aid)=(448355784) already exists.
+2018-05-10 09:15:27.707 JST [47119] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:27.714 JST [47129] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:27.714 JST [47129] DETAIL:  Key (aid)=(458783107) already exists.
+2018-05-10 09:15:27.714 JST [47129] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:27.860 JST [51153] LOG:  --- RANGE STATS [6629805 - 6633899] : rel "pgbench_accounts" vacuumed 6629805 - 6633899 page for 4094 pages out of 13253765 pages, removed 6434, cannot removed 716(total 25826)
+2018-05-10 09:15:28.080 JST [47153] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:28.080 JST [47153] DETAIL:  Key (aid)=(468797163) already exists.
+2018-05-10 09:15:28.080 JST [47153] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:28.161 JST [51153] LOG:  --- RANGE STATS [6633900 - 6637994] : rel "pgbench_accounts" vacuumed 6633900 - 6637994 page for 4094 pages out of 13253765 pages, removed 6474, cannot removed 766(total 26592)
+2018-05-10 09:15:28.360 JST [47118] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:28.360 JST [47118] DETAIL:  Key (aid)=(397051276) already exists.
+2018-05-10 09:15:28.360 JST [47118] STATEMENT:  UPDATE pgbench_accounts SET aid = aid WHERE aid = $1;
+2018-05-10 09:15:28.490 JST [51153] LOG:  --- RANGE STATS [6637995 - 6642089] : rel "pgbench_accounts" vacuumed 6637995 - 6642089 page for 4094 pages out of 13253765 pages, removed 6403, cannot removed 785(total 27377)
+2018-05-10 09:15:28.817 JST [51153] LOG:  --- RANGE STATS [6642090 - 6646184] : rel "pgbench_accounts" vacuumed 6642090 - 6646184 page for 4094 pages out of 13253765 pages, removed 6489, cannot removed 740(total 28117)
+2018-05-10 09:15:29.123 JST [51153] LOG:  --- RANGE STATS [6646185 - 6650279] : rel "pgbench_accounts" vacuumed 6646185 - 6650279 page for 4094 pages out of 13253765 pages, removed 6494, cannot removed 742(total 28859)
+2018-05-10 09:15:29.134 JST [47138] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:29.134 JST [47138] DETAIL:  Key (aid)=(437457075) already exists.
+2018-05-10 09:15:29.134 JST [47138] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:29.429 JST [51153] LOG:  --- RANGE STATS [6650280 - 6654374] : rel "pgbench_accounts" vacuumed 6650280 - 6654374 page for 4094 pages out of 13253765 pages, removed 6350, cannot removed 795(total 29654)
+2018-05-10 09:15:29.738 JST [51153] LOG:  --- RANGE STATS [6654375 - 6658469] : rel "pgbench_accounts" vacuumed 6654375 - 6658469 page for 4094 pages out of 13253765 pages, removed 6370, cannot removed 845(total 30499)
+2018-05-10 09:15:30.069 JST [51153] LOG:  --- RANGE STATS [6658470 - 6662564] : rel "pgbench_accounts" vacuumed 6658470 - 6662564 page for 4094 pages out of 13253765 pages, removed 6308, cannot removed 852(total 31351)
+2018-05-10 09:15:30.395 JST [51153] LOG:  --- RANGE STATS [6662565 - 6666659] : rel "pgbench_accounts" vacuumed 6662565 - 6666659 page for 4094 pages out of 13253765 pages, removed 6498, cannot removed 657(total 32008)
+2018-05-10 09:15:30.701 JST [51153] LOG:  --- RANGE STATS [6666660 - 6670754] : rel "pgbench_accounts" vacuumed 6666660 - 6670754 page for 4094 pages out of 13253765 pages, removed 6420, cannot removed 789(total 32797)
+2018-05-10 09:15:30.880 JST [47110] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:30.880 JST [47110] DETAIL:  Key (aid)=(411547096) already exists.
+2018-05-10 09:15:30.880 JST [47110] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
+2018-05-10 09:15:31.004 JST [51153] LOG:  --- RANGE STATS [6674850 - 6678944] : rel "pgbench_accounts" vacuumed 6674850 - 6678944 page for 4094 pages out of 13253765 pages, removed 6326, cannot removed 845(total 33642)
+2018-05-10 09:15:31.268 JST [47093] ERROR:  duplicate key value violates unique constraint "pgbench_accounts_pkey"
+2018-05-10 09:15:31.268 JST [47093] DETAIL:  Key (aid)=(391163080) already exists.
+2018-05-10 09:15:31.268 JST [47093] STATEMENT:  UPDATE pgbench_accounts SET abalance = abalance + $1 WHERE aid = $2;
