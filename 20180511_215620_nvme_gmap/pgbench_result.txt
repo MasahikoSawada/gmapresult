@@ -1,0 +1,12 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "3600"
+clients    = "64"
+jobs       = "32"
+output dir = "20180511_215620_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
