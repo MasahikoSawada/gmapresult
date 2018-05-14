@@ -1,0 +1,165 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "32400"
+clients    = "64"
+jobs       = "32"
+output dir = "20180514_224118_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
+Timing is on.
+    before    | before_pretty |    after     | after_pretty |      ratio       
+--------------+---------------+--------------+--------------+------------------
+ 214872137728 | 200 GB        | 222930894848 | 208 GB       | 1.03750489572641
+(1 row)
+
+Time: 2.388 ms
+client 57 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 0 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 1 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 2 aborted in command 8 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 3 aborted in command 7 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 4 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 5 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 6 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 7 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 8 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 9 aborted in command 4 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 10 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 11 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 12 aborted in command 7 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 13 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 14 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 15 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 16 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 17 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 18 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 19 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 20 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 21 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 22 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 23 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 24 aborted in command 5 (SQL) of script 0; SQL command send failed
+client 25 aborted in command 11 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 26 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 27 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 28 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 29 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 30 aborted in command 5 (SQL) of script 0; SQL command send failed
+client 31 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 32 aborted in command 7 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 33 aborted in command 7 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 34 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 35 aborted in command 11 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 36 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 37 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 38 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 39 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 40 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 41 aborted in command 10 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 42 aborted in command 10 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 43 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 44 aborted in command 11 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 45 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 46 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 47 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 48 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 49 aborted in command 11 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 50 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 51 aborted in command 5 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 52 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 53 aborted in command 6 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 54 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 55 aborted in command 12 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 56 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 58 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 59 aborted in command 9 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 60 aborted in command 7 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+client 61 aborted in command 11 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 62 aborted in command 8 (SQL) of script 0; FATAL:  terminating connection due to administrator command
+
+client 63 aborted in command 8 (SQL) of script 1; FATAL:  terminating connection due to administrator command
+
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 32400 s
+number of transactions actually processed: 214352348
+latency average = 4.149 ms
+tps = 15425.372359 (including connections establishing)
+tps = 15425.375401 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 9 (targets 90.0% of total)
+ - 192912492 transactions (90.0% of total, tps = 13882.502569)
+ - latency average = 4.142 ms
+ - latency stddev = 4.996 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 10.0% of total)
+ - 21439856 transactions (10.0% of total, tps = 1542.869790)
+ - latency average = 4.209 ms
+ - latency stddev = 5.171 ms
