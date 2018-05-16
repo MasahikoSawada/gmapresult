@@ -1,0 +1,39 @@
+
+
+------ CONFIGURATIONS -----------
+base	   = "nvme"
+target     = "gmap"
+duration   = "14400"
+clients    = "64"
+jobs       = "32"
+output dir = "20180515_100410_nvme_gmap"
+rate       = "0.2"
+--------------------------------
+
+transaction type: multiple scripts
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 1
+duration: 14400 s
+number of transactions actually processed: 222428135
+latency average = 4.143 ms
+tps = 15446.395033 (including connections establishing)
+tps = 15446.397928 (excluding connections establishing)
+SQL script 1: /home/masahiko/pgsql/bench/eval/gaussian_bench.sql
+ - weight: 9 (targets 90.0% of total)
+ - 200191774 transactions (90.0% of total, tps = 13902.203620)
+ - latency average = 4.136 ms
+ - latency stddev = 4.952 ms
+SQL script 2: /home/masahiko/pgsql/bench/eval/uniformly_bench.sql
+ - weight: 1 (targets 10.0% of total)
+ - 22236361 transactions (10.0% of total, tps = 1544.191413)
+ - latency average = 4.209 ms
+ - latency stddev = 5.117 ms
+Timing is on.
+    before    | before_pretty |    after     | after_pretty |      ratio       
+--------------+---------------+--------------+--------------+------------------
+ 214872137728 | 200 GB        | 222326972416 | 207 GB       | 1.03469428268749
+(1 row)
+
+Time: 2.481 ms
