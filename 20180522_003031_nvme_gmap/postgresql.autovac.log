@@ -1,0 +1,8 @@
+2018-05-22 02:40:25.648 JST [143016] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 04:16:51.133 JST [143016] LOG:  automatic vacuum of table "postgres.public.pgbench_accounts": index scans: 2
+2018-05-22 04:16:53.943 JST [38281] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 05:40:50.805 JST [89688] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 06:59:14.190 JST [136720] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 08:23:37.125 JST [24842] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 09:49:53.454 JST [77221] LOG:  starting vacuum on "pgbench_accounts"
+2018-05-22 11:19:36.233 JST [131403] LOG:  starting vacuum on "pgbench_accounts"
