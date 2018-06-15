@@ -1,0 +1,29 @@
+------------------------------
+TARGET = master
+CLIENTS = 32
+SAMPLES = 10000
+DURATION = 5
+CHILDS = 32
+RANGE = 1000000
+LOOPS = 2
+------------------------------
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 5 s
+number of transactions actually processed: 856
+latency average = 190.224 ms
+tps = 168.223009 (including connections establishing)
+tps = 168.387261 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 5 s
+number of transactions actually processed: 817
+latency average = 200.788 ms
+tps = 159.372227 (including connections establishing)
+tps = 159.526826 (excluding connections establishing)
