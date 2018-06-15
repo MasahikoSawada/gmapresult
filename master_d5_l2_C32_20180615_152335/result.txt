@@ -1,9 +1,0 @@
-------------------------------
-TARGET = master
-CLIENTS = 32
-SAMPLES = 10000
-DURATION = 5
-CHILDS = 32
-RANGE = 1000000
-LOOPS = 2
-------------------------------
