@@ -1,0 +1,38 @@
+------------------------------
+TARGET = ext
+CLIENTS = 32
+SAMPLES = 10000
+DURATION = 5
+CHILDS = 32
+RANGE = 1000000
+LOOPS = 2
+------------------------------
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 5 s
+number of transactions actually processed: 883
+latency average = 184.849 ms
+tps = 173.114023 (including connections establishing)
+tps = 173.350221 (excluding connections establishing)
+ hash | count 
+------+-------
+  269 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 5 s
+number of transactions actually processed: 835
+latency average = 195.704 ms
+tps = 163.511923 (including connections establishing)
+tps = 163.700226 (excluding connections establishing)
