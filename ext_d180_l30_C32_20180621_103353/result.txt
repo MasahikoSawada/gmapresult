@@ -1,0 +1,306 @@
+------------------------------
+TARGET = ext
+SAMPLES = 10000
+DURATION = 180
+CHILDS = 32
+CLIENTS = 32
+RANGE = 1000000
+UNLOGGED = unlogged
+LOOPS = 30
+------------------------------
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173598
+latency average = 33.189 ms
+tps = 964.184410 (including connections establishing)
+tps = 964.215737 (excluding connections establishing)
+ hash | count 
+------+-------
+  269 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173762
+latency average = 33.153 ms
+tps = 965.208961 (including connections establishing)
+tps = 965.240096 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173146
+latency average = 33.274 ms
+tps = 961.724684 (including connections establishing)
+tps = 961.756123 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 172780
+latency average = 33.341 ms
+tps = 959.789919 (including connections establishing)
+tps = 959.820440 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 172964
+latency average = 33.307 ms
+tps = 960.753695 (including connections establishing)
+tps = 960.785246 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 170510
+latency average = 33.785 ms
+tps = 947.165869 (including connections establishing)
+tps = 947.196372 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 172384
+latency average = 33.418 ms
+tps = 957.569951 (including connections establishing)
+tps = 957.598865 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173793
+latency average = 33.150 ms
+tps = 965.322538 (including connections establishing)
+tps = 965.350703 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+  752 |     2
+  910 |     2
+(2 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 170005
+latency average = 33.887 ms
+tps = 944.308352 (including connections establishing)
+tps = 944.337554 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  440 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 172995
+latency average = 33.303 ms
+tps = 960.886756 (including connections establishing)
+tps = 960.919415 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 171745
+latency average = 33.542 ms
+tps = 954.034881 (including connections establishing)
+tps = 954.065000 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  516 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 169312
+latency average = 34.025 ms
+tps = 940.474029 (including connections establishing)
+tps = 940.503115 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+   80 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173588
+latency average = 33.186 ms
+tps = 964.262412 (including connections establishing)
+tps = 964.295261 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+  823 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 172861
+latency average = 33.324 ms
+tps = 960.258834 (including connections establishing)
+tps = 960.289412 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 173967
+latency average = 33.114 ms
+tps = 966.351278 (including connections establishing)
+tps = 966.380744 (excluding connections establishing)
+ hash | count 
+------+-------
+  197 |     2
+  440 |     2
+(2 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 170227
+latency average = 33.843 ms
+tps = 945.537270 (including connections establishing)
+tps = 945.568301 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 168434
+latency average = 34.204 ms
+tps = 935.553426 (including connections establishing)
+tps = 935.587752 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+  928 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 171413
+latency average = 33.606 ms
+tps = 952.201595 (including connections establishing)
+tps = 952.228407 (excluding connections establishing)

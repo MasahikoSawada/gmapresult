@@ -1,0 +1,212 @@
+------------------------------
+TARGET = master
+SAMPLES = 10000
+DURATION = 180
+CHILDS = 32
+CLIENTS = 32
+RANGE = 1000000
+UNLOGGED = unlogged
+LOOPS = 30
+------------------------------
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 164451
+latency average = 35.032 ms
+tps = 913.458321 (including connections establishing)
+tps = 913.489725 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 162080
+latency average = 35.541 ms
+tps = 900.364860 (including connections establishing)
+tps = 900.392791 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 162010
+latency average = 35.558 ms
+tps = 899.928303 (including connections establishing)
+tps = 899.954367 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165746
+latency average = 34.756 ms
+tps = 920.702172 (including connections establishing)
+tps = 920.728620 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165178
+latency average = 34.877 ms
+tps = 917.504729 (including connections establishing)
+tps = 917.534920 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 163820
+latency average = 35.167 ms
+tps = 909.944241 (including connections establishing)
+tps = 909.981623 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 166152
+latency average = 34.670 ms
+tps = 922.976761 (including connections establishing)
+tps = 923.004760 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 164433
+latency average = 35.037 ms
+tps = 913.330718 (including connections establishing)
+tps = 913.361241 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 164672
+latency average = 34.985 ms
+tps = 914.681661 (including connections establishing)
+tps = 914.707631 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165499
+latency average = 34.809 ms
+tps = 919.307011 (including connections establishing)
+tps = 919.337547 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 162153
+latency average = 35.526 ms
+tps = 900.752862 (including connections establishing)
+tps = 900.777478 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 164727
+latency average = 34.974 ms
+tps = 914.971757 (including connections establishing)
+tps = 915.001966 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165199
+latency average = 34.875 ms
+tps = 917.574585 (including connections establishing)
+tps = 917.603538 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 163743
+latency average = 35.182 ms
+tps = 909.563684 (including connections establishing)
+tps = 909.594285 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165726
+latency average = 34.762 ms
+tps = 920.548080 (including connections establishing)
+tps = 920.578672 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 162195
+latency average = 35.520 ms
+tps = 900.907127 (including connections establishing)
+tps = 900.935862 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 165777
+latency average = 34.749 ms
+tps = 920.893219 (including connections establishing)
+tps = 920.920308 (excluding connections establishing)
