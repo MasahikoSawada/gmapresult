@@ -9,8 +9,9 @@ class Result
   @avg
   @med
   @name
+  @unlogged
 
-  def initialize(name, target, sample, duration, child, client, range, loop, avg, med)
+  def initialize(name, target, sample, duration, child, client, range, loop, avg, med, unlogged)
     @name = name
     @target = target
     @sample = sample
@@ -20,17 +21,28 @@ class Result
     @range = range
     @loop = loop
     @avg = avg
+    @unlogged = unlogged
     @med = med
   end
 
-  attr_accessor :target, :sample, :duration, :child, :range, :loop, :client, :avg, :med, :name
+  def dump
+    ul = ""
+    if @unlogged == "unlogged" then
+      ul = "unlogged"
+    end
+    
+    puts "[%-6s] sample=%d duration=%d childs=%d clients=%d loops=%d %s: avg=%f med=%f : %s" % [@target, @sample, @duration, @child, @client, @loop, ul, @avg, @med, @name]
+
+  end
+
+  attr_accessor :target, :sample, :duration, :child, :range, :loop, :client, :avg, :med, :name, :unlogged
 end
 
 results = []
 Dir.glob("*") do |dir|
   next if dir !~ /(master|ext).*/
 
-  target = sample = duration = child = client = range = loop = ""
+  target = sample = duration = child = client = range = loop = unlogged = ""
   tps_sum = 0
   tps_num = 0
   tps_median = []
@@ -43,6 +55,7 @@ Dir.glob("*") do |dir|
       if line =~ /CLIENTS = .*/ then client = line.split(" ")[2] end
       if line =~ /RANGE = .*/ then range = line.split(" ")[2] end
       if line =~ /LOOPS = .*/ then loop = line.split(" ")[2] end
+      if line =~ /UNLOGGED = .*/ then unlogged = line.split(" ")[2] end
 
       if line =~ /.*including.*/ then
         tps_median << line.split(" ")[2].to_f
@@ -52,7 +65,7 @@ Dir.glob("*") do |dir|
     end
   end
 
-  res = Result.new(dir, target, sample, duration, child, client, range, loop, tps_sum / tps_num, tps_median[tps_num / 2])
+  res = Result.new(dir, target, sample, duration, child, client, range, loop, tps_sum / tps_num, tps_median[tps_num / 2], unlogged)
   results << res
 end
 
@@ -62,12 +75,17 @@ results.each_with_index do |r1, idx1|
   next if r1.target == "master"
 
   results.each_with_index do |r2, idx2|
-
     next if r2.target == "ext"
 
 #    if !marked[idx2].nil? then
 #      next
 #    end
+
+    if (r1.unlogged == "" and r2.unlogged != "") or
+        (r1.unlogged != "" and r2.unlogged == "") or
+        (r1.unlogged != r2.unlogged) then
+      next
+    end
 
     if r1.target != r2.target and
         r1.sample == r2.sample and
@@ -77,8 +95,10 @@ results.each_with_index do |r1, idx1|
         r1.range == r2.range and
         r1.loop == r2.loop then
       p "-------#{idx1} - #{idx2} ----------"
-      p r1
-      p r2
+      #p r1
+      #p r2
+      r1.dump
+      r2.dump
       marked[idx2] = true
     end
   end
