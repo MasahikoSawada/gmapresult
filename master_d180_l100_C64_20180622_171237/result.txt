@@ -1,0 +1,1010 @@
+------------------------------
+TARGET = master
+SAMPLES = 1000
+DURATION = 180
+CHILDS = 64
+CLIENTS = 32
+RANGE = 1000000
+UNLOGGED = 
+LOOPS = 100
+------------------------------
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280807
+latency average = 20.513 ms
+tps = 1559.949083 (including connections establishing)
+tps = 1559.994548 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 285298
+latency average = 20.191 ms
+tps = 1584.894696 (including connections establishing)
+tps = 1584.945516 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288773
+latency average = 19.948 ms
+tps = 1604.138860 (including connections establishing)
+tps = 1604.185442 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 294550
+latency average = 19.556 ms
+tps = 1636.299881 (including connections establishing)
+tps = 1636.347243 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 305904
+latency average = 18.830 ms
+tps = 1699.394406 (including connections establishing)
+tps = 1699.442445 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 292011
+latency average = 19.727 ms
+tps = 1622.168715 (including connections establishing)
+tps = 1622.219846 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 315733
+latency average = 18.244 ms
+tps = 1753.983618 (including connections establishing)
+tps = 1754.045631 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 261307
+latency average = 22.045 ms
+tps = 1451.596975 (including connections establishing)
+tps = 1451.634934 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 282441
+latency average = 20.395 ms
+tps = 1569.004526 (including connections establishing)
+tps = 1569.053742 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 293191
+latency average = 19.647 ms
+tps = 1628.732910 (including connections establishing)
+tps = 1628.787569 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 293118
+latency average = 19.653 ms
+tps = 1628.213788 (including connections establishing)
+tps = 1628.267191 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296756
+latency average = 19.411 ms
+tps = 1648.515306 (including connections establishing)
+tps = 1648.563154 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 298465
+latency average = 19.300 ms
+tps = 1658.042073 (including connections establishing)
+tps = 1658.094041 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 264482
+latency average = 21.780 ms
+tps = 1469.225358 (including connections establishing)
+tps = 1469.268349 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 285655
+latency average = 20.167 ms
+tps = 1586.728414 (including connections establishing)
+tps = 1586.776468 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296103
+latency average = 19.454 ms
+tps = 1644.899725 (including connections establishing)
+tps = 1644.949678 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 292985
+latency average = 19.661 ms
+tps = 1627.605141 (including connections establishing)
+tps = 1627.650463 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296970
+latency average = 19.397 ms
+tps = 1649.745903 (including connections establishing)
+tps = 1649.790909 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 283431
+latency average = 20.324 ms
+tps = 1574.529046 (including connections establishing)
+tps = 1574.580003 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288116
+latency average = 19.993 ms
+tps = 1600.566214 (including connections establishing)
+tps = 1600.615664 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 279718
+latency average = 20.593 ms
+tps = 1553.900968 (including connections establishing)
+tps = 1553.945889 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 270773
+latency average = 21.273 ms
+tps = 1504.266326 (including connections establishing)
+tps = 1504.310958 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 282651
+latency average = 20.380 ms
+tps = 1570.149825 (including connections establishing)
+tps = 1570.200133 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 291090
+latency average = 19.788 ms
+tps = 1617.101271 (including connections establishing)
+tps = 1617.150704 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280464
+latency average = 20.539 ms
+tps = 1558.023797 (including connections establishing)
+tps = 1558.070818 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280442
+latency average = 20.541 ms
+tps = 1557.828121 (including connections establishing)
+tps = 1557.872510 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 267988
+latency average = 21.495 ms
+tps = 1488.694796 (including connections establishing)
+tps = 1488.745295 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 275044
+latency average = 20.944 ms
+tps = 1527.915951 (including connections establishing)
+tps = 1527.957661 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 295677
+latency average = 19.481 ms
+tps = 1642.585722 (including connections establishing)
+tps = 1642.635862 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296099
+latency average = 19.455 ms
+tps = 1644.838010 (including connections establishing)
+tps = 1644.889421 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 301724
+latency average = 19.091 ms
+tps = 1676.166150 (including connections establishing)
+tps = 1676.216689 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 279890
+latency average = 20.581 ms
+tps = 1554.860809 (including connections establishing)
+tps = 1554.912034 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 291793
+latency average = 19.741 ms
+tps = 1620.997190 (including connections establishing)
+tps = 1621.043724 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 307960
+latency average = 18.706 ms
+tps = 1710.718603 (including connections establishing)
+tps = 1710.766307 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 272903
+latency average = 21.107 ms
+tps = 1516.050685 (including connections establishing)
+tps = 1516.099931 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 299001
+latency average = 19.267 ms
+tps = 1660.910736 (including connections establishing)
+tps = 1660.961014 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 292096
+latency average = 19.720 ms
+tps = 1622.685694 (including connections establishing)
+tps = 1622.735382 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 283895
+latency average = 20.290 ms
+tps = 1577.117448 (including connections establishing)
+tps = 1577.162186 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 294912
+latency average = 19.532 ms
+tps = 1638.311822 (including connections establishing)
+tps = 1638.358918 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 300345
+latency average = 19.179 ms
+tps = 1668.477865 (including connections establishing)
+tps = 1668.530782 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 292429
+latency average = 19.698 ms
+tps = 1624.515895 (including connections establishing)
+tps = 1624.566945 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280226
+latency average = 20.556 ms
+tps = 1556.731185 (including connections establishing)
+tps = 1556.789254 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 275428
+latency average = 20.916 ms
+tps = 1529.961288 (including connections establishing)
+tps = 1530.003407 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280954
+latency average = 20.503 ms
+tps = 1560.777385 (including connections establishing)
+tps = 1560.831006 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 300007
+latency average = 19.201 ms
+tps = 1666.617643 (including connections establishing)
+tps = 1666.674827 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 287714
+latency average = 20.021 ms
+tps = 1598.318270 (including connections establishing)
+tps = 1598.371470 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 289053
+latency average = 19.928 ms
+tps = 1605.772237 (including connections establishing)
+tps = 1605.823526 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 297136
+latency average = 19.389 ms
+tps = 1650.423610 (including connections establishing)
+tps = 1650.482257 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 265913
+latency average = 21.664 ms
+tps = 1477.107458 (including connections establishing)
+tps = 1477.146953 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288625
+latency average = 19.959 ms
+tps = 1603.325559 (including connections establishing)
+tps = 1603.378790 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 294104
+latency average = 19.589 ms
+tps = 1633.595590 (including connections establishing)
+tps = 1633.645969 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 292724
+latency average = 19.678 ms
+tps = 1626.159042 (including connections establishing)
+tps = 1626.207466 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 300958
+latency average = 19.140 ms
+tps = 1671.890658 (including connections establishing)
+tps = 1671.950150 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 286806
+latency average = 20.085 ms
+tps = 1593.254201 (including connections establishing)
+tps = 1593.305546 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296220
+latency average = 19.446 ms
+tps = 1645.603913 (including connections establishing)
+tps = 1645.651325 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 301458
+latency average = 19.109 ms
+tps = 1674.578939 (including connections establishing)
+tps = 1674.632374 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 274700
+latency average = 20.970 ms
+tps = 1526.025207 (including connections establishing)
+tps = 1526.069798 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 280119
+latency average = 20.564 ms
+tps = 1556.110014 (including connections establishing)
+tps = 1556.153428 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 267697
+latency average = 21.518 ms
+tps = 1487.155052 (including connections establishing)
+tps = 1487.193453 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296121
+latency average = 19.453 ms
+tps = 1645.020831 (including connections establishing)
+tps = 1645.077175 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 272991
+latency average = 21.103 ms
+tps = 1516.344340 (including connections establishing)
+tps = 1516.394606 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 294068
+latency average = 19.588 ms
+tps = 1633.640696 (including connections establishing)
+tps = 1633.693841 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296278
+latency average = 19.443 ms
+tps = 1645.844028 (including connections establishing)
+tps = 1645.903285 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 301262
+latency average = 19.121 ms
+tps = 1673.586862 (including connections establishing)
+tps = 1673.634282 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 274909
+latency average = 20.954 ms
+tps = 1527.181888 (including connections establishing)
+tps = 1527.229759 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 281176
+latency average = 20.486 ms
+tps = 1562.019580 (including connections establishing)
+tps = 1562.066738 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 286673
+latency average = 20.094 ms
+tps = 1592.477344 (including connections establishing)
+tps = 1592.532633 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 281282
+latency average = 20.479 ms
+tps = 1562.575320 (including connections establishing)
+tps = 1562.620762 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 268110
+latency average = 21.485 ms
+tps = 1489.406356 (including connections establishing)
+tps = 1489.454089 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288366
+latency average = 19.976 ms
+tps = 1601.949139 (including connections establishing)
+tps = 1602.001235 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 279389
+latency average = 20.618 ms
+tps = 1552.017437 (including connections establishing)
+tps = 1552.072650 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 287030
+latency average = 20.069 ms
+tps = 1594.526039 (including connections establishing)
+tps = 1594.580590 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 284340
+latency average = 20.258 ms
+tps = 1579.585976 (including connections establishing)
+tps = 1579.637974 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 287387
+latency average = 20.044 ms
+tps = 1596.506069 (including connections establishing)
+tps = 1596.553689 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296737
+latency average = 19.412 ms
+tps = 1648.459250 (including connections establishing)
+tps = 1648.508402 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 284233
+latency average = 20.267 ms
+tps = 1578.934283 (including connections establishing)
+tps = 1578.980963 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 274409
+latency average = 20.992 ms
+tps = 1524.403700 (including connections establishing)
+tps = 1524.446208 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 279745
+latency average = 20.591 ms
+tps = 1554.048543 (including connections establishing)
+tps = 1554.095555 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 283447
+latency average = 20.322 ms
+tps = 1574.628767 (including connections establishing)
+tps = 1574.672216 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 297823
+latency average = 19.344 ms
+tps = 1654.282145 (including connections establishing)
+tps = 1654.337546 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 295016
+latency average = 19.526 ms
+tps = 1638.863473 (including connections establishing)
+tps = 1638.915320 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 290697
+latency average = 19.815 ms
+tps = 1614.898204 (including connections establishing)
+tps = 1614.944542 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 300185
+latency average = 19.189 ms
+tps = 1667.635849 (including connections establishing)
+tps = 1667.688682 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288331
+latency average = 19.978 ms
+tps = 1601.770149 (including connections establishing)
+tps = 1601.814234 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 295622
+latency average = 19.485 ms
+tps = 1642.253270 (including connections establishing)
+tps = 1642.301964 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 304998
+latency average = 18.888 ms
+tps = 1694.172788 (including connections establishing)
+tps = 1694.231867 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288634
+latency average = 19.958 ms
+tps = 1603.376141 (including connections establishing)
+tps = 1603.420225 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 296012
+latency average = 19.460 ms
+tps = 1644.427740 (including connections establishing)
+tps = 1644.487133 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 272215
+latency average = 21.161 ms
+tps = 1512.193908 (including connections establishing)
+tps = 1512.243194 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 283408
+latency average = 20.325 ms
+tps = 1574.406753 (including connections establishing)
+tps = 1574.449097 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 286341
+latency average = 20.117 ms
+tps = 1590.697878 (including connections establishing)
+tps = 1590.745376 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 284252
+latency average = 20.266 ms
+tps = 1578.982050 (including connections establishing)
+tps = 1579.032425 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 299268
+latency average = 19.248 ms
+tps = 1662.468505 (including connections establishing)
+tps = 1662.516820 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 278989
+latency average = 20.647 ms
+tps = 1549.867352 (including connections establishing)
+tps = 1549.923728 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 298832
+latency average = 19.276 ms
+tps = 1660.077299 (including connections establishing)
+tps = 1660.121654 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 297262
+latency average = 19.378 ms
+tps = 1651.327204 (including connections establishing)
+tps = 1651.374153 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 294110
+latency average = 19.587 ms
+tps = 1633.700920 (including connections establishing)
+tps = 1633.751436 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 271714
+latency average = 21.200 ms
+tps = 1509.401873 (including connections establishing)
+tps = 1509.452259 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 288694
+latency average = 19.953 ms
+tps = 1603.780109 (including connections establishing)
+tps = 1603.824851 (excluding connections establishing)
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 275472
+latency average = 20.911 ms
+tps = 1530.301085 (including connections establishing)
+tps = 1530.346589 (excluding connections establishing)

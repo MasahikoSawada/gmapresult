@@ -1,0 +1,1024 @@
+------------------------------
+TARGET = ext
+SAMPLES = 1000
+DURATION = 180
+CHILDS = 16
+CLIENTS = 32
+RANGE = 1000000
+UNLOGGED = unlogged
+LOOPS = 100
+------------------------------
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1677389
+latency average = 3.434 ms
+tps = 9318.743964 (including connections establishing)
+tps = 9319.109222 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1692737
+latency average = 3.403 ms
+tps = 9403.361573 (including connections establishing)
+tps = 9403.665091 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1694699
+latency average = 3.399 ms
+tps = 9414.438088 (including connections establishing)
+tps = 9414.708615 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1680573
+latency average = 3.427 ms
+tps = 9336.283778 (including connections establishing)
+tps = 9336.632543 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1677874
+latency average = 3.433 ms
+tps = 9320.888665 (including connections establishing)
+tps = 9321.157410 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1670185
+latency average = 3.449 ms
+tps = 9278.662420 (including connections establishing)
+tps = 9278.947748 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1703962
+latency average = 3.381 ms
+tps = 9465.893349 (including connections establishing)
+tps = 9466.157616 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1698666
+latency average = 3.391 ms
+tps = 9436.910408 (including connections establishing)
+tps = 9437.214562 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1667813
+latency average = 3.454 ms
+tps = 9264.975948 (including connections establishing)
+tps = 9265.250037 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1669070
+latency average = 3.451 ms
+tps = 9272.114703 (including connections establishing)
+tps = 9272.374809 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1699035
+latency average = 3.390 ms
+tps = 9438.885925 (including connections establishing)
+tps = 9439.211583 (excluding connections establishing)
+connection to database "bench" failed:
+FATAL:  the database system is shutting down
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1677887
+latency average = 3.433 ms
+tps = 9321.182785 (including connections establishing)
+tps = 9321.485413 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1668857
+latency average = 3.451 ms
+tps = 9271.331870 (including connections establishing)
+tps = 9271.598487 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1696797
+latency average = 3.395 ms
+tps = 9426.318927 (including connections establishing)
+tps = 9426.571263 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1677589
+latency average = 3.434 ms
+tps = 9319.764616 (including connections establishing)
+tps = 9320.021206 (excluding connections establishing)
+ hash | count 
+------+-------
+  169 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1679707
+latency average = 3.429 ms
+tps = 9331.585955 (including connections establishing)
+tps = 9331.901739 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1670597
+latency average = 3.448 ms
+tps = 9280.881664 (including connections establishing)
+tps = 9281.191490 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1685184
+latency average = 3.418 ms
+tps = 9361.885263 (including connections establishing)
+tps = 9362.206100 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1693955
+latency average = 3.400 ms
+tps = 9410.444714 (including connections establishing)
+tps = 9410.742372 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1689745
+latency average = 3.409 ms
+tps = 9387.008988 (including connections establishing)
+tps = 9387.321219 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1701055
+latency average = 3.386 ms
+tps = 9449.618860 (including connections establishing)
+tps = 9449.882678 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1685857
+latency average = 3.417 ms
+tps = 9365.498454 (including connections establishing)
+tps = 9365.851010 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1702322
+latency average = 3.384 ms
+tps = 9457.207978 (including connections establishing)
+tps = 9457.523175 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1689272
+latency average = 3.410 ms
+tps = 9384.524541 (including connections establishing)
+tps = 9384.817041 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1697382
+latency average = 3.394 ms
+tps = 9429.464127 (including connections establishing)
+tps = 9429.768812 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  536 |     3
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1684856
+latency average = 3.419 ms
+tps = 9360.012719 (including connections establishing)
+tps = 9360.320319 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1690996
+latency average = 3.406 ms
+tps = 9394.100138 (including connections establishing)
+tps = 9394.378671 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  975 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1675309
+latency average = 3.438 ms
+tps = 9306.927580 (including connections establishing)
+tps = 9307.185380 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1671962
+latency average = 3.445 ms
+tps = 9288.288655 (including connections establishing)
+tps = 9288.582540 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  765 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1673169
+latency average = 3.443 ms
+tps = 9295.218005 (including connections establishing)
+tps = 9295.525639 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1692446
+latency average = 3.404 ms
+tps = 9401.939246 (including connections establishing)
+tps = 9402.243562 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  831 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1666026
+latency average = 3.458 ms
+tps = 9254.751799 (including connections establishing)
+tps = 9255.072834 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1676009
+latency average = 3.437 ms
+tps = 9310.817340 (including connections establishing)
+tps = 9311.085461 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  256 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1699378
+latency average = 3.390 ms
+tps = 9440.715737 (including connections establishing)
+tps = 9440.990389 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1713235
+latency average = 3.362 ms
+tps = 9517.864099 (including connections establishing)
+tps = 9518.121700 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1693030
+latency average = 3.402 ms
+tps = 9405.143127 (including connections establishing)
+tps = 9405.457109 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1703110
+latency average = 3.382 ms
+tps = 9461.486863 (including connections establishing)
+tps = 9461.794778 (excluding connections establishing)
+ hash | count 
+------+-------
+  135 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1693089
+latency average = 3.402 ms
+tps = 9405.590263 (including connections establishing)
+tps = 9405.939858 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1682878
+latency average = 3.423 ms
+tps = 9348.895641 (including connections establishing)
+tps = 9349.203584 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1691587
+latency average = 3.405 ms
+tps = 9397.487121 (including connections establishing)
+tps = 9397.755832 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1693680
+latency average = 3.401 ms
+tps = 9409.140529 (including connections establishing)
+tps = 9409.438111 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1684401
+latency average = 3.420 ms
+tps = 9357.467969 (including connections establishing)
+tps = 9357.780391 (excluding connections establishing)
+ hash | count 
+------+-------
+   23 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1703111
+latency average = 3.382 ms
+tps = 9460.995610 (including connections establishing)
+tps = 9461.303377 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1649267
+latency average = 3.493 ms
+tps = 9162.330025 (including connections establishing)
+tps = 9162.641389 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1696349
+latency average = 3.396 ms
+tps = 9423.856895 (including connections establishing)
+tps = 9424.140853 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1685165
+latency average = 3.418 ms
+tps = 9361.581538 (including connections establishing)
+tps = 9361.883607 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1675922
+latency average = 3.437 ms
+tps = 9310.262888 (including connections establishing)
+tps = 9310.521108 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1671698
+latency average = 3.446 ms
+tps = 9286.876556 (including connections establishing)
+tps = 9287.159337 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  486 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1677867
+latency average = 3.433 ms
+tps = 9320.974288 (including connections establishing)
+tps = 9321.281405 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1698467
+latency average = 3.391 ms
+tps = 9435.531244 (including connections establishing)
+tps = 9435.788212 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1678910
+latency average = 3.431 ms
+tps = 9327.023622 (including connections establishing)
+tps = 9327.296133 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1687732
+latency average = 3.413 ms
+tps = 9376.193357 (including connections establishing)
+tps = 9376.454975 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+  707 |     2
+(1 row)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1690541
+latency average = 3.407 ms
+tps = 9391.317842 (including connections establishing)
+tps = 9391.618097 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1687568
+latency average = 3.413 ms
+tps = 9374.915832 (including connections establishing)
+tps = 9375.170932 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1701906
+latency average = 3.385 ms
+tps = 9454.540689 (including connections establishing)
+tps = 9454.862699 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1678949
+latency average = 3.431 ms
+tps = 9327.257539 (including connections establishing)
+tps = 9327.561836 (excluding connections establishing)
+connection to database "bench" failed:
+could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.7654"?
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1683417
+latency average = 3.422 ms
+tps = 9352.236737 (including connections establishing)
+tps = 9352.576475 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1705163
+latency average = 3.378 ms
+tps = 9472.614880 (including connections establishing)
+tps = 9472.898534 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1688811
+latency average = 3.411 ms
+tps = 9381.706041 (including connections establishing)
+tps = 9382.022335 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1694976
+latency average = 3.398 ms
+tps = 9416.200223 (including connections establishing)
+tps = 9416.473850 (excluding connections establishing)
+ hash | count 
+------+-------
+(0 rows)
+
+transaction type: load.sql
+scaling factor: 1
+query mode: simple
+number of clients: 32
+number of threads: 32
+duration: 180 s
+number of transactions actually processed: 1675728
+latency average = 3.437 ms
+tps = 9309.462794 (including connections establishing)
+tps = 9309.754037 (excluding connections establishing)
